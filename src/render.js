@@ -52,7 +52,7 @@ export function render() {
   const html = HTML_VIEWS.has(state.view);
   d3.select('#list').style('display', html ? 'block' : 'none');
   ctx.svg.style('display', html ? 'none' : 'block');
-  d3.select('#legend').style('display', html ? 'none' : 'flex');
+  d3.select('#legend').style('display', state.view === 'ideas' ? 'flex' : 'none'); // legend only on the Ideas view
   d3.select('#axisCtl').style('display', state.view === 'ratings' ? 'inline-flex' : 'none');
   VIEWS[state.view](ctx);
   applyFilter();
