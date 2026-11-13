@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shared Work Map</title>
+  <meta name="description" content="Projects shared in the Feeling of Computing #share-your-work channel, clustered by idea.">
+</head>
+<body>
+  <div class="bar">
+    <div class="seg" role="group" aria-label="View">
+      <button data-view="ideas" data-label="Ideas" aria-pressed="true">Ideas</button>
+      <button data-view="people" data-label="People" aria-pressed="false">People</button>
+      <button data-view="ratings" data-label="Scatter" aria-pressed="false">Scatter</button>
+      <button data-view="cards" data-label="Cards" aria-pressed="false">Cards</button>
+      <button data-view="list" data-label="Table" aria-pressed="false">Table</button>
+    </div>
+    <div class="search">
+      <span class="mag">⌕</span>
+      <input id="q" autocomplete="off" placeholder="Search projects, people, ideas, themes, audiences or any text…"
+             aria-label="Search" aria-autocomplete="list" aria-controls="sugg">
+      <div class="sugg" id="sugg" role="listbox"></div>
+    </div>
+    <select id="fMedia" aria-label="Media"></select>
+    <span id="axisCtl">x <select id="ax"></select> y <select id="ay"></select></span>
+    <button class="icon-btn" id="theme" title="Toggle light/dark">◐</button>
+  </div>
+  <div class="filters" id="filters"></div>
+  <main>
+    <div id="stage">
+      <svg id="svg"></svg>
+      <div id="list"></div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <aside id="panel">
+      <p class="empty">Click a project or person to see details, the original Slack posts and people working on similar ideas.</p>
+    </aside>
+  </main>
+  <div id="tip"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

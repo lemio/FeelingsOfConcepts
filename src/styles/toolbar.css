@@ -1,0 +1,35 @@
+/* Toolbar, search box with suggestions, active filter chips */
+/* toolbar */
+.bar{display:flex;flex-wrap:wrap;gap:8px;padding:10px 16px;align-items:center;border-bottom:1px solid var(--border)}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:8px;overflow:hidden;background:var(--surface-1)}
+.seg button{border:0;background:none;color:var(--text-secondary);padding:6px 11px;cursor:pointer;display:inline-flex;flex-direction:column;align-items:center}
+/* Reserve the bold label width so the active (bold) button never changes the toolbar layout */
+.seg button::after{content:attr(data-label);font-weight:600;height:0;overflow:hidden;visibility:hidden;user-select:none;pointer-events:none}
+.seg button[aria-pressed="true"]{background:var(--surface-2);color:var(--text-primary);font-weight:600}
+select{background:var(--surface-1);border:1px solid var(--border);border-radius:8px;padding:6px 8px}
+.icon-btn{border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);border-radius:8px;padding:6px 10px;cursor:pointer}
+#axisCtl{display:none;gap:6px;align-items:center;font-size:12px;color:var(--text-muted)}
+
+/* search with suggestions */
+.search{position:relative;flex:1;min-width:220px;max-width:560px}
+.search input{width:100%;background:var(--surface-1);border:1px solid var(--border);border-radius:8px;padding:6px 10px 6px 30px}
+.search input:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.search .mag{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--text-muted);pointer-events:none;font-size:13px}
+.sugg{position:absolute;left:0;right:0;top:calc(100% + 4px);z-index:20;background:var(--surface-1);border:1px solid var(--border);border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.18);max-height:60vh;overflow:auto;display:none;padding:4px}
+.sugg .grp{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted);padding:8px 8px 3px}
+.sugg .opt{display:flex;gap:8px;align-items:center;padding:5px 8px;border-radius:6px;cursor:pointer}
+.sugg .opt.active,.sugg .opt:hover{background:var(--surface-2)}
+.sugg .opt .n{margin-left:auto;color:var(--text-muted);font-size:12px}
+.sugg .dot{width:9px;height:9px;border-radius:50%;flex:none}
+.sugg mark{background:none;color:inherit;font-weight:700}
+
+/* active filter chips, shown under the toolbar */
+.filters{display:none;flex-wrap:wrap;gap:6px;padding:8px 16px;align-items:center;border-bottom:1px solid var(--border);font-size:12px}
+.filters .count{color:var(--text-muted);margin-right:4px}
+.fchip{display:inline-flex;align-items:center;gap:6px;background:var(--surface-2);border-radius:999px;padding:3px 4px 3px 10px}
+.fchip .k{color:var(--text-muted)}
+.fchip button{border:0;background:none;cursor:pointer;color:var(--text-muted);width:18px;height:18px;border-radius:50%;line-height:1}
+.fchip button:hover{background:var(--border);color:var(--text-primary)}
+.filters .clear{border:0;background:none;color:var(--link);cursor:pointer;padding:0 4px}
+.fchip .dot{width:8px;height:8px;border-radius:50%}
+.sugg .opt img{width:18px;height:18px;border-radius:4px}

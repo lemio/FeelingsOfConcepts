@@ -1,0 +1,19 @@
+{
+  "name": "feeling-of-computing-map",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Map of projects shared in the Feeling of Computing #share-your-work channel",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data": "python3 scripts/build_dataset.py"
+  },
+  "dependencies": {
+    "d3": "^7.9.0"
+  },
+  "devDependencies": {
+    "vite": "^6.4.6"
+  }
+}

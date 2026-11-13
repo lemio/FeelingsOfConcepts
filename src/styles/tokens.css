@@ -1,0 +1,31 @@
+/* Colour tokens (validated categorical palette, light + dark) and base styles */
+:root{
+  color-scheme:light;
+  --bg:#f6f5f1; --surface-1:#fcfcfb; --surface-2:#efede7; --border:#dcd9d0;
+  --text-primary:#0b0b0b; --text-secondary:#52514e; --text-muted:#86857f;
+  --accent:#2a78d6; --link:#256abf;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300; --s7:#6250d6; --s8:#e34948;
+  --edge:rgba(40,40,40,.13); --edge-hi:rgba(40,40,40,.55);
+}
+@media (prefers-color-scheme:dark){
+  :root:where(:not([data-theme="light"])){
+    color-scheme:dark;
+    --bg:#121211; --surface-1:#1a1a19; --surface-2:#242422; --border:#3a3936;
+    --text-primary:#f0efec; --text-secondary:#c3c2b7; --text-muted:#8d8c84;
+    --accent:#3987e5; --link:#86b6ef;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
+    --edge:rgba(230,230,220,.11); --edge-hi:rgba(230,230,220,.6);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#121211; --surface-1:#1a1a19; --surface-2:#242422; --border:#3a3936;
+  --text-primary:#f0efec; --text-secondary:#c3c2b7; --text-muted:#8d8c84;
+  --accent:#3987e5; --link:#86b6ef;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
+  --edge:rgba(230,230,220,.11); --edge-hi:rgba(230,230,220,.6);
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--text-primary);font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;display:flex;flex-direction:column}
+button,select,input{font:inherit;color:inherit}

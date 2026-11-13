@@ -1,0 +1,907 @@
+{
+ "nlpl": {
+  "repo": "https://github.com/nlpl-lang/nlpl-editor",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/nlpl-lang/nlpl-editor#readme"
+  }
+ },
+ "mind-bicycles": {
+  "repo": "https://github.com/pel-daniel/mind-bicycles",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": "PsPX0nElJ0k",
+  "readme_image": null,
+  "image": {
+   "kind": "youtube-thumbnail",
+   "source": "https://www.youtube.com/watch?v=PsPX0nElJ0k"
+  }
+ },
+ "optic": {
+  "repo": "https://github.com/acunniffe/cogent-engine",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/acunniffe/cogent-engine#readme"
+  }
+ },
+ "viu": {
+  "repo": "https://github.com/fkohlgrueber/viu",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/fkohlgrueber/viu/master/res/demo.gif",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/fkohlgrueber/viu/master/res/demo.gif"
+  }
+ },
+ "mu": {
+  "repo": "https://github.com/akkartik/mu",
+  "exists": true,
+  "homepage": "http://akkartik.name/akkartik-convivial-20200607.pdf",
+  "demo_url": "http://akkartik.github.io/mu/html/apps/life.mu.html",
+  "youtube": "SZBAXgXvzqE",
+  "readme_image": "https://raw.githubusercontent.com/akkartik/mu/main/html/life.png",
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "http://akkartik.github.io/mu/html/apps/life.mu.html"
+  },
+  "demo_check": "ok"
+ },
+ "postman-flows": {
+  "repo": "https://github.com/postmanlabs/postman-app-support",
+  "exists": true,
+  "homepage": "https://www.postman.com",
+  "demo_url": "https://www.postman.com",
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://www.postman.com"
+  },
+  "demo_check": "ok"
+ },
+ "vp-codex": {
+  "repo": "https://github.com/ivyreese/visual-programming-codex",
+  "exists": true,
+  "homepage": "https://ivanish.ca/codex",
+  "demo_url": "https://ivanish.ca/codex",
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://ivanish.ca/codex"
+  },
+  "demo_check": "ok"
+ },
+ "something-new": {
+  "repo": "https://github.com/d-cook/SomethingNew",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": "oKg1hTOQXoY",
+  "readme_image": null,
+  "image": {
+   "kind": "youtube-thumbnail",
+   "source": "https://www.youtube.com/watch?v=oKg1hTOQXoY"
+  }
+ },
+ "glance": {
+  "repo": "https://github.com/rgleichman/glance",
+  "exists": true,
+  "homepage": "https://www.youtube.com/channel/UCs2gsWfcy83Yqk873WkPfeg",
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/rgleichman/glance#readme"
+  }
+ },
+ "rosettagit": {
+  "repo": "https://github.com/ad-si/RosettaGit",
+  "exists": true,
+  "homepage": "https://rosettagit.org",
+  "demo_url": "https://rosettagit.org",
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://rosettagit.org"
+  },
+  "demo_check": "ok"
+ },
+ "jsbubbles": {
+  "repo": "https://github.com/Raathigesh/waypoint",
+  "exists": true,
+  "homepage": "https://waypoint.netlify.app",
+  "demo_url": "https://waypoint.netlify.app",
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/Raathigesh/waypoint/master/docs/assets/logo.png",
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://waypoint.netlify.app"
+  },
+  "demo_check": "ok"
+ },
+ "codebert": {
+  "repo": "https://github.com/autosoft-dev/code-bert",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/autosoft-dev/code-bert#readme"
+  }
+ },
+ "coderoad": {
+  "repo": "https://github.com/coderoad/coderoad-vscode",
+  "exists": true,
+  "homepage": "https://coderoad.github.io",
+  "demo_url": "https://coderoad.github.io",
+  "youtube": "htrbKlgAvuE",
+  "readme_image": "https://raw.githubusercontent.com/coderoad/coderoad-vscode/master/docs/static/gif/coderoad-example.gif",
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://coderoad.github.io"
+  },
+  "demo_check": "ok"
+ },
+ "root-ui": {
+  "repo": "https://github.com/den1k/root",
+  "exists": true,
+  "homepage": "https://den1k.github.io/root",
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/den1k/root/master/docs/img/resolve-1.png?raw=true",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/den1k/root/master/docs/img/resolve-1.png?raw=true"
+  },
+  "demo_check": "http 404",
+  "demo_url_rejected": "https://den1k.github.io/root"
+ },
+ "fizz-gui": {
+  "repo": "https://github.com/memononen/nanovg",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/memononen/nanovg/master/example/screenshot-01.png?raw=true",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/memononen/nanovg/master/example/screenshot-01.png?raw=true"
+  }
+ },
+ "expressionrunner": {
+  "repo": "https://github.com/devhelpr/expressionrunner",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/devhelpr/expressionrunner#readme"
+  }
+ },
+ "ucisc": {
+  "repo": "https://github.com/grokthis/ucisc",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/grokthis/ucisc#readme"
+  }
+ },
+ "meta-env": {
+  "repo": "https://github.com/rasendubi/meta",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/rasendubi/meta#readme"
+  }
+ },
+ "neontetra": {
+  "repo": "https://github.com/EmmanuelOga/NeonTetra",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/EmmanuelOga/NeonTetra/main/neon.jpg",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/EmmanuelOga/NeonTetra/main/neon.jpg"
+  }
+ },
+ "bloom-dom": {
+  "repo": "https://github.com/nonphoto/bloom",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/nonphoto/bloom#readme"
+  }
+ },
+ "treebase-sheets": {
+  "repo": "https://github.com/breck7/scroll",
+  "exists": true,
+  "homepage": "https://scroll.surf",
+  "demo_url": "https://scroll.surf",
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://scroll.surf"
+  },
+  "demo_check": "ok"
+ },
+ "dirgui": {
+  "repo": "https://github.com/alltom/dirgui",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/alltom/dirgui#readme"
+  }
+ },
+ "reactive-js": {
+  "repo": "https://github.com/YousefED/reactive",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/YousefED/reactive#readme"
+  },
+  "demo_check": "http 403",
+  "demo_url_rejected": "https://codesandbox.io/s/reactivedatareact-basic-example-ihgu9?file=/src/App.tsx"
+ },
+ "dida": {
+  "repo": "https://github.com/jamii/dida",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/jamii/dida#readme"
+  }
+ },
+ "nextjournal-clerk": {
+  "repo": "https://github.com/nextjournal/clerk",
+  "exists": true,
+  "homepage": "https://clerk.vision",
+  "demo_url": "https://clerk.vision",
+  "youtube": "7jiPeIFXb6U",
+  "readme_image": null,
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://clerk.vision"
+  },
+  "demo_check": "ok"
+ },
+ "iroam": {
+  "repo": "https://github.com/Stvad/iroam",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/Stvad/iroam/master/media/iroam%20basics.gif",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/Stvad/iroam/master/media/iroam%20basics.gif"
+  }
+ },
+ "flourish": {
+  "repo": "https://github.com/FlourishLang/flourish1.5",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": "QEvUtLPW7ro",
+  "readme_image": "https://img.youtube.com/vi/QEvUtLPW7ro/0.jpg",
+  "image": {
+   "kind": "youtube-thumbnail",
+   "source": "https://www.youtube.com/watch?v=QEvUtLPW7ro"
+  }
+ },
+ "rxjava": {
+  "repo": "https://github.com/ReactiveX/RxJava",
+  "exists": true,
+  "homepage": "https://dsc.gg/rxjava",
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/ReactiveX/RxJava#readme"
+  }
+ },
+ "just-start": {
+  "repo": "https://github.com/sbutler-gh/just-start",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/sbutler-gh/just-start#readme"
+  }
+ },
+ "jp-json": {
+  "repo": "https://github.com/dnmfarrell/jp",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/dnmfarrell/jp#readme"
+  }
+ },
+ "teliva": {
+  "repo": "https://github.com/akkartik/teliva",
+  "exists": true,
+  "homepage": "https://archive.org/details/akkartik-2022-01-16-fosdem",
+  "demo_url": "https://akkartik.github.io/teliva/doc/manual.html",
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/akkartik/teliva/main/doc/hanoi.png",
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://akkartik.github.io/teliva/doc/manual.html"
+  },
+  "demo_check": "ok"
+ },
+ "pwl-edu": {
+  "repo": "https://github.com/papers-we-love/edu",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/papers-we-love/edu#readme"
+  }
+ },
+ "taowen-tools": {
+  "repo": "https://github.com/taowen/define-function",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/taowen/define-function#readme"
+  }
+ },
+ "lookatthat": {
+  "repo": "https://github.com/tikimcfee/LookAtThat",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/tikimcfee/LookAtThat/main/repo_info/metal-v3-desktop-ide.png",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/tikimcfee/LookAtThat/main/repo_info/metal-v3-desktop-ide.png"
+  }
+ },
+ "desk": {
+  "repo": "https://github.com/Hihaheho/Desk",
+  "exists": true,
+  "homepage": "https://desk-x.com",
+  "demo_url": "https://desk-x.com",
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/Hihaheho/Desk#readme"
+  }
+ },
+ "dbuf": {
+  "repo": "https://github.com/bintoca/dbuf",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/bintoca/dbuf#readme"
+  }
+ },
+ "codeball": {
+  "repo": "https://github.com/sturdy-dev/semantic-code-search",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/sturdy-dev/semantic-code-search/main/docs/example-results.png",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/sturdy-dev/semantic-code-search/main/docs/example-results.png"
+  }
+ },
+ "grasp": {
+  "repo": "https://github.com/panicz/grasp-android",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": "FlOghAlCDA4",
+  "readme_image": null,
+  "image": {
+   "kind": "youtube-thumbnail",
+   "source": "https://www.youtube.com/watch?v=FlOghAlCDA4"
+  }
+ },
+ "columnator": {
+  "repo": "https://github.com/ruza-net/columnator",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/ruza-net/columnator#readme"
+  }
+ },
+ "buzz": {
+  "repo": "https://github.com/chidiwilliams/buzz",
+  "exists": true,
+  "homepage": "https://chidiwilliams.github.io/buzz",
+  "demo_url": "https://chidiwilliams.github.io/buzz",
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/chidiwilliams/buzz/refs/heads/main/buzz/assets/buzz-banner.jpg",
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://chidiwilliams.github.io/buzz"
+  },
+  "demo_check": "ok"
+ },
+ "dtu": {
+  "repo": "https://github.com/spawnfest/dtu",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": "ZE3KXGSp8WE",
+  "readme_image": "https://raw.githubusercontent.com/spawnfest/dtu/main/resources/dtu-yt-cover.png",
+  "image": {
+   "kind": "youtube-thumbnail",
+   "source": "https://www.youtube.com/watch?v=ZE3KXGSp8WE"
+  }
+ },
+ "uptointerpretation": {
+  "repo": "https://github.com/NicholasLYang/uptointerpretation",
+  "exists": false,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": null
+ },
+ "dreamberd": {
+  "repo": "https://github.com/TodePond/GulfOfMexico",
+  "exists": true,
+  "homepage": "https://dreamberd.computer",
+  "demo_url": null,
+  "youtube": "QRKnrFEjDF0",
+  "readme_image": "https://raw.githubusercontent.com/TodePond/GulfOfMexico/main/files/star-history.png",
+  "image": {
+   "kind": "youtube-thumbnail",
+   "source": "https://www.youtube.com/watch?v=QRKnrFEjDF0"
+  }
+ },
+ "aicombinator": {
+  "repo": "https://github.com/aicombinator/bot",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/aicombinator/bot#readme"
+  }
+ },
+ "kairon": {
+  "repo": "https://github.com/felipereigosa/kairon",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": "Y2uiSF48bNY",
+  "readme_image": "https://felipereigosa.com/thumbnail-yt.png",
+  "image": {
+   "kind": "youtube-thumbnail",
+   "source": "https://www.youtube.com/watch?v=Y2uiSF48bNY"
+  }
+ },
+ "hyperlayer": {
+  "repo": "https://github.com/geoffw8/hyperlayer",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": "9iZkE8ZrFMU",
+  "readme_image": "http://img.youtube.com/vi/9iZkE8ZrFMU/0.jpg",
+  "image": {
+   "kind": "youtube-thumbnail",
+   "source": "https://www.youtube.com/watch?v=9iZkE8ZrFMU"
+  }
+ },
+ "nj-cards": {
+  "repo": "https://github.com/marianoguerra/nj-cards",
+  "exists": true,
+  "homepage": "https://marianoguerra.github.io/nj-cards/",
+  "demo_url": "https://marianoguerra.github.io/nj-cards/",
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://marianoguerra.github.io/nj-cards/"
+  },
+  "demo_check": "ok"
+ },
+ "jhp-libs": {
+  "repo": "https://github.com/jhp/palimpsest",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/jhp/palimpsest#readme"
+  }
+ },
+ "unit": {
+  "repo": "https://github.com/samuelmtimbo/unit",
+  "exists": true,
+  "homepage": "https://unit.software",
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/samuelmtimbo/unit/main/public/gif/0.gif",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/samuelmtimbo/unit/main/public/gif/0.gif"
+  },
+  "demo_check": "empty page text",
+  "demo_url_rejected": "https://unit.software"
+ },
+ "blueprints": {
+  "repo": "https://github.com/sublayerapp/blueprints",
+  "exists": true,
+  "homepage": "https://blueprints.sublayer.com",
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/sublayerapp/blueprints#readme"
+  },
+  "demo_check": "http 530",
+  "demo_url_rejected": "https://blueprints.sublayer.com"
+ },
+ "juno": {
+  "repo": "https://github.com/KinaKnowledge/juno-lang",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/KinaKnowledge/juno-lang#readme"
+  }
+ },
+ "cherrierview": {
+  "repo": "https://github.com/tikimcfee/LookAtThat",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/tikimcfee/LookAtThat/main/repo_info/metal-v3-desktop-ide.png",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/tikimcfee/LookAtThat/main/repo_info/metal-v3-desktop-ide.png"
+  }
+ },
+ "quiver": {
+  "repo": "https://github.com/Little-Languages/quiver",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/Little-Languages/quiver#readme"
+  }
+ },
+ "hack-tooling": {
+  "repo": "https://github.com/Warkanlock/hack-tooling",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/Warkanlock/hack-tooling#readme"
+  }
+ },
+ "2222": {
+  "repo": "https://github.com/ivyreese/2222",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": "ZstE5y6nKSU",
+  "readme_image": "https://img.youtube.com/vi/ZstE5y6nKSU/sddefault.jpg",
+  "image": {
+   "kind": "youtube-thumbnail",
+   "source": "https://www.youtube.com/watch?v=ZstE5y6nKSU"
+  }
+ },
+ "okapi": {
+  "repo": "https://github.com/thegreatercurve/okapi",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/thegreatercurve/okapi#readme"
+  }
+ },
+ "tensort": {
+  "repo": "https://github.com/kaBeech/tensort",
+  "exists": true,
+  "homepage": "https://hackage.haskell.org/package/tensort",
+  "demo_url": null,
+  "youtube": "kgBjXUE_Nwc",
+  "readme_image": "https://raw.githubusercontent.com/kaBeech/tensort/main/assets/images/ackley_deps.png",
+  "image": {
+   "kind": "youtube-thumbnail",
+   "source": "https://www.youtube.com/watch?v=kgBjXUE_Nwc"
+  }
+ },
+ "wrapper": {
+  "repo": "https://github.com/inkandswitch/wrapper",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/inkandswitch/wrapper#readme"
+  }
+ },
+ "cell-todis": {
+  "repo": "https://github.com/altocodenl/cell",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/altocodenl/cell#readme"
+  }
+ },
+ "tweety": {
+  "repo": "https://github.com/pomdtr/tweety",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/pomdtr/tweety/main/media/demo.png",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/pomdtr/tweety/main/media/demo.png"
+  }
+ },
+ "algorave-workshop": {
+  "repo": "https://github.com/xyzzyapps/algorave-workshop-hyd-2025-feb",
+  "exists": false,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": null
+ },
+ "drawtalking": {
+  "repo": "https://github.com/KTRosenberg/DrawTalking",
+  "exists": true,
+  "homepage": "https://ktrosenberg.github.io/drawtalking/",
+  "demo_url": "https://ktrosenberg.github.io/drawtalking/",
+  "youtube": "Kgt48theqi0",
+  "readme_image": "https://raw.githubusercontent.com/KTRosenberg/DrawTalking/main/resources/DrawTalking_UIST_poster.png",
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://ktrosenberg.github.io/drawtalking/"
+  },
+  "demo_check": "ok"
+ },
+ "propagator-js": {
+  "repo": "https://github.com/Semi-0/Propagator",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/Semi-0/Propagator#readme"
+  }
+ },
+ "codeline": {
+  "repo": "https://github.com/rorybyrne/codeline",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://user-images.githubusercontent.com/9436784/111068981-d959e080-84c2-11eb-9b13-7b00d751fc10.gif",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://user-images.githubusercontent.com/9436784/111068981-d959e080-84c2-11eb-9b13-7b00d751fc10.gif"
+  }
+ },
+ "creact": {
+  "repo": "https://github.com/creact-labs/creact",
+  "exists": true,
+  "homepage": "https://creact-labs.github.io/creact/",
+  "demo_url": "https://creact-labs.github.io/creact/",
+  "youtube": null,
+  "readme_image": "https://i.postimg.cc/8P66GnT3/banner.jpg",
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://creact-labs.github.io/creact/"
+  },
+  "demo_check": "ok"
+ },
+ "lain": {
+  "repo": "https://github.com/Semi-0/lain-lang-compiler",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": "yg91Hchd1hI",
+  "readme_image": null,
+  "image": {
+   "kind": "youtube-thumbnail",
+   "source": "https://www.youtube.com/watch?v=yg91Hchd1hI"
+  }
+ },
+ "reverse-projection": {
+  "repo": "https://github.com/lemio/ReverseProjection",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/lemio/ReverseProjection#readme"
+  }
+ },
+ "apl-grasshopper": {
+  "repo": "https://github.com/duanerobot/APL_Sandbox",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/duanerobot/APL_Sandbox/main/APL_Sandbox_Simple_2.png",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/duanerobot/APL_Sandbox/main/APL_Sandbox_Simple_2.png"
+  }
+ },
+ "bitsy-multiplayer": {
+  "repo": "https://github.com/JazzTap/bitsy",
+  "exists": true,
+  "homepage": "https://bitsy.org",
+  "demo_url": "https://bitsy.org",
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://bitsy.org"
+  },
+  "demo_check": "ok"
+ },
+ "wirewright": {
+  "repo": "https://github.com/wirewright/wirewright",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": "rkWXB-3ReV0",
+  "readme_image": "https://github.com/user-attachments/assets/0bb06a8f-8ddf-4e49-99fe-0c0b1f44b760",
+  "image": {
+   "kind": "youtube-thumbnail",
+   "source": "https://www.youtube.com/watch?v=rkWXB-3ReV0"
+  }
+ },
+ "nod": {
+  "repo": "https://github.com/erawn/nod",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/erawn/nod/main/media/nod_demo.png",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/erawn/nod/main/media/nod_demo.png"
+  }
+ },
+ "esp32-flasher": {
+  "repo": "https://github.com/lemio/ESP32-S3-Flasher",
+  "exists": true,
+  "homepage": null,
+  "demo_url": "https://lemio.github.io/EmbeddedScreenSharing/wizard.html",
+  "youtube": null,
+  "readme_image": "https://github.com/user-attachments/assets/624c3a63-f4a3-4385-8ca7-27c81ae52997",
+  "image": {
+   "kind": "demo-screenshot",
+   "source": "https://lemio.github.io/EmbeddedScreenSharing/wizard.html"
+  },
+  "demo_check": "ok"
+ },
+ "dmovie": {
+  "repo": "https://github.com/xyzzyapps/dmovie",
+  "exists": true,
+  "homepage": null,
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": null,
+  "image": {
+   "kind": "readme-render",
+   "source": "https://github.com/xyzzyapps/dmovie#readme"
+  }
+ },
+ "trackosc": {
+  "repo": "https://github.com/JGL/TrackOSC",
+  "exists": true,
+  "homepage": "https://apps.apple.com/app/trackosc/id6795593815",
+  "demo_url": null,
+  "youtube": null,
+  "readme_image": "https://raw.githubusercontent.com/JGL/TrackOSC/main/Images/icon-ios-sender.png",
+  "image": {
+   "kind": "readme-image",
+   "source": "https://raw.githubusercontent.com/JGL/TrackOSC/main/Images/icon-ios-sender.png"
+  }
+ }
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+
+# pipeline scratch files (screenshots in progress, browser profiles, rendered READMEs)
+data/work/tmp/
+
+# Python
+__pycache__/
+*.pyc
+
+# raw full-size screenshots (the site uses the 800px JPEGs in public/images/shots)
+data/work/shots_raw/

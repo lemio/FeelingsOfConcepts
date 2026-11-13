@@ -1,0 +1,703 @@
+foc-podcast|Future of Coding podcast & log|Steve Krouse|26,170,175,185,209,212|https://futureofcoding.org|https://www.youtube.com/watch?v=DuMdDXCMDk0|Podcast, research log and video chats with people reinventing programming; includes interviews like Valaa and Tudor Girba.|res,dev|COMM,ESSAY|2,4,2,4,2
+krouse-essays|Steve Krouse essays (DCTP, Dynamicland, Alan Kay)|Steve Krouse|23,156,160,197,260|https://futureofcoding.org/drafts/dctp||Essays on denotative continuous-time programming (Conal Elliott FRP), Dynamicland, an intellectual genealogy of Papert/Kay/Victor and notes from lunch with Alan Kay.|res,dev|ESSAY,DATA|2,3,3,2,3
+programmable-systems|Programmable Systems series|Shalabh|29,249|https://shalabh.com/programmable-systems/||Essay series arguing for designing whole programmable systems rather than programs.|res|ESSAY,MALL|2,3,3,3,4
+hempel-centers|Map of programming's centers|Brian Hempel|31,210|||Diagram of human motivations vs technical concerns across computational tasks; thoughts on reviewing visionary systems in academia.|res|ESSAY|2,2,2,2,3
+nlpl|NLPL editor|Daniel Garcia|157,158|https://github.com/nlpl-lang/nlpl-editor||Early experiment with a natural-language-like programming editor.|dev|STRUCT,LANG|2,2,2,2,4
+mind-bicycles|Mind bicycles list|Daniel Garcia|201,240,241|https://github.com/pel-daniel/mind-bicycles||Curated list of interesting future-of-coding projects.|dev,res|COMM|1,4,1,2,1
+optic|Optic|Aidan Cunniffe|159,162,173,191,192,254|https://github.com/opticdev/cogent-engine||Tools to auto-document APIs, give compile-time feedback on requests and generate code with React-based generators; essay on next dev-tool primitives.|pro,dev|AI,UNDER|1,4,3,3,3
+instadeq|instadeq|Mariano Guerra|161,188,200,204,211,251,252,253|https://instadeq.com/experiments/data-tables/v2/|https://www.youtube.com/watch?v=knOMm1Ega_A|End-user data tool with tables/spreadsheets as values, change time-travel, tracing and query-by-example.|user,pro|EUP,DATA,LIVE|2,4,3,3,3
+viu|viu|Felix Kohlgrüber|169|https://github.com/fkohlgrueber/viu||less-like Python viewer that reformats code to fit window width.|dev|UNDER|1,3,1,1,2
+mu|Mu / SubX|Kartik Agaram|171,179,238|https://github.com/akkartik/mu||Minimal bootstrapped computing stack from machine code up, with notes on debugging assembly and personal programming practice.|dev,res|SMALL,LANG|2,3,4,3,4
+knuth-reading|Reading Knuth's early compilers|Dylan Lederle-Ensign|172|https://dlederle.com/2018/11/25/reading-programs.html||Blog post reading Knuth's notes on ~1953 compilers.|res|ESSAY|2,2,1,1,1
+pane|PANE|Joshua Horowitz|174|https://joshuahhh.com/projects/pane/||Live functional programming environment where all intermediate values are visible by default.|res,dev|LIVE,VIS,DATA|3,3,3,2,4
+assemblage|Assemblage Programming|Phil Jones|178|http://sdi.thoughtstorms.info/?p=1344||Idea for programming by assembling pre-built parts.|res|ESSAY,LANG|2,2,2,2,3
+code-map-ast|Interactive AST tree map|Laura|180,181,182,183|http://martijnbrekelmans.com/gifs/constructor-ast.mp4|http://martijnbrekelmans.com/gifs/constructor-ast.mp4|Sublime Text plugin turning code into an interactive tree; aim is an explorable map of a repository with metrics.|dev|UNDER,VIS|3,3,3,2,3
+toystore|Toystore|Janne Aukia|184|http://simplicitydesign.fi/demo/toystore/||Direct-manipulation editing, moving and resizing of React components that rewrites the code.|dev,pro|LIVE,VIS|3,3,3,2,3
+afterclass|AfterClass|Arsalan Bashir|187|https://afterclass.co/||Non-linear reactive document for automating startup tasks.|user,pro|EUP,NB,DATA|2,3,3,3,3
+craft-instruments|Craft in digital musical instruments (PhD)|Jack|189|http://instrumentslab.org/research/craft||PhD research on craft practice in making digital musical instruments.|art,res|ART,HW|4,2,3,3,3
+postman-flows|Postman flow DSL|Abhinav Asthana|190|https://github.com/postmanlabs/postman-app-support/issues/5707||Flow-based programming DSL and UI for API workflows in Postman.|pro,dev|VIS,DATA|2,4,3,4,2
+tofu|Tofu editor|Gregor|202|https://gregoor.github.io/tofu/||Code editor close to text editing but with structural, keyboard-driven AST manipulation.|dev|STRUCT|2,3,3,2,4
+imgui-essay|IMGUI vs retained-mode GUIs|Gregg Tavares|203|https://games.greggman.com/game/imgui-future/||Essay on immediate-mode GUIs and their potential.|dev|ESSAY|1,3,2,1,2
+pl-course|Stanford PL course design|Will Crichton|205|https://snapl.org/2019/||SNAPL paper on the design of a programming languages course.|edu,res|EDU,ESSAY|1,3,2,2,2
+mech|Mech|Corey Montella|206,248,262|https://mech-lang.org/||Reactive language for robots, games and animations with tables and live documents.|dev,res|LANG,DATA,LIVE|3,3,4,4,4
+gtoolkit|Glamorous Toolkit|Tudor Girba|207,230,261|https://gtoolkit.com/||Moldable development environment in Pharo with custom views per object and example-driven development.|pro,dev,res|MALL,UNDER,NB|3,4,5,5,4
+dashdash|dashdash|Humberto Ayres Pereira|208|https://dashdash.com/||Online spreadsheet that calls web services and APIs to build custom tools.|user,pro|EUP|2,4,2,3,2
+darklang|Darklang|Paul Biggar|213,225|https://medium.com/darklang/the-design-of-dark-59f5d38e52d2||Holistic language+editor+infrastructure removing accidental complexity from backend development.|pro,dev|LANG,LIVE,STRUCT|2,4,5,5,4
+clj-datalog|Datalog over Clojure AST|Stathis Sideris|229|https://twitter.com/stathissideris/status/1099322082905808896||Query Clojure code and runtime invocations with datalog from the REPL.|dev|UNDER,DATA|1,3,3,2,3
+dacein|Dacein|Szymon Kaliski|231|https://szymonkaliski.github.io/dacein/||Live-coding, time-traveling, direct-manipulation creative-coding IDE.|art,dev|LIVE,ART|4,3,3,2,4
+loyc|Loyc trees and LES|David Piepgrass|232|http://loyc.net/loyc-trees/||Universal syntax-tree concept and expression syntax for interoperable languages.|dev|LANG|1,2,3,3,3
+vc-simple|Simplified version control|Nikolas Martens|21,247|||Ideas for version control non-programmers can use for collaborative text; video series on programming.|user|COLLAB|1,3,2,2,3
+lobster|Lobster|Wouter van Oortmerssen|263|http://aardappel.github.io/lobster/memory_management.html||Game-oriented language with automatic ownership memory management.|dev|LANG,GAME|2,4,4,4,3
+moldable-media|Media for thought with moldable development|Rafael Luque|264|https://www.osoco.es/thoughts/2019/05/designing-media-for-thought-with-moldable-development/||Constructivist library design in Pharo (Bloom filters) as media for thought.|dev,res|THINK,MALL|2,2,3,2,3
+syvis|Syvis|Adrian Sieber|265,266,267|https://syvis.surge.sh/ErZoPhsMTcDvGT9pZswo/||Unreleased webapp for viewing/editing code with a focus on reading and a hierarchy of interaction intents.|dev|UNDER,STRUCT|3,2,2,2,3
+lamdu|Lamdu|Yair Chuchem|269|http://www.lamdu.org/||Projectional editor for a purely functional language with friendly static types.|dev|STRUCT,LANG,FORMAL|3,3,5,4,4
+vp-codex|Visual Programming Codex|Ivy Reese|241|https://github.com/ivanreese/visual-programming-codex||Curated codex of visual programming systems.|res,dev|COMM,VIS|2,4,1,3,1
+something-new|SomethingNew|Dan Cook|245|https://github.com/d-cook/SomethingNew||Collection of resources and vision for rethinking software.|res|COMM,ESSAY|1,3,1,2,2
+ideal-toolset|My ideal developer toolset|Lucian Ursu|259|https://elbear.com/my-ideal-developer-toolset.html||Essay on an ideal integrated dev toolset.|dev|ESSAY|1,2,1,1,2
+human-pl|Human as ultimate PL interface|Vladimir Gordeev|7,164|https://vladimir-vg.me/p/0c9d65f4-7cd3-40cb-83f1-a964f7076ccf/||Essay on designing languages around the human as interface.|res|ESSAY,LANG|2,2,2,1,3
+beads|Beads language|Edward de Jong|237,246|||Language design discussions (comment syntax, critique of Swift complexity).|dev|LANG|1,3,3,3,3
++lobster|270|https://www.youtube.com/watch?v=CTKLM4chYu8
++beads|271,272,309,310,387
+storyscript|Storyscript|Steve Peak|273,274,275,276,277,388,396|https://storyscript.io/||Top-level language that glues services and serverless functions together; later repositioned with a visual Studio.|pro,dev|LANG,VIS|2,3,3,4,3
+livecoder|Live Coder|Fraser Greenlee|278,297|https://repl.it/@FraserGreenlee/LiveCoder|https://www.youtube.com/watch?v=LW_fgRFmEGI|Shows how Python executes as you type, inspired by Bret Victor's Inventing on Principle.|dev,edu|LIVE,UNDER|2,4,2,2,3
+maraca|Maraca|Jon Whitehead|279|https://maraca-lang.org/||Language simplifying UI development from an FRP/denotative perspective.|dev|LANG,DATA|2,3,3,3,4
+paradigm-graphic|Paradigm relationship graphic|prax08|280,281|||Diagram relating programming paradigms.|edu|ESSAY,EDU|2,2,1,1,2
+polide|Polide|Adrian Sieber|282,283,284,288,292|https://hub.docker.com/r/adius/polide||Opinionated polyglot web IDE / playground for CLI tools.|dev|NB|1,3,2,2,2
++darklang|289,291,369,398
+openapi-programs|Specs as programs|Aidan Cunniffe,Dev Doshi|290|https://link.medium.com/KmdpsyrT9X||Turning specs like OpenAPI and IaC from YAML into programs with projectional editors.|pro,dev|STRUCT|1,3,3,2,3
+nodes|Nodes|Marcin Ignac,Nick Nikolov|293|https://nodes.io/||Node-based JavaScript creative coding tool from Variable for installations, data viz and generative art.|art,pro|VIS,ART,LIVE|5,4,3,4,3
+tarpit-ts|Out of the Tar Pit in TypeScript|taowen|294|https://medium.com/software-engineering-problems/out-of-the-tar-pit-another-approach||Hijacking TypeScript syntax into a new language that manages state complexity.|dev|LANG,DATA|1,3,3,2,3
++mu|295,367,370,385
+strat|Strat|Charlie|298|https://strat.world/||Language (with visual mocks) for specifying how serverless packages talk in the cloud.|pro,dev|LANG,VIS|2,3,3,2,3
++foc-podcast|302,304,359
+flowcode|Flowcode|Dan Stocker|303|http://flowcode.kwaia.com/||General-purpose visual flow-based coding environment.|dev|VIS,DATA|2,3,3,3,3
+hempel-triumvirate|Incongruous triumvirate of programming|Brian Hempel|305,354|||Thesis that programming is hard because brain, formalism and hardware must reconcile.|res|ESSAY|1,2,2,1,3
++mech|306
+human-synthesis|Human-centric program synthesis|Will Crichton|307|https://plateau-workshop.org/||Vision paper about program synthesis designed around humans.|res|AI,ESSAY|1,3,3,2,3
+hest|Hest|Ivy Reese|320,321|https://ivanish.ca/hest-time-travel/||Artistic visual programming tool where a programming model emerges from geometric primitives, with time travel.|art,res|VIS,ART,LIVE|5,2,4,3,5
++instadeq|300,301,347,348,362,363,364,368,372,373,374,376,377,380,390,393,394,395
+whole-code-catalog|The Whole Code Catalog|Steve Krouse|359|https://futureofcoding.org/catalog/||Catalog of inspiring future-of-coding projects, packaged from research at Dark.|res,dev|COMM|3,4,1,3,2
+tree-notation|Tree Notation / Tree Language Designer|Breck Yunits|361,378|https://treenotation.org/|https://www.youtube.com/watch?v=UQHaI78jGR0|Minimal indentation-based notation and tooling for making many small languages.|dev,res|LANG,SMALL|2,3,2,3,4
+mmm|mmm typed file-system|Sol Bekic|371,384|https://git.s-ol.nu/mmm/||Typed 'facet' file-system to replace application-centrism; ideas for EUP in electronics CAD.|user,res|MALL,EUP|3,3,4,3,5
+storyforj|Storyforj|Parris|386|https://storyforj.com/||Stateful interactive docs / non-linear presentations.|user,pro|NB|3,3,2,3,3
+boomla|Boomla|Tibor Halter|389|https://feedback.boomla.com/blog/a-filesystem-to-replace-your-cms||Web platform where a filesystem replaces your CMS.|pro,dev|MALL|1,3,3,3,3
+fibery|Fibery|Michael Dubakov|391|https://fibery.io/||No-code platform to organize work.|pro,user|EUP|2,4,3,4,2
+whitebox|WhiteBox|Andrew Reece|392|||Shows how compiled C code behaves as you write it.|dev|LIVE,UNDER|2,4,4,3,3
+tht|THT|Joe Lesko|397|https://tht-lang.org/||Language that transpiles to PHP for safer, friendlier web dev.|dev|LANG|1,3,3,3,2
+nextjournal|Nextjournal|Martin Kavalar|399|https://nextjournal.com/mk/foc-demo||Reproducible notebooks for research.|res,pro|NB|2,4,4,4,2
+codist|Codist AI|Maeliza,Shubhadeep Roychowdhury|400|http://bit.ly/codistai||Faster code exploration and navigation for Python developers.|dev,pro|UNDER,AI|1,3,3,3,2
+visual-groups|Visual scripting groups|Ernest Lee|381,382|||Question on how grouping should work in visual scripting/flow-based programming.|dev|VIS|1,2,1,1,2
+glance|Glance|Robbie Gleichman|401,409,475|https://github.com/rgleichman/glance/|https://youtu.be/cb25Ts4rLXA|Compact visual (graph) syntax for Haskell aiming to make programming easier for everyone, especially beginners.|dev,edu|VIS,LANG|4,3,4,3,4
++instadeq|402,403,406,407,426,430,436,441,449,462,463,494,495
+tidal-feedback|In-code feedback in Tidal|Alex McLean|404|https://www.youtube.com/watch?v=2t7Ab0Phz7s|https://www.youtube.com/watch?v=2t7Ab0Phz7s|Live-coding music in TidalCycles with visual feedback rendered inside the code.|art|ART,LIVE|5,3,3,3,4
+rosettagit|RosettaGit|Adrian Sieber|405|https://github.com/ad-si/RosettaGit||Fork of Rosetta Code where all solutions live in a Git repository.|dev,edu|EDU,COMM|1,3,1,3,1
+taysom-essays|Reviews of Bel, Eve and VR|William Taysom|410,411,412|https://gist.github.com/wtaysom/7e5fda6d65807073c3fa6b92b1e25a32||Essay reviewing Paul Graham's Bel, Chris Granger's Eve and VR, plus geometric programming musings.|res|ESSAY|3,2,2,1,3
+api-inliner|Python API inliner|Will Crichton|414,415|https://twitter.com/wcrichton/status/1207166522545721344||Tool that inlines library API calls into your code to make them understandable/modifiable.|dev|UNDER|1,3,3,2,4
+lesser-essays|Structure and behavior essays|Stefan Lesser|360,416,420|https://stefan-lesser.com/2019/12/06/structure-and-behavior/||Essays mining linguistics and other fields for ideas on structure and behavior in programming.|res|ESSAY|3,2,2,2,3
++beads|417,418,421,422,423,431,432,468
++programmable-systems|419
++mu|424,479
++mmm|425
+slang|Slang (Bitspark)|Kai Richard König|427|https://bitspark.de/slang/||Visual no-code language built on Go channels.|dev,user|VIS,DATA|2,3,3,3,3
++storyscript|428,457,460,464,466,505
+dev-tools-talk|Generic tree editor|Vladimir Gordeev|433,434,458|https://youtu.be/KOHNUtw8h5o|https://youtu.be/KOHNUtw8h5o|Talk 'Towards efficient development tools' and a demo of a generic structural tree editor.|dev|STRUCT|2,3,3,2,4
+startup-ideas|Keyboard symbol history|Breck Yunits|435,450|https://breckyunits.com/files/keyboard/||Side explorations: when keyboard symbols were invented, startup idea poll.|user|ESSAY|3,1,1,1,2
+instadeq-teach-html|HTML/CSS/JS blocks for non-programmers|Mariano Guerra|437,444|https://youtu.be/E-l15Re1lUU|https://youtu.be/E-l15Re1lUU|Block-based tool to teach HTML/CSS/JS with layers that gradually approach textual HTML.|edu,user|EDU,VIS|3,4,2,2,3
+apps-to-langs|Designing languages from applications|Eddy Parkinson|438|||Idea: work backward from existing applications to design better languages.|res|ESSAY,LANG|1,2,1,1,3
+operon|Operon|OperonGuy|439|https://operon.io/||JSON query/transformation language.|dev|LANG,DATA|1,3,3,2,2
+observable-jupyter|Observable for Jupyter users|Thomas Ballinger|440|https://observablehq.com/d/b00406054cfb4875||Series of notebooks explaining Observable to Jupyter users.|edu,dev|NB,EDU|2,4,1,2,1
+openapi-ui|UI from OpenAPI spec|Matt Hart|442|https://condescending-brown-89fb8e.netlify.com/||Web app generating customizable UI from an OpenAPI spec.|dev,pro|EUP|1,3,2,2,2
++gtoolkit|443,487,491
++whitebox|445
+jsbubbles|JSBubbles / Waypoint|Raathi|447,504|https://github.com/Raathigesh/waypoint||VSCode extensions for navigating JS code (Code Bubbles-inspired, symbol bookmarks).|dev|UNDER|1,3,2,2,2
+validation-dsl|Data validation DSL|Ope|448|https://gist.github.com/opethe1st/1a81d5b7f167ff650c49449221a831ce||Exploring a DSL for data validation.|dev|LANG|1,2,2,1,2
+wasp|Wasp|Martin Sosic|451|https://wasp-lang.dev/||Higher-level declarative language for building full-stack web apps.|dev,pro|LANG|1,4,3,4,3
+alv|alv livecoding language|Sol Bekic|453,485|https://s-ol.nu/alivecoding||New interaction model for live-coding where scripts are stateful pieces and editor shows their state.|art,res|LIVE,ART,LANG|4,3,4,3,5
+godot-vs|Godot visual scripting|Ernest Lee|454,455,456,381,382|https://godotengine.org/asset-library/asset/137||Improving Godot engine's visual scripting and visual shaders.|dev,art|VIS,GAME|3,3,3,4,2
+loyc-principles|Principles of programming|David Piepgrass|461,469|https://loyc.net/2020/principles-of-programming.html|https://www.youtube.com/watch?v=Eqm2Eip884E|Post on programming principles and intro video for Loyc trees.|dev|ESSAY|1,3,1,1,1
+yazz|Yazz time travel debugging|Edward de Jong|467|https://yazz.com/|https://youtu.be/PKJO1rlJGC4|Rapid app development tool with time travel debugging (shared, not affiliated).|pro|EUP,UNDER|2,3,3,3,3
+collabscout|CollabScout|Bakar Tavadze|471|https://collabscout.io/||Site connecting software engineers who want to collaborate.|dev|COMM|1,2,1,2,1
+codefaster|codefaster blog|Tyler Adams|472|https://codefaster.substack.com/||Blog about developer productivity.|dev|ESSAY|1,3,1,2,1
+schema|Schéma|Dominik Jančík|473,477|https://schema.scenic.tools/|https://youtu.be/YSm8iA8DoIc|Visual programming tool combining block and node approaches for installation art; plus Midweek Patch Therapy meetup.|art|VIS,ART,LIVE|5,3,3,3,4
+app-frames|Extracting app frames|J. Ryan Stinnett|474|https://twitter.com/jryans/status/1266166240114020352||Extract sub-windows out of existing apps to rearrange, share and snapshot them.|user|MALL|2,3,3,2,5
+ast-images|ASTs to images neural net|noahtren|476|||Neural network translating ASTs into images and back.|res|AI,VIS|4,1,4,2,5
+deja-vu|Déjà Vu concepts|Santiago Perez De Rosso|478|https://deja-vu-platform.com/|https://www.youtube.com/watch?v=10IexBI5v-A|PhD platform for assembling web apps out of full-stack 'concept' modules.|dev,res|EUP|1,4,4,3,4
+fizz|fizz knowledge system|Jean-Louis Villecroze|480,481|https://f1zz.org/||Long-running side project: a rule-based knowledge/inference runtime.|res,dev|FORMAL,THINK|1,2,4,3,4
+codebert|codeBERT / tree-hugger|Maeliza,Shubhadeep Roychowdhury|482|https://github.com/autosoft-dev/code-bert||ML package automatically reviewing Python docstrings.|dev|AI|1,3,3,2,3
+cambria|Cambria|Peter van Hardenberg|483,486|https://inkandswitch.github.io/cambria/||Ink & Switch lens language for evolving data schemas in decentralized software.|dev,res|COLLAB,DATA|1,4,4,3,4
+edix|edix and terminal experiments|Felix Kohlgrüber|484,501|https://fkohlgrueber.github.io/edix-1/||Text editor that uses different fonts per syntactic element; prototype terminal UI.|dev|UNDER|3,2,2,1,3
+rust-ownership|Why Rust ownership is hard|Will Crichton|489|||HATRA paper on what makes Rust ownership challenging.|res|FORMAL,ESSAY|1,3,3,2,2
+irreactive|irreactive blog|Philipp Krüger|490|https://irreactive.com/declarative-apis||Blog on declarative APIs with interactive code examples.|dev|ESSAY|2,3,2,1,2
+hamish-editor|Shadertoy+Matlab+Bret Victor editor|hamish todd|492|https://youtu.be/hR-MQm3c13Q|https://youtu.be/hR-MQm3c13Q|Plan for a visual text editor mixing shadertoy, matlab and Bret Victor ideas.|art,res|LIVE,3D,VIS|4,2,4,3,5
+enso|Enso (formerly Luna)|Joe Nash|493|https://medium.com/@enso_org/enso-dev-blog-friday-31st-july-d301900818c1||Hybrid visual/textual data-processing language and IDE.|pro,dev|VIS,DATA,LANG|4,4,5,5,3
+open-app|Open application (self-editable web)|Cameron King|496,497,503|https://youtu.be/ZDhJLdhSvGs|https://youtu.be/P-ZHjVa2OYk|Making Svelte websites user-editable with no effort, even the editor itself; VSCode semantic keystroke extension.|user,dev|MALL,EUP|2,3,3,2,5
+coderoad|CodeRoad|Shawn McKay|500|https://github.com/coderoad/coderoad-vscode||Interactive coding tutorials built from Git commits in VSCode.|edu,dev|EDU|1,4,2,3,2
+scrubbable|Scrubbable numbers|Dominik Jančík|502|https://codepen.io/domjancik/pen/XWdjrQv||Automatically make numbers in any JS/HTML text scrubbable.|dev,art|LIVE|3,3,1,1,3
+clipnote|Clipnote|Dominik Jančík|506|https://clipnote.glitch.me/||Tiny drawing tool to jot handwritten notes and paste them anywhere.|user|THINK|3,3,1,1,2
+apparatus-magnets|Apparatus with Magnets|Joshua Horowitz|507|https://www.notion.so/Apparatus-with-Magnets-077e72bc1ebf4f7a9ec512ef76d47994||Direct-manipulation approach to drawing dynamic pictures, building on Apparatus.|art,res|VIS,LIVE,ART|5,3,4,2,5
+layered-text|Layered Text|Chris Rabl|510,524|||Writing tool where outlines, drafts and final text are toggleable, mergeable layers in one editor.|user|THINK|3,4,2,2,4
+horizon-vs|Facebook Horizon VR visual scripting|Scott Anderson|511,543|https://support.oculus.com/872960043229069/|https://www.youtube.com/watch?v=sNKUC_yao9Y|Visual scripting system for building interactive worlds inside VR.|user,art|VIS,3D,GAME|4,3,4,5,3
+root-ui|root|Dennis Heihoff|513|https://github.com/den1k/root||Data-first recursive UI resolver that started from reverse-engineering Notion.|dev|DATA,MALL|2,3,4,2,4
+persist-continuations|Persisting continuations|François-René Rideau|514|||Research on persisting continuations/threads.|res,dev|LANG|1,2,5,2,4
+mito|Mito|Cameron Yick|515|https://trymito.io/||(Shared) Spreadsheet interface that generates pandas data-cleaning code.|pro,user|EUP,DATA|2,4,2,3,2
+adacraft|adacraft|nicolas decoster|516,540|https://adacraft.org/||Modified Scratch with new extensions (ML, multiplayer) for easier programming.|edu,kids|EDU,VIS|3,4,2,3,2
++mu|517,528,537,547,559,573,606
+read-aloud|Read Aloud extension|Grigory Hatsevich|518|https://chrome.google.com/webstore/detail/read-aloud-with-auto-lang/iaeiplcjdnhkmnlakhngfemilfmmaabc||Chrome extension reading websites aloud with keyboard controls.|user|THINK|1,3,1,1,1
+message-not-understood|Message Not Understood documentary|Eric Gade|519,532|https://www.kickstarter.com/projects/messagenotunderstood/message-not-understood/||Documentary on the history of personal computing through lesser-known voices.|user,res|ESSAY,COMM|4,3,2,3,2
+docly|Docly|Shubhadeep Roychowdhury|522,531,557|https://thedocly.io/||AI that generates one-line comments for Python functions.|dev|AI|1,3,3,2,2
++jsbubbles|521,587
+flowsheets|Flowsheets|Glen Chiacchieri|525|https://twitter.com/Glench/status/1311294339566501890||Programming environment combining spreadsheets and live code (shared by Mariano).|dev,res|LIVE,EUP,DATA|3,3,3,3,4
++edix|526
++hamish-editor|527,558
++cambria|529
+dsn|Digital Scientific Notations|Konrad Hinsen|530|https://con.racket-lang.org/||Research on notations that make scientific models readable by humans and computers.|res|FORMAL,ESSAY|1,3,4,3,4
+idx|IDX|Danny Zuckerman|534|https://idx.xyz/||JS library for decentralized identity.|dev|COLLAB|1,3,3,3,2
+code-explorer|Spatial code explorer|Paul Shen|535|https://code-explorer.bypaulshen.com/||Browse code spatially on a canvas, abstracting files with path-aware browsing.|dev|CANVAS,UNDER|3,3,3,2,4
+crdt-wasm|CRDT in Rust+Wasm|nicolas decoster|536|https://gitlab.com/ogadaki/sunnytech-2019-wuer||Playing with CRDTs using Rust and WebAssembly.|dev|COLLAB|1,2,3,1,2
++whitebox|538
+expressiveness-bench|Expressiveness Benchmark|Will Crichton|539,569|https://willcrichton.net/expressiveness-benchmark/#/||Benchmark comparing how data analytics DSLs (SQL, Datalog, Pandas) express tasks.|res,dev|DATA,ESSAY|2,3,3,3,3
+fizz-gui|nanovg GUI library|Jean-Louis Villecroze|541|https://github.com/memononen/nanovg||Resuscitated GUI library on glfw/nanovg for AI demos.|dev|SMALL|2,2,3,2,2
+maughan-env|Live-coding audio/graphics environment|Chris Maughan|542,544,550,574,604|https://youtu.be/89fq3bOQddw|https://youtu.be/89fq3bOQddw|Live-coding environment for audio and graphics with profiler, flame graphs and audio tooling.|art,dev|ART,LIVE|4,3,4,4,3
+alan|Alan language|Luifer De Pombo|545|https://alan-lang.org/the-turing-completeness-problem.html||Language with non-Turing-complete bytecode allowing automatic parallelization.|dev|LANG|1,3,4,3,4
+expressionrunner|expressionrunner / visual flow tool|Maikel van de Lisdonk|546|https://github.com/devhelpr/expressionrunner||Library to parse and execute expressions, part of a visual programming effort.|dev|LANG,VIS|1,2,2,1,2
++nodes|548
++wasp|549,565,603
+chris-granger-new|Chris Granger's new thing (teasers)|Chris Granger|551,561,567|https://twitter.com/ibdknox/status/1328797793138266113||Teasers of a new end-user programming project after Eve.|user|EUP,LIVE|3,3,4,3,4
+ucisc|uCISC personal computer|Robert Butler|552|https://github.com/grokthis/ucisc/tree/master/hardware||Building a truly personal computer: custom uCISC processor on an FPGA.|dev,res|HW,SMALL|3,2,5,3,4
+meta-env|Meta|Oleksii Shmalko|553|https://github.com/rasendubi/meta||Experiments on projectional editors and extensible environments.|dev|STRUCT,MALL|2,2,4,2,4
+neontetra|NeonTetra (RDF CMS)|Emmanuel Oga|554,586|https://github.com/EmmanuelOga/NeonTetra||Experiments with RDF and graph databases as CMS basis.|dev|DATA|1,2,3,2,3
+channel-capacity|Increasing our channel capacity|Sam Ritchie|555|https://roadtoreality.substack.com/p/increasing-our-channel-capacity||Essay on code as a precise communication medium beyond math notation.|res|ESSAY|2,3,1,1,2
+graphn|GraphN|Adnan Chaumette|556,596,601|https://www.youtube.com/watch?v=WmBnt3P5cGI|https://www.youtube.com/watch?v=WmBnt3P5cGI|Visual programming language for 3D artists in the CG industry.|art,pro|VIS,3D|4,4,3,3,3
+zagie|Zagie|Sverrir Thorgeirsson|560|https://zagie.com/sorting_foc||Educational environment for assessing student algorithm competencies visually.|edu|EDU,VIS|3,3,2,2,3
+gadget|Gadget|Mo,Harry Brundage|562,577|https://www.loom.com/share/75738fd721e6447d929ec3e9b8f7c0ea|https://www.loom.com/share/75738fd721e6447d929ec3e9b8f7c0ea|Hosted backend builder: db, models, APIs and admin UI.|pro,dev|EUP|1,4,3,4,2
++codefaster|563,608
+css-structure|CSS structure editor|Paul Shen|564|https://css-structure.netlify.app/||Structured editing experiment on CSS's simple grammar.|dev|STRUCT|2,2,2,1,3
+mockmechanics|MockMechanics|Felipe Reigosa|568,578|https://www.youtube.com/watch?v=y2XgcpGitmM|https://www.youtube.com/watch?v=y2XgcpGitmM|3D mechanical simulator where you program by building machines from parts.|art,user,edu|3D,VIS,GAME|5,2,3,3,5
+bloom-dom|bloom|Jonas Luebbers|570|https://github.com/nonphoto/bloom||Library for manipulating the DOM using reactive streams.|dev|DATA|1,3,2,1,2
+aflow|aflow|Sergii|572|https://grgv.xyz/aflow/||Dataflow programming language.|dev|DATA,LANG,VIS|2,2,3,2,3
++dacein|575
+zero-lang|zero|Ash Nehru|581|||Manifesto for 'zero', a new programming language.|res,dev|LANG,ESSAY|1,2,3,2,4
++loyc|580,582,592
+treebase-sheets|Spreadsheet+language baby / Dumbdown / Stamp|Breck Yunits|583,585,597,598,599|https://github.com/treenotation/dumbdown|https://www.youtube.com/watch?v=vn2aJA5ANUc|Tree Notation spin-offs: a spreadsheet/language hybrid, Dumbdown markup and Stamp.|dev,user|LANG,EUP|2,3,2,2,4
+dirgui|dirgui|Tom Lieber|584|https://github.com/alltom/dirgui||Using VNC's RFB protocol as a tiny malleable GUI toolkit.|dev|SMALL,MALL|2,3,2,1,4
++instadeq|512,533,588,607
++enso|576,589,590,591,602
+nlphistory|Interactive NLP history|Florian Cäsar|593|https://nlphistory.com/||Interactive, adaptive history of NLP showing a new way to interact with content.|user,res|THINK|3,3,3,2,4
+curius|Curius|noahtren|594|https://curius.app/join/future-of-coding||Tool for collecting and sharing research links in communities.|res|THINK,COMM|1,3,2,2,2
+parabeac|Parabeac|Ivan Huerta|595|https://medium.com/parabeac/adding-flutter-state-management-support-to-an-open||Design-to-Flutter code converter.|dev,pro|AI|1,3,3,3,2
+game-teaching|Video game that teaches programming|JP Posma|600|https://www.youtube.com/watch?v=p3Ps5dekyNI|https://www.youtube.com/watch?v=p3Ps5dekyNI|Videos about an old video game that taught programming well.|edu,kids|EDU,GAME|3,2,1,1,2
+compose|Compose|Steve Krouse|605,609|https://compose.run/||Startup pursuing FP-powered (DCTP/FRP) ideas for building apps.|dev|DATA,LANG|2,3,4,3,4
+emilprogviz|emilprogviz|Emil H|610|https://emilprogviz.com/|https://youtu.be/8hVuOmgcd04|Program visualization experiments; reflection on originality in FoC ideas.|dev|VIS,UNDER|3,2,3,2,3
+scroll|Scroll|Breck Yunits|611,632,654|https://scroll.pub/||Static site/publishing system using Scrolldown, an extensible markup built on Tree Notation.|user,dev|LANG,SMALL|2,4,2,3,3
+android-testing|Distributed Android remote testing|elvis chidera|612|https://elvischidera.com/2020-11-23-building-distributed-android-remote-testing/||Using existing phones as a distributed device lab for testing.|pro,dev|COLLAB|1,3,3,2,2
++whitebox|613,621
+foc-search|Future of Coding search|Mariano Guerra|614|https://search.futureofcoding.org/||Search engine over the FoC Slack history.|res,dev|COMM|1,4,2,2,1
++mockmechanics|615,694
++storyscript|616,700
++tree-notation|617
+jp-weekly|Weekly project videos|JP Posma|618|https://youtu.be/A-Uf305sddM|https://youtu.be/A-Uf305sddM|Weekly accountability videos about personal FoC projects.|dev|COMM|2,1,1,1,2
++instadeq|619,628,630,633,634,642,644,648,675,679
++mu|620,637,641,650,653,655,669,671,673
+graph-outliner|Spanning-tree graph outliner|molikto|622,649|||Editor for typed property graphs that expands the graph as a spanning tree so it feels like an outliner.|user,res|THINK,STRUCT|2,3,4,2,4
+non-typewriter|Beyond the typewriter paradigm|Paul Sonnentag|623|https://www.youtube.com/watch?v=N_5KxKmvhlA|https://www.youtube.com/watch?v=N_5KxKmvhlA|Prototyping non-textual(ish) programming environments that break from the typewriter model.|dev,res|STRUCT,CANVAS|3,2,3,2,4
+foam-reactive|Reactivity outside the spreadsheet|Kevin Greer|624|https://www.youtube.com/watch?v=-fbq-_H6Lf4|https://www.youtube.com/watch?v=-fbq-_H6Lf4|Demo of spreadsheet-style reactivity used outside spreadsheets (FOAM).|dev|DATA,EUP|2,3,3,3,3
++gadget|625,645
++enso|626
+web-automation|Web automation by demonstration|Rebecca Krosnick|627|https://www.youtube.com/watch?v=z2v8mo-xw3o|https://www.youtube.com/watch?v=z2v8mo-xw3o|Research tools that record user actions on web pages to generate automation scripts.|user,res|EUP|1,4,3,2,3
+emotibit|EmotiBit|Sean Montgomery|629|https://www.kickstarter.com/projects/emotibit/emotibit-0||Open wearable biometric sensor for researchers and artists.|res,art|HW|3,4,4,3,2
++hest|631
++foc-podcast|647,666,676
+mendix-runtime|Direct manipulation in runtime|Vijay Chakravarthy|635|https://youtu.be/aHXY3_xCGOE|https://youtu.be/aHXY3_xCGOE|Directly manipulate app screens while the app is running.|pro,dev|LIVE,EUP|2,3,3,3,3
+reactive-js|reactive|Yousef El-Dardiry|636|https://github.com/YousefED/reactive||Minimal FRP library for JS/React with one hook.|dev|DATA|1,3,2,1,2
+meemoo|Meemoo|Forrest O.|638,639|https://app.meemoo.org/||Dataflow visual programming for niche creative apps (e.g. phenakistiscope GIFs).|art,user|VIS,DATA,ART|4,3,2,2,3
+tarvydas-blog|Paul Tarvydas: transpilers and essays|Paul Tarvydas|640|https://guitarvydas.github.io/||Blog on PEG transpilers, WASM, diagrams-as-code and programming simplicity.|dev,res|LANG,ESSAY,VIS|2,3,3,3,4
+live-repl|Well-behaved live REPLs / imp|Jamie Brandon|643,678|https://scattered-thoughts.net/writing/making-live-repls-behave||Making live REPLs that don't hang or crash; live REPL for the imp language.|dev,res|LIVE,LANG|1,3,4,2,4
+dion|Dion|Allen Webster|646|https://dion.systems/blog_0002_roadmap.html||Experimenting with a non-text source code format and structured editor.|dev|STRUCT,LANG|2,3,5,4,4
+dida|Dida|Jamie Brandon|651,663|https://github.com/jamii/dida||Incremental differential dataflow library handling loops, out-of-order inputs, designed as a language backend.|dev|DATA|1,4,5,3,3
+against-sql|Against SQL|Jamie Brandon|664|https://www.scattered-thoughts.net/writing/against-sql||Essay on SQL's design mistakes and how to avoid them.|dev|ESSAY,DATA|1,4,2,1,2
+neighborhood|Neighborhood of end-user programming|Kartik Agaram|652|https://akkartik.name/post/neighborhood||Post on the space of ideas around partial end-user programming.|res|ESSAY,EUP|1,3,1,1,2
+nextjournal-clerk|Clerk / Nextjournal UX|Jack Rusher,Martin Kavalar|656,659,687|https://github.com/nextjournal/clerk|https://www.youtube.com/watch?v=Gnrh7XOt_84|Clojure namespace-to-notebook tool and keyboard-friendly notebook UI redesign.|dev,res|NB,LIVE|3,4,3,3,3
++nextjournal|656
+flowrunner|flowrunner-canvas|Maikel van de Lisdonk|546,657|https://codesandbox.io/s/flowrunner-canvas-wljy9||Canvas-based visual flow programming editor.|dev|VIS,CANVAS,DATA|3,3,3,3,3
+guidedtrack|GuidedTrack|Rob Haisfield|658,661|||Lightly-formatted text becomes forms/surveys with live preview; research on graph data in tools for thought.|user,res|EUP,THINK|2,4,2,3,2
++gtoolkit|660
++graphn|662
+wheel|Wheel literate programming|xyzzy|665|https://xyzzyapps.link/wheel||Literate programming tool built from python+sphinx+cog+markdown.|dev|NB|1,3,2,2,2
+go-fsm|State machine in Go|Shubhadeep Roychowdhury|667|https://towardsdatascience.com/writing-a-finite-state-machine-in-go-e5535e89d6||Blog post on a simple general state machine.|dev|ESSAY|1,3,2,1,1
++operon|668
+simoji|Simoji|Breck Yunits|670|https://simoji.pub/||Tiny language for quick agent simulations embedded in essays.|user,edu|LANG,ART,EDU|4,3,2,2,4
+concrete-math|Concrete dynamic variables for math|Robin Allison|672|https://www.youtube.com/watch?v=QemB5t94slc|https://www.youtube.com/watch?v=QemB5t94slc|Formulating symbolic math with concrete, synced, manipulable values.|edu,res|EDU,LIVE,VIS|4,3,3,2,4
+iroam|iRoam|Vladyslav Sitalo|674|https://github.com/Stvad/iroam||Embedding Observable runtime in Roam for computation while thinking.|user,dev|THINK,NB|2,3,3,2,3
+paper-vscode|Paper (VSCode)|Raathi|677|https://marketplace.visualstudio.com/items?itemName=Raathigeshan.paper||Place to keep files/locations relevant to a task.|dev|UNDER|1,3,1,1,2
+plato|Plato|Michael Gummelt|680|https://plato.io/||Programming-by-example, spreadsheet-like tool for building apps.|user,pro|EUP|2,4,3,3,3
+natto|natto.dev|Paul Shen|681|https://natto.dev/||Spatial canvas for live JavaScript, tested on generative art (fishdraw).|dev,art|CANVAS,LIVE,ART|4,3,3,3,4
++compose|682
+flourish|Flourish|Shakthi Prasad GS|683|https://github.com/FlourishLang/flourish1.5||Language programmable only at run time, enforcing exploratory programming.|dev|LIVE,LANG|1,2,3,2,4
+growth-hacker|Growth hacker intro|Tomas Čerkasas|684|||Discussion on growth hacking as a profession.|pro|COMM|1,1,1,1,1
+ruby-symex|Symbolic execution of Ruby|Sophie Smithburg|686|||Hacky minimalist symbolic execution for Ruby.|dev|FORMAL|1,2,4,1,3
+instadeq-old|Mariano's old work: nodes, blocks, demonstration|Mariano Guerra|688,689,690|https://www.youtube.com/watch?v=sGi7Tb3v2f4|https://www.youtube.com/watch?v=iHthdmM8m2o|Earlier attempts: nodes & wires and blocks for real-time data viz, programming-by-demonstration data manipulation.|user|VIS,EUP,DATA|3,3,3,3,3
+rxjava|RxJava backpressure|George Campbell|691|https://github.com/ReactiveX/RxJava||Contributor to RxJava; pushed backpressure into reactive streams.|dev|DATA|1,4,4,5,2
++vp-codex|692
+simpletalk|SimpleTalk|Eric Gade,Daniel Krasner|693|https://simpletalk.systems/|https://www.youtube.com/watch?v=5U6MkU5fLJw|HyperCard-inspired web authoring system for personal, malleable computing.|user,edu|MALL,EUP|4,3,3,3,4
+review-jam|Review Jam|Mariano Guerra|695|https://marianoguerra.github.io/review-jam/||Event/project for reviewing FoC projects.|res,dev|COMM|1,2,1,2,2
+ald|Annotated Lambda Diagrams|Lukas Süss|696,697|http://apm.bplaced.net/w/index.php?title=Annotated_lambda_diagram|https://youtu.be/VcoBaUDSHFM|Semi-graphical interface annotating Tromp lambda diagrams, animating code transformations.|res|VIS,FORMAL|4,1,4,2,5
+arner-notes|Nick Arner's notes on interfaces|Nick Arner|698|https://nickarner.com/notes/some-thoughts-on-interfaces-october-24th-2021/||Writing on interfaces, sensing and interaction.|res|ESSAY|2,2,1,1,2
+lisperanto|Lisperanto|geraclion|699|https://uprun.github.io/lisperanto/||In-browser local-first structured editor with planned version control.|dev|STRUCT|2,2,3,2,4
+just-start|just-start / earthkind|Sam Butler|701,726|https://github.com/sbutler-gh/just-start||Syncing public calendars of climate/community orgs; exporting social graphs from walled gardens.|user|COLLAB|2,3,2,2,3
+sutro|Sutro|Owen Campbell-Moore|702|https://www.notion.so/Intro-to-Sutro-raising-the-level-of-abstraction-for-programming||DSL for product definitions compiled into full running apps.|pro,user|LANG,EUP|1,3,4,3,3
++nextjournal-clerk|703,752,767
++mockmechanics|704,718
+jp-json|jp (bash JSON processor)|dnmfarrell|705,731|https://github.com/dnmfarrell/jp||Stack-based JSON processor in bash as alternative to jq.|dev|LANG,DATA|1,3,2,1,3
+teliva|Teliva|Kartik Agaram|706,714,748,751|https://github.com/akkartik/teliva|https://archive.org/details/akkartik-2022-01-16-fosdem|Environment for sharing small, sandboxed, modifiable Lua text-mode apps (brutalist convivial computing).|user,dev|MALL,SMALL|2,3,2,2,4
++foc-podcast|707,734,784
++instadeq|708,727,756
+heartpunk|Sophie's tooling experiments|Sophie Smithburg|686,709|https://twitter.com/heartpunkk/status/1457747480301510659||Tooling experiments (symbolic execution, dev environments).|dev|FORMAL|1,2,3,1,3
+glide-discover|Discoverable computations in Glide|Paul Sonnentag|710|https://www.youtube.com/watch?v=Ap8yd0w9XbQ|https://www.youtube.com/watch?v=Ap8yd0w9XbQ|Prototype with Glide making no-code computations more discoverable.|user|EUP|2,4,2,2,3
+primitive-vr|Primitive VR programming|John Voorhees|711,746|https://primitive.io/|https://www.youtube.com/watch?v=icHLoxOFerk|Voice-controlled, Codex-enabled code editing and functional graphical programming in VR.|dev|3D,AI,VIS|4,2,4,3,5
++arner-notes|712,762,781
+foc-newsletter|Future of Coding Weekly newsletter|Mariano Guerra|523,713|https://tinyletter.com/marianoguerra/||Weekly newsletter summarizing the FoC community.|res,dev|COMM|1,5,1,4,1
+advent-foc|Advent of Future of Code|Mariano Guerra|715,716,718,719,721,725|https://buttondown.email/reviewjam||December challenge series trying a different FoC tool each day.|dev,edu|COMM,EDU|2,3,1,2,2
+webcode|webcode.run|Tom Larkworthy|717,772,786|https://webcode.run/||Serverless runtime for Observable notebooks with traffic routed to your browser for live debugging; AI tarot app.|dev|NB,LIVE|2,4,3,3,4
+breadboard|Breadboarder|Chris Rabl|720|https://breadboard.redefine.software/||Language for sketching app user flows as 'software breadboards'.|pro,user|LANG,VIS|2,3,2,1,3
+syncedstore|SyncedStore / Matrix-CRDT|Yousef El-Dardiry|723,738|https://syncedstore.org/||Easy CRDT state for local-first collaborative apps; Yjs over Matrix.|dev|COLLAB|1,4,3,3,3
+typecell|TypeCell|Yousef El-Dardiry|725|https://www.typecell.org/||Reactive codebooks mixing documents and live TypeScript.|dev,user|NB,LIVE|2,4,3,3,3
+coalesce-notebooks|Analytics notebooks talk|Allan Campopiano|724,753|https://coalesce.getdbt.com/||Talks/articles on analytics engineering, notebooks and stats.|pro|NB,DATA|1,3,2,2,1
+deathbykeystroke|deathbykeystroke articles|Tony O'Dell|728,730,735|https://deathbykeystroke.com/||Articles on Go, Raku module authoring and macros.|dev|ESSAY|1,2,2,1,1
+reflection-editor|Reflection editor|Benjamin Smith|729|https://reflection-editor.netlify.app/||Self-hosting web code editor storing files in IndexedDB via a service worker.|dev|MALL|1,2,3,1,3
+afghan-coding|Code to Inspire bootcamp|Jamshid|732|https://www.technologyreview.com/2021/12/30/1043133/afghanistan-coding-bootcamp/||Community running a coding bootcamp in Afghanistan.|edu|EDU,COMM|2,5,2,3,1
++mech|733,766
+hiapl|HTML as a Programming Language|Mariano Guerra|737|https://marianoguerra.github.io/hiapl/||Tongue-in-cheek extension making HTML a programming language.|dev|LANG,GAME|3,1,2,1,4
++foc-search|739,745
+division-of-labor|Against division of labor|Kartik Agaram|740|https://akkartik.name/post/division-of-labor||10 years of rants against division of labor in software.|res|ESSAY|1,3,1,1,3
+frugel|Frugel|Colin|741|https://cdfa.github.io/frugel/||Master's thesis live programming environment showing runtime behaviour in practice.|res,dev|LIVE,STRUCT|2,3,4,2,4
+noodl|Noodl|James Haliburton|742|https://www.youtube.com/watch?v=XgYiyfoXCHM|https://www.youtube.com/watch?v=XgYiyfoXCHM|Visual low-code platform for designers; Mapbox integration experiment.|pro,art|VIS,EUP|4,4,3,4,2
+blawx|Blawx|Jason Morris|743,747,760|https://jasonmorrissc.github.io/post/blawx_v1/|https://youtu.be/2xZqoU-PCMY|Block-based declarative logic tool for encoding legislation as code (Rules as Code).|pro,user|VIS,FORMAL,EUP|2,4,3,3,4
++flowcode|744
+cranq|CRANQ|Dan Stocker|303,744|https://cranq.io/||General-purpose low-code visual IDE compiling to JS npm packages.|dev|VIS|2,3,4,3,3
+clay|Clay|Nicolae Rusan,Kareem Amin|749|https://clay.com/||Spreadsheet-like tool pulling data from many sources for automation.|pro,user|EUP,DATA|2,4,3,4,2
+pwl-edu|Papers We Love Education|Joe Nash|750,770|https://github.com/papers-we-love/edu||Reading group on CS education papers.|edu,res|EDU,COMM|1,3,1,2,1
+sturdy|Sturdy|Kiril Videlov|755|https://getsturdy.com/||Real-time version control platform for teams.|pro,dev|COLLAB|1,4,3,3,3
+nocode-history|History of No-code series|Mariano Guerra|757,758,761,769,773,777,785|https://instadeq.com/blog/posts/no-code-history-pygmalion-1975/||Blog series on the history of no-code: Pygmalion, GRAIL, Sketchpad, Peridot, Lotus Improv and more.|res,edu|ESSAY,EUP|2,4,1,3,1
+hytradboi|HYTRADBOI conference|Jamie Brandon|759|https://www.hytradboi.com/||Online conference 'Have You Tried Rubbing A Database On It' with many FoC talks.|dev,res|COMM,DATA|2,4,2,3,3
++flowrunner|763,787
+wasm-scrna|Single-cell RNA-seq in browser|Jayaram Kancherla|764|https://twitter.com/jayaram/status/1480599647039016962||Analyzing single-cell RNA-seq data fully in the browser with WebAssembly.|res,pro|DATA|1,4,4,3,2
+taowen-tools|quick.js sandbox & vue preview|taowen|765,771|https://github.com/taowen/define-function||Eval sandbox in WebAssembly; rendering Vue components in preview mode for GUI designers.|dev|MALL|1,3,3,1,2
++tarpit-ts|765
+sicm-clerk|Physics with Clerk (scmutils/emmy)|Sam Ritchie|767,768|https://twitter.com/sritchie/status/1503220063264026629||Clojure port of scmutils with Mathbox and ODE-solver animations in Clerk notebooks.|res,edu|NB,EDU,FORMAL|4,4,4,3,3
++wheel|775
+crosscut|Crosscut|Szymon Kaliski,Ivy Reese,Marcel Goethals|776,780|https://www.inkandswitch.com/crosscut/||Ink & Switch prototype for drawing dynamic models of your thoughts on a tablet.|res,user|CANVAS,VIS,THINK|5,3,4,3,5
++tofu|778
+hamish-ga|Geometric algebra environments|hamish todd|779,783|https://www.youtube.com/watch?v=HYETohI5UVE|https://www.youtube.com/watch?v=HYETohI5UVE|Geometric algebra programming environments for creative coding and quantum computing.|art,res|3D,VIS,EDU|5,2,5,3,5
++lisperanto|782
+shape-of-data|The shape of data|Jamie Brandon|774|https://www.scattered-thoughts.net/writing/the-shape-of-data||Musings on how data is represented in programming systems.|dev,res|ESSAY,DATA|1,3,2,1,3
+imp|imp|Jamie Brandon|736,678|https://www.scattered-thoughts.net/writing/imp-heterogenous-types/||Schemaless relational language/database with sound type inference and a live REPL.|dev,res|LANG,DATA,LIVE|1,3,5,2,4
+code-bubbles-auto|Auto-layout code explorer|Daniel Garcia|789|https://minimalistidev2.netlify.app/|https://www.youtube.com/watch?v=PsPX0nElJ0k|Code Bubbles-inspired explorer with automatic layout.|dev|UNDER,CANVAS|2,3,3,2,3
++whitebox|790
+compass-geometry|Compass-and-straightedge program|Kartik Agaram|791|https://gist.github.com/akkartik/20a0c7e7589c6179666fc78bc04b28b4||Little program for geometric construction for kids.|edu,kids|EDU,SMALL|3,3,1,1,2
+intro-bookmarklet|Intro lookup bookmarklet|Kartik Agaram|788|||Bookmarklet to look up #introduce-yourself posts.|res|COMM|1,2,1,1,1
+end-user-os|Personal computing presentations|Dalton Banks|754|https://alexanderobenauer.com/articles/os/1/||Presenting work on personal computing alongside Alexander Obenauer.|user,res|MALL|2,2,2,2,3
+lookatthat|LookAtThat|Ivan Lugo|792|https://github.com/tikimcfee/LookAtThat||AR toy for iOS/macOS that parses, traces and renders Swift program runtimes in 3D space.|dev|3D,UNDER,VIS|4,2,4,2,5
+coseller|Coseller protocol|Amit Rathore|793|https://cosellerprotocol.com/||Protocol for decentralized commerce.|pro|COLLAB|1,2,3,3,2
++noodl|794
+composability|Composability & lego-like code|Steve Krouse|795|https://twitter.com/stevekrouse/status/1523449402009948160||Musing on composable, remixable, small-piece functional programming with collaborators.|res|ESSAY|1,2,1,1,3
+desk|Desk|Ryo Hirayama|796,807,872|https://github.com/Hihaheho/Desk||Coding environment 'for the next 100 years', intuitive like games, plus egui_cable node widget library.|dev|VIS,LANG,GAME|3,2,5,4,5
+readablescript|ReadableScript|Nate Ferrero|797|https://readablescript.com/||Simple assembly-like JavaScript VM language.|dev|LANG,SMALL|1,2,2,1,3
+dbuf|dbuf|Alex Thompson|798|https://github.com/bintoca/dbuf||Unifying languages, databases and protocols starting from serialization.|dev|DATA,LANG|1,2,4,3,4
++lisperanto|799,809
++mech|800
++deathbykeystroke|801,876
+henosia|Henosia|Jim Meyer|802,818,838,853,854,861|https://henosia.com/|https://www.youtube.com/watch?v=_IxOcxTfEqw|Code-native design tool: direct manipulation of a running React app on a multiplayer canvas.|art,pro|LIVE,CANVAS,VIS|4,4,4,4,4
+text-second-brain|Text-based second brain|Chris Knott|803|https://www.youtube.com/watch?v=bi3YkY7UKmM|https://www.youtube.com/watch?v=bi3YkY7UKmM|Text-based knowledge management demo.|user|THINK|2,3,2,2,3
+videotext|Videotext canvas & physical spaces|Cristóbal|804,813|https://twitter.com/tobyshooters/status/1532108991114924036||Canvas for thinking with video via time-aligned transcripts; mapping macOS spaces to physical room spaces.|user,res|THINK,CANVAS,HW|4,3,3,2,5
++pwl-edu|805
+makeabetter|makeabetter.computer|Parker Henderson|806|https://makeabetter.computer/||Tiny microgrants for people working on the future of computing.|res|COMM|2,3,1,2,2
+codeball|Codeball / Semantic Code Search / Suspicious|Kiril Videlov|808,878,882|https://github.com/sturdy-dev/semantic-code-search||AI code review bot, natural-language code search and local AI bug finder.|dev,pro|AI,UNDER|1,4,3,2,3
+jimmy-visualizer|Visualizer for a new language feature|Jimmy Miller|810|https://twitter.com/jimmyhmiller/status/1531638254264541185||Spare-time visualizer for program internals.|dev|UNDER,VIS|3,3,3,2,3
++arner-notes|811,816
++blawx|812,833
+lines-love|lines.love and LÖVE apps|Kartik Agaram|814,830,837,845|https://akkartik.name/lines.html||Plain-text editor with inline line drawings in LÖVE; family of small malleable apps (pensieve, bifold text).|user,dev|SMALL,MALL,THINK|3,4,2,2,3
++foc-podcast|815,835,859,870
++webcode|817,826
++code-bubbles-auto|819,831
+linkians|Linkians|Scott Antipa|820|https://linkians.com/||Sims-like game of emojis living in your URL bar; state in the URL.|user|GAME,ART|5,1,1,1,5
+games-degree|Games design & art degree|Adam Procter|821|https://www.twitch.tv/gamesdesignart||Progressive games design course at Winchester School of Art.|edu,art|EDU,GAME|4,3,2,3,2
+grasp|GRASP|Maciek Godek|822|https://github.com/panicz/grasp-android|https://www.youtube.com/watch?v=H0YNZCO7gyQ|Graphical Scheme programming environment for touch devices with gestures.|dev|STRUCT,VIS|3,3,4,3,5
++mu|823
+eyg|EYG (Eat Your Greens)|Peter Saxton|824,836,862|https://petersaxton.uk/log/|https://vimeo.com/730788967|Language and structural editor with universal apps across machines, type-safe hot code reloading and effects for end-user programming.|dev,user|LANG,STRUCT,EUP|2,3,5,3,5
+preimp|preimp|Jamie Brandon|825|https://www.scattered-thoughts.net/log/0025#preimp||Notebook that is also a database.|dev|NB,DATA|1,3,3,2,4
+grapher|Compound graph editor|Nilesh Trivedi|827,843,869|https://grapherx.netlify.app/||Visual editor for compound graphs (adjacency and inclusion); used for Foresight tech trees.|res,user|THINK,VIS|2,4,3,2,3
++wasp|828
+gloodata|GlooData (GLUI)|Mariano Guerra|829,856|https://instadeq.com/experiments/glui/v1/|https://www.youtube.com/watch?v=bl7T7GYiQfU|UI for creating complex configurations and scripts without config/scripting language limitations.|user,pro|EUP,STRUCT|2,4,3,3,3
++foc-search|834
+knotend|knotend|Scott Antipa|839|https://knotend.com/||Keyboard-driven flowchart editor.|pro,user|THINK,VIS|3,4,2,2,3
+hof|hof|Tony Worm|840|https://docs.hofstadter.io/||CUE-powered code generation framework.|dev,pro|LANG|1,3,4,3,2
+zoa|Zoa playground|yeT|841|https://glitch.com/~zoa-playground||Playful keyboard-and-blocks toy where small 'zoa' connect together.|art,user|ART,GAME,VIS|5,1,1,1,5
+data-rabbit|Data Rabbit|Ryan Robitaille|842|https://datarabbit.com/|https://www.youtube.com/watch?v=24GRiOCa1Vo|Flow-based Clojure live-coding canvas for visual data exploration.|pro,dev|CANVAS,LIVE,DATA|4,4,4,3,4
+normand-books|Domain Modeling & Leverage Machines books|Eric Normand|844|||Planned books on domain modeling and building high-leverage languages (FORTH, OOP, Lisp, Logic).|dev,edu|EDU,LANG|1,4,2,2,2
+pldb|PLDB|Breck Yunits|846,848,850,858|https://pldb.com/||Database of thousands of programming languages; public-domain advocacy; Explorer spreadsheet tool.|dev,res|COMM,LANG|2,4,2,4,2
+jason-spreadsheet|New spreadsheet|Jason Chan|847|||New type of spreadsheet with data blocks.|user|EUP|3,3,3,3,3
+skymass|SkyMass|Pasha Sadri|849,855|https://skymass.dev/||Cloud 'UI server' that wraps the whole frontend as a service.|dev|EUP|1,3,3,3,4
+valtown|Val Town|Steve Krouse|851,875|https://val.town/||Social website to write and deploy TypeScript snippets; 'end-programmer programming'.|dev|LIVE,COLLAB,EUP|2,5,3,4,3
+columnator|columnator|Jan Ruzicka|852|https://github.com/ruza-net/columnator||CLI converting tabs and aligned spaces.|dev|SMALL|1,2,1,1,1
++mockmechanics|857,866
+buzz|Buzz|Chidi Williams|860|https://github.com/chidiwilliams/buzz||Desktop app transcribing audio with Whisper.|user|AI|1,4,2,2,1
++scroll|863,868
+ohayo|Ohayo|Breck Yunits|864|https://v20.ohayo.computer/||Tree-language data science studio.|dev,user|LANG,DATA,VIS|2,3,2,2,3
+rusher-talks|Stop Writing Dead Programs talk|Jack Rusher|865|https://www.youtube.com/watch?v=8Ab3ArE8W3s|https://www.youtube.com/watch?v=8Ab3ArE8W3s|Strange Loop talk arguing for live, interactive programming systems.|dev,res|ESSAY,LIVE|4,4,2,3,3
+classic-ux|Classic HCI demos|Jack Rusher|874|https://jackrusher.com/classic-ux/||Mini-site of curated classic HCI demo videos with period styling.|res,edu|COMM,ESSAY|4,4,1,2,1
+dtu|dtu (Data The Ultimate)|Mariano Guerra|867|https://github.com/spawnfest/dtu||Data format that can define decent programming languages, built at SpawnFest.|dev|LANG|1,2,2,1,4
+spellular|Spellular Automata / TodePond|Lu Wilson|871,879|https://www.todepond.com/|https://youtu.be/xvlsJ3FqNYU|Visual/spatial programming tools for cellular automata (SandPond lineage).|art,user|VIS,ART,LIVE|5,2,3,3,5
+forest|Forest|Jatin Sandilya|873|https://buildwithforest.com/||Workflow builder for APIs; GPT-3 Slack thread summaries.|dev|AI,EUP|1,3,2,2,2
+yirgacheffe|Yirgacheffe|Michael Dales|877|https://digitalflapjack.com/blog/yirgacheffe/||Python library/DSL letting ecologists work with large geospatial datasets.|res|DATA,LANG|1,4,3,2,2
+learnawesome|LearnAwesome|Nilesh Trivedi|880|https://learnawesome.org/||Curating the best learning resources on the web.|edu,user|EDU,COMM|1,4,2,3,1
++flowrunner|881
++lamdu|883
++typecell|884,887
++nextjournal-clerk|885,901,931
++lamdu|886,955
++tarvydas-blog|888,937,950
+uptointerpretation|Up to Interpretation blog|Nicholas Yang|889,897,899|https://github.com/NicholasLYang/uptointerpretation||Posts on compilation strategies, browser languages and Rust→Wasm woes.|dev|ESSAY,LANG|1,3,3,1,2
++foc-podcast|890,902,919,936,957,966,989
+glide-components|Glide code components|Szymon Kaliski|892|https://www.glideapps.com/research/code-components||End-user-programmable UI builder researched and prototyped for Glide.|user,res|EUP,VIS|3,4,3,3,4
+action-cat|Action Cat & multiplayer AI UIs|Matt Webb|893,935,963|https://interconnected.org/more/2022/action-cat/||Call bot exposing app functions via spreadsheets; AI poem clock; sketches of multiplayer UIs with AI NPCs.|user,art|AI,ART,COLLAB|5,2,2,2,5
+subset|Subset|Jason Chan|847,894,918|https://subset.so/||New spreadsheet with data blocks, abstractions and Notion-like file navigation.|user,pro|EUP|3,4,3,3,3
+devtools-fm|devtools.fm podcast|Justin Bennett|895|https://devtools.fm/episode/45||Podcast on developer tools (episode with Unison's Rúnar).|dev|COMM|1,3,1,2,1
+rusher-hardware|Hardware interfaces for programming|Jack Rusher|896|https://twitter.com/jackrusher/status/1605277648946860034||Experiments with knobs and other hardware controllers for live programming.|art,dev|HW,LIVE|4,2,2,1,4
++mu|898
++tofu|900
+codex-find|Codex find/replace syntax|Gus Hogg-Blake|903|https://codex-kappa-dusky.vercel.app/||Find/replace syntax mixing text, regexes, indents and tree-sitter queries.|dev|STRUCT|1,3,3,1,3
++enso|904
++pwl-edu|905
++henosia|906
++eyg|891,907,920,953,965
+jaredly|Type inference that sticks (jerd)|Jared Forsyth|908,911|https://jaredforsyth.com/posts/type-inference-that-sticks/||Projectional language/structured editor where type inference results are persisted in the code.|dev|STRUCT,FORMAL,LANG|2,3,4,2,4
+nodysseus|Nodysseus|Ulysses Popple|909|https://nodysseus.io/|https://youtu.be/BhbF7RrVjlw|Node-based visual programming for creative coding, with sync between instances.|art,dev|VIS,ART,COLLAB|4,3,3,2,4
++spellular|910,917,943
+dreamberd|DreamBerd|Lu Wilson|943|https://github.com/TodePond/DreamBerd||Satirical 'perfect' programming language with absurd features.|dev|LANG,GAME|4,1,1,2,4
+wasm-groundup|WebAssembly from the Ground Up|Mariano Guerra,Patrick Dubroy|912,921,942,981,983|https://wasmgroundup.com/||Digital-first interactive book teaching WebAssembly by building a compiler, with inspectors and REPLs.|edu,dev|EDU,LANG|3,5,3,3,3
+sqrl|SQRL|Josh Yudaken|914|https://sqrl-lang.github.io/sqrl/||SQL-based rules DSL for fighting spam, abuse and fraud at scale.|pro|LANG,DATA|1,4,3,3,2
++lisperanto|915
+outables|Outables|Mariano Guerra|916|https://youtu.be/GHmiffK-eoA|https://youtu.be/GHmiffK-eoA|Outlines + data tables UI component.|user|DATA|2,3,2,1,3
++dsn|922
+leibniz|Leibniz|Konrad Hinsen|922|https://diode.zone/w/1RUVjM5xj54gZjHXobSNUe||Digital Scientific Notation for writing models readable by humans and computers.|res|FORMAL,LANG,NB|2,3,4,2,4
+moon-maker|eli.li tools and writing|Eli Mellen|923,925|https://eli.li/||Personal text-editor and small-tool experiments inspired by Naur.|dev|SMALL,ESSAY|3,2,1,1,3
+flyde|Flyde|Gabriel Grinberg|924,987|https://flyde.dev/||Open-source visual flow-based programming toolkit integrated with existing codebases and VSCode.|dev|VIS,DATA|3,4,3,3,3
+vlhcc|VL/HCC call|Rebecca Krosnick|926|https://conf.researchr.org/home/vlhcc-2023||Visual languages and human-centric computing conference call.|res|COMM|1,2,1,2,1
++arner-notes|927
++blawx|928
++gloodata|929,947
+riverbed|Riverbed|Josh Justice|930,980|https://about.riverbed.app/|https://youtu.be/hRHvcDbNTpc|App to build personal card-based mini-apps for tracking information with auto-filtering columns.|user|EUP|3,4,2,2,3
+hivemind|Memex Hivemind bot|Oliver Sauter|932|https://memex.garden/hivemind||Bot giving searchable archive of links shared in Slack/Discord.|user|THINK,COMM|1,3,2,2,2
+magic-hands|Magic Hands|Tak Tran|933|https://magichands.forestinthetree.com/||Hand tracking toy with fluid simulation inspired by Bret Victor.|art|ART,HW|5,1,2,1,4
++darklang|934
+quickpoint|QuickPoint|greg kavanagh|938,939,940,969,977,984|https://author.quickpoint.me/||DSL for mixed-media pages: Markdown meets YAML, HyperCard-ish.|user,art|EUP,ART|4,3,2,2,4
+aicombinator|AI Combinator bot|Nilesh Trivedi|941|https://github.com/aicombinator/bot||CLI bot doing online tasks with GPT, Puppeteer and APIs.|dev|AI|1,3,3,2,3
+tarvydas-0d|0D / Drawware|Paul Tarvydas|945,946|https://handmade.network/p/374/odin0d/||Programming with diagrams drawn in draw.io compiled to asynchronous 0D components.|dev,res|VIS,DATA|3,3,4,3,5
+empirical|Empirical software questions|Jimmy Miller|948|https://jimmyhmiller.github.io/empirical||Essay on limits of empirical answers for software practice questions.|res|ESSAY|1,3,1,1,2
+snap-love|snap.love and Freewheeling Apps|Kartik Agaram|949,956,968,988|https://akkartik.name/freewheeling||Hand-laid-out graph drawing app and the 'freewheeling apps' philosophy of small malleable LÖVE apps.|user,dev|SMALL,MALL|3,4,2,2,4
+magic-of-code|The Magic of Code book|Sam Arbesman|951|https://arbesman.substack.com/p/the-magic-of-code||Book about computation from many angles.|user|ESSAY|3,3,1,3,2
+tana|Tana command nodes|Stian Håklev|952|https://help.tana.inc/tana-for-builders.html||Command nodes + AI workflows in the Tana outliner.|user,pro|THINK,AI,EUP|2,4,3,4,3
++sicm-clerk|954
+adjacent-possible|Adjacent Possible|prax08|958|https://prabros.com/adjacent-possible/||Explorations of novel UI designs.|art,res|ESSAY,VIS|4,2,2,2,4
+magnet|Magnet|Nicolae Rusan|959,982,985,986|https://magnet.run/||AI coding assistant using GPT-4 in the context of your codebase and issues.|dev,pro|AI|1,4,3,3,2
++lobster|961
+basic-js|BASIC to JS compiler|Kevin Greer|962|https://codepen.io/kgr/details/yLQyLjR||Tiny BASIC-to-JS compiler to run old programs.|dev,edu|LANG,SMALL|2,2,2,1,2
+lintrule|Lintrule|Evan Conrad|964|https://lintrule.com/||CLI where an LLM checks plain-text rules against your code.|dev|AI|1,4,2,2,3
+object-network|Object Network lab notes|Duncan Cragg|967,976|https://duncancragg.substack.com/||Vision of a 3D operating system without apps, built on linked objects.|user,res|MALL,3D,ESSAY|3,2,4,4,5
++codefaster|972,975
+signals-fw|Signals-only frontend framework|Grant Forrest|973|||Frontend framework made only from signals.|dev|DATA|1,2,2,1,3
+coil|coil editor|Marcelle Rusu|974|https://coil-editor.netlify.app/||Structural editor turning a language's AST directly into contenteditable HTML.|dev|STRUCT|2,2,3,1,4
+kairon|Kairon|Felipe Reigosa|978|https://github.com/felipereigosa/kairon|https://www.youtube.com/watch?v=Y2uiSF48bNY|Coding effectively in VR.|dev|3D,LIVE|4,2,3,2,5
++hamish-ga|979
++lines-love|990
++action-cat|991
++arner-notes|992
+frest|Distributed relational (Frest)|Guyren Howe|993|https://frest.substack.com/p/distributed-relational||Writing on a relational, distributed approach to software.|dev,res|DATA,ESSAY|1,3,3,2,4
+brand-tool|Automatic brand design tool|Janne Aukia|994|||Tool automatically designing brands and themes.|pro,art|AI,ART|4,3,2,2,2
++fizz|995
++eyg|996,1022,1077
+unison-cloud|Unison Cloud|Stew O'Connor|997,1055|https://unison.cloud/||Deploy any Unison function as a web service; content-addressed language cloud.|dev,pro|LANG,COLLAB|2,4,4,4,4
+ui-combinators|UI Combinators|Mariano Guerra|998,1000|https://www.youtube.com/watch?v=5VMiwcWHzEs|https://www.youtube.com/watch?v=5VMiwcWHzEs|Express complex UIs by composing a small set of combinators and terminals.|dev,user|EUP,STRUCT|2,3,2,2,3
++magic-of-code|999
++blawx|1001
++spellular|1002,1007,1062,1070
+ml-product|ML product management articles|Kilian Butler|1003,1083|https://www.papercup.com/blog/machine-learning-product-management||Articles on building ML-centred products and speech prosody.|pro|AI,ESSAY|1,3,2,1,1
+meaning-of-live|The Meaning of Live|Alex McLean|1004,1029|https://zenodo.org/record/7843567||Paper critiquing 'liveness' from live-coding arts perspective; Algorithmic Pattern Salon.|art,res|LIVE,ART,ESSAY|4,2,2,2,4
++grasp|1005
++gloodata|1006,1016,1050,1072,1084
+devine|Hundred Rabbits / daily drawings|Devine Lu Linvega|1008|https://100r.co/||Small-computing, permacomputing artist-programmer.|art|SMALL,ART|5,3,2,3,4
++foc-podcast|1009,1037,1064
+type-inference-viz|Type inference visualizations|Jared Forsyth|1011|https://type-inference-j.surge.sh/||Interactive visualization of how type inference algorithms work.|dev,edu|EDU,FORMAL,UNDER|3,3,3,2,3
+diy-mastodon|DIY Mastodon client|Konrad Hinsen|1012,1046|https://blog.khinsen.net/posts/2023/10/09/deconstructing-the-mastodon-client/||Do-it-yourself Mastodon tooling and essay on software sustainability (doughnut model).|res|MALL,ESSAY|2,3,2,1,3
+feminism-agile|Feminism and agile|Matt Wynne|1013|https://mattwynne.net/feminism||Essay on patriarchy in agile transformations.|pro|ESSAY|1,2,1,1,2
+hyperlayer|Hyperlayer|Geoff|1014|https://github.com/geoffw8/hyperlayer||Visualization layer combining app flow, state and code to debug Rails apps.|dev|UNDER|2,4,3,2,3
++coil|1015
+m-ld|m-ld|George Svarovsky|1017|https://m-ld.org/||Peer-to-peer live information sharing component for local-first reactive apps.|dev|COLLAB,DATA|1,4,4,3,3
++sicm-clerk|1019
+rusher-ga|Geometric algebra talk|Jack Rusher|1018|https://jackrusher.com/pwl-2023/||Talk + mini-site on geometric algebra papers.|res,edu|ESSAY,3D|4,3,3,2,3
+not-forth|I CAN'T BELIEVE IT'S NOT FORTH|Arcade Wise|1020,1021|||Forth-like language with its own UI.|dev|LANG,SMALL|3,2,2,1,4
+kopi|Kopi & React Desktop|Mike Austin|1023,1040|https://mike-austin.com/react-desktop/|https://www.youtube.com/watch?v=jFh6s2p9kzc|Small immutable async language with a React desktop environment and a how-to-write-a-language tutorial.|dev,edu|LANG,MALL,EDU|3,3,3,2,3
+colorful-types|Colorful types code map|Daniel Garcia|1024,1042|||Map of a TypeScript codebase where every type is a color, with zoom levels.|dev|UNDER,VIS|4,3,3,2,4
+wordplay|Wordplay|Amy Ko|1025|https://wordplay.dev/||Accessible, language-inclusive programming language for interactive typography, for learners.|edu,kids|EDU,LANG,ART|5,4,4,4,4
+mightymeld|MightyMeld|Steven Schkolne|1026|https://mightymeld.com/||Visual dev tool for React with direct manipulation.|pro,dev|LIVE,VIS|3,4,3,3,3
++object-network|1027,1032,1036,1057,1076
+arroost|Arroost|Lu Wilson|1028,1039|https://arroost.com/|https://youtu.be/cF2OF75ivZM|Node-based tool for making scrappy music by feeling.|art|ART,VIS,CANVAS|5,3,3,2,5
+levlo|Levlo|Jarno Montonen|1030|https://levlo.com/||Early-stage product; feedback on messaging.|pro|EUP|1,2,2,2,2
+latent-centers|Personification of computer processes|Tomaz Zlender|1031|https://latentcenters.com/personification-of-computer-processes||Essay on a metaphor for programming in game-like, Dynamicland-like environments.|res|ESSAY,GAME|3,2,2,1,4
++plato|1033,1047
+shady-phoney|Mobile shader editor|Gregor|1034|https://shd.is/||Experimental shader editor for phones.|art,dev|ART,LIVE|4,3,2,1,3
+nj-cards|New Jersey Cards|Mariano Guerra|1035|https://github.com/marianoguerra/nj-cards||Simple textual format for practice notes with guitar chord/music extensions.|user,art|EDU,SMALL|2,3,1,1,2
+nilenso-sheets|Spreadsheets and small software|Prabhanshu Gupta|1038|https://blog.nilenso.com/blog/2023/11/10/spreadsheets-and-small-software||Research and writing a spreadsheet engine.|user,dev|EUP,SMALL|2,3,3,2,3
+carousel|Lua Carousel|Kartik Agaram|1041,1059,1075|https://akkartik.itch.io/carousel||Lightweight programming environment for desktop and mobile you can change while it runs.|user,dev|LIVE,MALL,SMALL|3,4,2,2,4
+jhp-libs|Collaborative mobile dev env libraries|Jason Priestley|1043|https://github.com/jhp/palimpsest||Libraries (recursive grammars, palimpsest) toward a collaborative mobile-friendly dev environment.|dev|COLLAB,LANG|1,2,4,2,4
++tarvydas-blog|1044
+wigwam|wigwam.directory|Taylor Troesh|1045|https://wigwam.directory/||Directory of projects reducing reliance on bloated infrastructure.|user|SMALL,COMM|2,3,1,2,3
+pebble|Pebble Graphics|Irvin Hwang|1048|https://youtu.be/Fl3DjzTdUo8|https://youtu.be/Fl3DjzTdUo8|VR visual/spatial programming app for making graphics.|art,edu|3D,VIS|5,2,3,2,5
+motion-extract|Posy motion extraction|Chigozie Nri|1049,1051|https://replicate.com/chigozienri/posy-motion-extraction||Motion extraction video effect on Replicate.|art|ART,AI|4,2,2,1,2
+wizardry-frontier|Wizardry frontier|Chris Krycho|1052|https://v5.chriskrycho.com/journal/wizardry-frontier/||Framing on moving the state of the art.|dev|ESSAY|1,2,1,1,2
++lookatthat|1053
+shader-park|Shader Park intro|Rafał Pastuszak|1054|https://untested.sonnet.io/Shader+Park+is+Kinda+Neat||Intro to Shader Park, a JS-like DSL for shaders.|art,dev|ART,EDU|4,3,2,1,2
+montaigne|Montaigne & public.me|Anton Podviaznikov|1056,1073|https://montaigne.io/||Publish Apple Notes, Photos and Reminders as websites.|user|MALL,EUP|2,4,2,2,3
+llvm-ir|Learning LLVM IR|FreeMasen|1058|https://freemasen.com/blog/llvm-ir/||Post on learning LLVM IR.|dev|EDU|1,3,2,1,1
+llm-creative|LLMs augmenting creative problem solving|Vardnan Sivarajah|1060|https://www.youtube.com/watch?v=eDRg5WgSrm0|https://www.youtube.com/watch?v=eDRg5WgSrm0|Student concept exploring LLMs for creative problem solving.|user|AI,THINK|3,2,2,1,3
++grapher|1061
+stuck|Theory, world-building and software|Jimmy Miller|1063|https://jimmyhmiller.github.io/stuck||Essay: theory creation, world-building and crafting software are one act.|res|ESSAY|3,2,1,1,3
+formula-recursion|Formulas in formulas|Robin Allison|1065|||Math idea of recursively nested formulas inspired by 'Screens in Screens'.|res|FORMAL,VIS|4,1,3,1,5
+human-server|Don't strip meaning from your runtime|Mariano Guerra|1066,1069|https://marianoguerra.org/msite/human-server-protocol/||Extending languages with domain descriptions; Binary Tetris interactive bit playground.|dev,edu|ESSAY,EDU|3,3,2,1,4
+simplicity|On simplicity series|Stefan Lesser|1067|https://stefanlesser.substack.com/p/on-simplicity||Substack series on simplicity, meaning-ful design and familiarity.|res|ESSAY|3,3,1,2,3
++henosia|1068
+polygon|Polygon|Clam R|1071|https://polygon.iimaginary.com/||Spatial drum sequencer where node positions determine rhythm.|art|ART,CANVAS|5,3,2,1,4
+unit|Unit|Samuel Timbó|746,1074|https://github.com/samuelmtimbo/unit||Beautiful visual reactive graph programming environment, combined with LLMs.|dev,art|VIS,DATA,AI|5,3,4,4,5
+otto-phd|AI + HCI thesis|Jasmine Otto|1078|https://escholarship.org/uc/item/98c6j416||PhD on marrying AI and HCI: paper tools, rapid viz prototyping, DSLs.|res|AI,VIS|2,2,3,2,3
+blueprints|Blueprints|Scott|1079|https://github.com/sublayerapp/blueprints||Programming with LLMs by example 'blueprints' instead of code generation.|dev|AI|1,3,2,2,4
+recursive-dm|Infinite recursive direct manipulation|Elliot|1080|||Library for rendering and directly manipulating infinite recursive drawings.|art,res|VIS,LIVE,ART|5,2,4,2,5
++flyde|1081
+notation-repr|Notation and representation|Jamie Brandon|1082|https://www.scattered-thoughts.net/writing/notation-and-representation/||Struggles with nominal types sneaking in everywhere.|dev,res|ESSAY,FORMAL|1,2,3,1,3
+tldraw-notepad|Infinite single notepad|Daniel Buckmaster|1085|https://www.tldraw.com/||Using tldraw as one infinite notepad canvas.|user|CANVAS,THINK|3,3,1,1,2
++dreamberd|1086
++gloodata|1087,1139,1140,1152
+bicycle-codes|bicycle-codes modules|nichoth|1088,1111,1117,1118,1128,1143|https://github.com/bicycle-codes||Small web modules for local-first, E2E-encrypted apps and web components.|dev|COLLAB,SMALL|1,3,2,1,2
++eyg|1090,1112,1144,1170,1185
+juno|Juno lang|Rafi Khan|1091|https://github.com/KinaKnowledge/juno-lang||Lisp for live-coding the DOM with React.|dev|LIVE,LANG|2,2,3,2,3
+emweb|emweb|Gregor|1092|https://dflate.io/emweb||Prototype of a more interwoven web.|user,res|MALL,THINK|3,2,3,2,4
++foc-podcast|1093,1098,1116,1157,1158,1188
++object-network|1094,1146
+zest|Zest|Jamie Brandon|1095,1115,1148,1176|https://www.scattered-thoughts.net/writing/zest-dialects-and-metaprogramming/||Language design notes: static/dynamic dialects, syntax, mutable value semantics, wasm compiler.|dev,res|LANG|1,3,5,3,4
+ten-dev|ten.dev|Eoghan Mulcahy|1096|https://www.ycombinator.com/launches/KWX-ten-dev-understand-code-remarkably-fast||Captures program 'theory' by having developers explain auto-generated paths through code.|dev,pro|UNDER,AI|1,4,3,3,4
++henosia|1097,1124
+cloudbugfix|Verifying LLM bugfixes in cloud|Luifer De Pombo|1099|https://lfdepombo.com/cloudbugfix||Auto-verifying LLM-generated bugfixes using cloud infrastructure.|dev|AI|1,3,3,2,3
+unregulated-io|Unregulated I/O ecosystem|Doug Thompson|1100|||Ambitious computing ecosystem idea based on Oberon, flatbuffers, IPFS and Git.|res|MALL|1,2,5,5,5
+omnipilot|Omnipilot|Michael Jelly|1101|https://omnipilot.ai/||AI copilot that types into any macOS app.|user,pro|AI,EUP|1,4,2,2,3
++flowrunner|1102,1138
+codeflowcanvas|CodeFlowCanvas|Maikel van de Lisdonk|1102,1138|https://codeflowcanvas.io/||Online visual programming canvas (successor of flowrunner).|dev|VIS,CANVAS|3,3,3,3,3
+programming-games|Programming-adjacent games|Mariano Guerra|1103|https://marianoguerra.org/posts/playing-with-code-programming-adjacent-games/||Collected summary of games that involve programming.|edu,user|GAME,EDU,COMM|3,3,1,2,1
+oklch-colors|Unique colors in oklch|Fredrik|1104|https://typst.app/project/roIpfK0qpTfEMeHW-rIfpK||Formula for well-distributed unique colors in oklch.|dev,art|ART|4,4,2,1,2
+khipu|Khipu tangible programming|Alex McLean|1105,1107|https://algorithmicpattern.org/||Tangible programming interface inspired by Andean khipu; algorithmic pattern research.|art,res|HW,ART|5,2,3,2,5
+slate|Slate|Mohit Karekar|1106|https://try-slate.com/||Notebook mixing natural-language prompts and code for data work.|pro,user|NB,AI,DATA|2,3,3,2,3
+everywhere-computer|Everywhere Computer functions|Zeeshan Lakhani|1108|https://fission.codes/blog/functions-everywhere-only-once/||Compile functions to Wasm components and compose multi-language workflows.|dev|COLLAB,LANG|1,3,4,3,4
+resheet|ReSheet|Daniel Krüger|1109,1145|https://resheet.dev/||Notion-spreadsheet hybrid with embedded computation blocks.|user,pro|EUP,NB|2,4,3,3,3
+lattice|Lattice|John Austin|1110|https://johnaustin.io/articles/2024/lattice-now-compiles-to-net-il||High-performance visual programming system for Unity compiling to .NET IL.|dev,art|VIS,GAME|3,4,4,3,3
+cherrierview|CherrierView|Ivan Lugo|1113|https://github.com/tikimcfee/LookAtThat||See all your files in 3D as a mental map.|dev|3D,UNDER|4,2,3,2,4
+torn-leaf|TORN LEAF ZERO|Lu Wilson|1114,1166|https://www.youtube.com/watch?v=-FgAHiI3ZNY|https://www.youtube.com/watch?v=-FgAHiI3ZNY|Exhibition and collaborative artwork; livestream performance on recursion.|art|ART|5,1,2,3,4
++gtoolkit|1119,1151
+polylab|Exploring Spaces (polylab)|Elliot|1120,1121,1125,1129,1134,1141|https://vezwork.github.io/polylab/dist/demo/articles/exploring_spaces_1/||Interactive articles exploring topological spaces: tori, twisted strips, spheres, zoomable number lines.|edu,art|EDU,VIS,ART|5,3,3,2,5
+clog-inspector|Moldable inspector for Common Lisp|Konrad Hinsen|1122|https://codeberg.org/khinsen/clog-moldable-inspector||Moldable object inspector for Common Lisp.|dev,res|MALL,UNDER|2,3,3,2,3
+calculang|calculang|Declan|1123,1142,1147,1171,1190|https://calculang.dev/||Language for transparent calculations/models with interactive explainers (inflation, raycasting, risk, actuarial).|pro,edu|LANG,EDU,DATA|4,4,3,3,4
+canvas-autocomplete|Canvas autocomplete|Lu Wilson|1126|https://youtu.be/r6ls8Gw9MmY|https://youtu.be/r6ls8Gw9MmY|Building autocomplete for drawing canvases.|art,user|CANVAS,AI|4,3,3,2,4
+quiver|Quiver|Christopher Shank|1127|https://github.com/Little-Languages/quiver||Declarative arrow/connection toolkit for HTML.|dev|VIS,CANVAS|3,4,2,2,4
+drawdeadfish|Draw Dead Fish|Lu Wilson|1130|https://drawdeadfish.com/||Experimental drawing tool where you draw dead fish.|art|ART,GAME|5,1,1,1,5
+db48x|DB48X calculator|Christophe de Dinechin|1131|https://www.youtube.com/watch?v=cd4gXl9Z78g|https://www.youtube.com/watch?v=cd4gXl9Z78g|RPL scientific calculator firmware (successor of HP48).|user,edu|HW,LANG|2,4,4,3,2
+fig|Fig|Rafał Pastuszak|1132,1160|https://fig.sonnet.io/||Drawing app where every pixel has a lifespan, with programmable brushes.|art|ART|5,2,2,1,5
+forethink|Forethink AI pipeline REPL|Cole Lawrence|1133,1137|||AI pipeline REPL with live execution previews.|dev|AI,LIVE|2,3,3,2,3
+cell-tutorial|Interactive self-hosted language tutorial|Jared Forsyth|1135|||Structured editor / literate environment for creating self-hosting languages, turned into an interactive tutorial.|dev,edu|STRUCT,NB,EDU|3,3,4,2,4
+propagators|Propagator networks on tldraw|Dennis Hansen|1136|||Bi-directional propagator network simulator on a tldraw canvas.|dev,res|CANVAS,DATA,VIS|3,3,3,2,5
+agile-essay|Everything is agile|Jase Pellerin|1149|https://everythingisagile.substack.com/||Writing on the raw core of agile.|pro|ESSAY|1,2,1,1,1
++tarvydas-blog|1150,1163,1164,1184
+solving-vs-influencing|Solving problems vs influencing people|Lu Wilson|1153|https://www.todepond.com/wikiblogarden/blending/goals/community/||Survey of researchers' goals.|res|ESSAY,COMM|3,2,1,1,3
+hypotalk|HypoTalk|Mariano Guerra|1154|https://www.youtube.com/watch?v=18JM63FfMGI|https://www.youtube.com/watch?v=18JM63FfMGI|Live HyperTalk-like environment to compose UIs with minimal logic.|user,dev|LIVE,MALL,EUP|3,3,2,2,4
++hamish-ga|1155,1162
+uracoder|You are a coder zine|ender|1156|https://enderversing.itch.io/uracoder||Digital zine: end users are always already programming.|user,art|ESSAY,EUP|4,2,1,1,3
+make-your-self|Make Your Self (minimal OOP language)|Mariano Guerra|1159,1161,1167|https://marianoguerra.org/posts/make-your-self/||Growing the smallest OO language step by step; macros as phases; meta-tracing JIT.|dev,edu|LANG,SMALL,EDU|2,3,4,2,4
+labview-ai|LabVIEW AI copilot|Jim Kring|1165,1172|https://www.linkedin.com/posts/jimkring_labview-sparkles-is-an-ai-copilot-for-acti||AI coding assistant with voice for LabVIEW visual programming.|pro|AI,VIS|2,4,3,3,4
+folk|Folk Computer|Naveen Michaud-Agrawal|1168|https://folk.computer/||Dynamicland-inspired physical computing system with projectors and cameras.|user,res|HW,MALL|4,3,4,4,5
+anim-stack|Animation stack language|Beni Cherniavsky-Paskin|1169|https://animation-stack-language.netlify.app/||Postfix stack language for teaching kids with animations.|kids,edu|EDU,LANG,ART|4,3,2,1,4
+diplomatic|DIPLOMATIC|Mason|1173|https://diplomatic-docs.replit.app/||Secure state sync framework between clients.|dev|COLLAB|1,3,3,2,3
++arroost|1174
+hack-tooling|Hack computer tooling|Ignacio Brasca|1175|https://github.com/Warkanlock/hack-tooling||Tools built while learning the Nand2Tetris Hack architecture.|edu,dev|EDU,SMALL|1,3,2,1,1
+2222|2222|Ivy Reese|1177|https://github.com/ivanreese/2222||Programming meta-game: you implement the game in any system, then play it.|dev,user|GAME,EDU|4,2,1,1,5
+vsps|Visual stream processing|Safta Catalin Mihai|1178|https://mihai-safta.dev/posts/vsps/||Visual stream processing on tldraw with Pekko Streams.|dev|VIS,CANVAS,DATA|3,3,3,2,4
+spectral|Spectral|nith|1179|https://getspectral.io/||Infinite canvas for code navigation, onboarding and debugging.|dev,pro|CANVAS,UNDER|3,4,3,3,3
++lesser-essays|1180
++schema|1181
+machine-ethics|Machine Ethics podcast|Ben Byford|1182|https://www.machine-ethics.net/||Podcast on AI philosophy and ethics.|user|AI,ESSAY|2,3,1,2,1
+okapi|okapi JS parser|John Flockton|1183|https://github.com/thegreatercurve/okapi||Spec-compliant JavaScript parser outputting ESTree.|dev|LANG|1,3,4,2,1
+dendryscope|DendryScope|Jasmine Otto|1186|https://jazztap.github.io/DendryScope/||Static analysis tool for interactive fiction generating playtraces matching queries.|art,res|GAME,UNDER|4,3,3,2,4
+watch-scratch|Watch-script scratchpad|Ezhik|1187|https://mastodon.social/@Ezhik/112830950176229170||Tiny editor + watch loop instead of a REPL for messing around.|dev|LIVE,SMALL|2,3,1,1,3
++levlo|1189
+signal-nodes|Signal-processing node-and-wire system|John Christensen|1191|||Node-and-wire system for signal processing with plots.|pro,dev|VIS,DATA|3,3,3,2,3
+synthesis-math|Program synthesis for math/ARC|Nilesh Trivedi|1192,1214|||Reproducing papers on program synthesis for AI math solving and ARC-AGI; Bangalore FoC meetup demos.|res|AI,FORMAL|1,2,4,2,4
++make-your-self|1193,1195,1199
++eyg|1194,1221,1263
++arroost|1196,1232
++tarvydas-blog|1197,1222,1280,1285
+tensort|Tensort|Kyle Beechly|1198|https://github.com/kaBeech/tensort||Family of robust sorting algorithms inspired by Dave Ackley's Beyond Efficiency.|res,dev|ESSAY,FORMAL|2,2,3,2,4
++foc-podcast|1200,1260,1264,1286
+bloquecitos|bloquecitos|Mariano Guerra|1201|https://marianoguerra.github.io/experiments/bloquecitos/||'The ultimate visual programming language' — a playful block language experiment.|edu,user|VIS,EDU,GAME|3,2,1,1,3
+ludwig|Project Ludwig|Pavel Mikhailovskii|1202,1224|https://www.linkedin.com/pulse/designing-future-coding-jetbrains-pavel-mikhailovsk||JetBrains research project re-engineering the foundations of the software development stack.|pro,res|LANG,STRUCT|1,3,5,5,5
++levlo|1203,1279
++object-network|1204
+fractions-love|fractions.love|Kartik Agaram|1205,1281|https://git.sr.ht/~akkartik/fractions.love||Minimalist text-drawing policies with hit-testing; practicing graphical debugging visualizations.|dev|SMALL,UNDER|2,3,2,1,3
+semantic-vim|Semantic vim-like VSCode extension|Zak Miller|1206|https://youtu.be/owuuFxDBQh4|https://youtu.be/owuuFxDBQh4|Vim-like editing with functions and parameters as first-class objects.|dev|STRUCT|1,3,2,1,3
++calculang|1207,1253
+schrodinger-wiki|Schrödinger's Wiki & webvectors|Mariano Guerra|1208,1210|https://www.youtube.com/watch?v=qWlTxQAcFQQ|https://www.youtube.com/watch?v=qWlTxQAcFQQ|LLM-generated wiki that collapses into existence when visited; 3D vector embedding visualizer.|res,user|AI,THINK|4,2,3,2,5
+cubode|Cubode graphs|Rebeca Garcia|1209|https://graph.cubode.com/||Auto-generates embeddable charts from CSV with agentic AI.|user,pro|AI,DATA|2,3,2,2,2
+motif|Motif designer|Natalie Freed|1211|https://motifdesigner.netlify.app/||PBE + block programming educational drawing tool ('macro recorder for Kid Pix').|kids,edu|EDU,VIS,ART|5,3,2,2,4
+qa-research|QA user research|saba|1212|||User research on building reliable products and QA.|pro|COMM|1,2,1,1,1
+bloom-penrose|Bloom (Penrose)|Josh Sunshine|1213|https://penrose.cs.cmu.edu/blog/bloom||Library for interactive diagrams by declaring constraints instead of event handling code.|edu,dev|VIS,EDU|4,4,4,3,4
+kendraio|Kendraio|Daniel Harris|1215|https://kendra.io/||Local-first, no-code, malleable environment for end-users to connect data.|user|EUP,MALL,COLLAB|2,3,3,3,3
+mietencheck|Mietencheck no-code editor|Gregor|1216|https://watwa.re/mietencheck||Rent price check with an 'I can't believe it's no-code' editor.|user|EUP|2,3,2,1,3
+binsbergen-papers|Composition control & graph-based code|Thomas van Binsbergen|1217,1257|https://ltvanbinsbergen.nl/files/papers/paint2024.pdf|https://youtu.be/_m1FKZvLrTM|Research prototypes: modular graph representation of code with multiple projections; cooperative specification.|res|STRUCT,FORMAL|2,2,4,2,4
+todepond-talks|TodePond talks & essays (tadi web, open, natural code)|Lu Wilson|1218,1219,1227,1236,1239,1261,1258,1273|https://www.todepond.com/|https://www.youtube.com/watch?v=ft6xOAijwFo|Talks and essays on the 'tadi web', openness, why tools for thought suck, Dialogues on Natural Code (with Dave Ackley), explainables.|art,res|ESSAY,ART|5,3,2,3,4
+ara|Ara|Medet Ahmetson|1220|https://ara.foundation/||Social network for building projects together.|user|COLLAB,COMM|1,2,3,3,3
++jaredly|1223
++nilenso-sheets|1225
+feeling-is-reality|FEELING IS REALITY|Ivy Reese|1226|https://feelingisreality.com/||Art/website piece by Ivy Reese.|art|ART|5,1,1,1,5
++nextjournal-clerk|1228
++codeflowcanvas|1229,1242
+miqula|miqula|Dany|1230|https://medium.com/@bitteldany/a-case-for-binary-packages-7844fb1a4909||Language/runtime with a case for binary packages.|dev|LANG|1,2,3,2,3
+yin-yang|Redressing the Balance (Yin-Yang IT)|Konrad Hinsen|1231,1241|https://www.youtube.com/watch?v=L1pOMC41bS8||Onward! essay on rebalancing information technology; research manifesto for future of scientific computing.|res|ESSAY|2,3,2,2,4
+spreadsheet-paint|Spreadsheet/paint hybrid|Kevin Greer|1233,1234|https://www.youtube.com/watch?v=4wO_RrftJTE|https://www.youtube.com/watch?v=4wO_RrftJTE|Spreadsheet-paint program hybrid with 2D/3D turtle graphics.|user,edu|EUP,ART,EDU|4,3,3,2,5
+ukstug|UK Smalltalk User Group meetups|Francisco Garau|1235,1244,1245|https://www.meetup.com/ukstug/||Meetups on LLMs in Smalltalk environments.|dev|COMM,MALL|1,3,1,2,1
++frest|1237,1265,1272
+collective-idea|It takes a collective to raise an idea|Mariano Guerra|1238|https://marianoguerra.org/posts/it-takes-a-collective-to-raise-an-idea/||Essay on lesser-known computing pioneers.|res|ESSAY|2,3,1,1,2
++montaigne|1240
++wasm-groundup|1243,1277
+smallweb|smallweb|Achille Lacoin|1246,1247,1252|https://smallweb.run/||Self-hostable personal cloud, 'coding in Dropbox', inspired by val.town and cgi-bin.|dev,user|MALL,SMALL|2,4,2,2,4
+fishtower|Fish tower & home-cooked apps|Conrad Godfrey|1248,1284|https://fishtower.conradgodfrey.com/||Playful realtime webtoys and 'app as a home-cooked meal' for non-technical audiences.|user,art|GAME,ART,EUP|5,2,1,1,4
++lookatthat|1249
++magic-of-code|1250,1251
++gloodata|1254
++beads|1255
+drostes-lair|Droste's Lair|Elliot,Joshua Horowitz|1256|https://vezwork.github.io/drostes-lair-post||Experimental visual programming environment set in a dungeon, exploring all possibilities at once.|art,res|VIS,GAME,LIVE|5,2,4,2,5
+pairs-campaign|corpus pairs|misha|1259|https://akovantsev.github.io/corpus/pairs-campaign||Small corpus exploration thing.|user|THINK|2,2,1,1,3
+gadget-integration|Systems integration take|Harry Brundage|1262|https://x.com/hashemito/status/1875196717639033101||Argument that accidental complexity now lives in systems integration.|pro|ESSAY|1,3,1,1,2
+lopecode|Lopecode|Tom Larkworthy|1266,1270|https://tomlarkworthy.github.io/lopecode/webpage.html||Self-hosted, recursively exportable, offline-first web programming substrate on the Observable runtime; fast direct-manipulation diagrams.|dev|NB,MALL,LIVE|3,4,4,3,5
+wrapper|wrapper (Ink & Switch)|Ivy Reese|1267|https://github.com/inkandswitch/wrapper||Tool supporting Ink & Switch research on dynamic programmable notebooks.|res|NB|2,3,2,1,2
+cell-todis|cell & todis|Federico Pereiro|1268,1274|https://github.com/altocodenl/cell|https://www.youtube.com/watch?v=aJn9V1yaWd4|Treatise on understanding computation systematically and building 'cell' live from the ground up.|res,dev|ESSAY,LANG,SMALL|2,3,4,3,4
+dense-ui|Dense UI view-model components|Cole Lawrence|1269|||MVVM+ECS approach and debugger for dense UIs.|dev|UNDER|2,3,3,2,3
++ml-product|1271
++signal-nodes|1275
+fifo|FIFO hypermedia|Jon Secchis|1276|https://jon.work/fifo||Semantic hypermedia data structure embracing scaling down.|dev,res|SMALL,THINK|2,2,2,1,4
+preview-mixin|CSS preview mixin|Roma Komarov|1278|https://kizu.dev/preview-mixin/||CSS technique to debug dynamic values by displaying them.|dev|UNDER|2,3,2,1,3
+transclusion-rects|Rectangle transclusions|Robin Allison|1282|https://youtu.be/iGHphz-NbBI|https://youtu.be/iGHphz-NbBI|Drawing rectangles and transclusions that recursively copy content.|art,res|VIS,ART|5,1,3,1,5
+adventure-calculus|Adventure calculus|Tomas Petricek|1283|https://tomasp.net/blog/2025/adventure-calculus/||Essay on an interaction pattern common in simple programming systems.|res|ESSAY,FORMAL|1,3,3,1,3
+functioncharts|Functioncharts|Bill Budge|1287,1288,1289|https://billbudge.github.io/WebEditorFramework/examples/functioncharts/||Diagram language for programs as expressive as text, with abstraction, iteration and recursion; statecharts editor.|dev,res|VIS,LANG|3,3,4,2,4
++smallweb|1290
+tweety|tweety|Achille Lacoin|1331,1333,1334,1335,1339|https://github.com/pomdtr/tweety||Using a web browser (Chrome extension) as terminal emulator with CLI access to extension APIs.|dev|MALL|2,3,3,2,4
+sonnet-toys|Hold hands & non-verbal web toys|Rafał Pastuszak|1291|https://hands.sonnet.io/||Little web toys for non-verbal communication online, like holding hands with strangers.|art,user|ART,COLLAB,GAME|5,2,1,1,5
+ariana|Ariana debugger|Isaline Goudeau|1292|https://marketplace.visualstudio.com/items?itemName=dedale-dev.ariana||VSCode extension for faster JS/TS debugging.|dev|UNDER|1,4,2,2,2
+watware|watwa.re visual environment|Gregor|1293,1382|https://bsky.app/profile/watwa.re/post/3lizpdz34522g||New visual programming environment ideas.|dev|VIS|3,2,3,2,4
+skwak|Scheme in awk|Eli Mellen|1294|https://eli.li/||Impractical but fun Scheme implementation in awk.|dev|LANG,SMALL|2,1,3,1,4
+ai-chip|AI-only chip idea|exis|1295,1296|||Idea for a chip architecture only for AIs.|res|AI,HW|1,1,5,4,5
++tarvydas-blog|1297,1320,1332,1346,1348,1359,1364,1366,1373,1375,1386,1392
+algorave-workshop|Algorave workshop: code as music notation|xyzzy|1298,1299|https://github.com/xyzzyapps/algorave-workshop-hyd-2025-feb|https://youtu.be/YuaKEGhQHvo|Live coding workshop seeing code as the new music notation.|art,edu|ART,LIVE,EDU|4,3,2,2,3
++wheel|1301
+talise|Line Segment Computer (Talise)|Maximilian Ernestus|1300|https://ernestum.net/talise/|https://www.youtube.com/watch?v=9G0r7jL3xl8|Computer that processes line segments instead of bytes, inspired by CellPond.|art,res|VIS,ART|5,1,4,2,5
++lines-love|1302
+ezhik-sheet|Spreadsheet-ish visual env|Ezhik|1303|https://ezhik.jp/spreadsheet-1/||Little functional visual programming environment in a spreadsheet style.|user,dev|EUP,VIS|3,3,2,1,3
++wasm-groundup|1304,1343,1345
++calculang|1305,1322
+flash-notes|Flash notes|Marek Rogalski|1306|https://bsky.app/profile/mrogalski.eu/post/3lkg25qntbk2l||Thread on what Flash got right.|res|ESSAY,ART|3,2,1,1,2
+hyperdoc|HyperDoc|Konrad Hinsen|1307,1352|https://hyperdoc.khinsen.net/||Framework for explorable, explainable, composable convivial hypertext systems integrating code.|res|NB,THINK,MALL|2,3,3,3,4
+ocif|Open Canvas Interchange Format|Maikel van de Lisdonk|1308,1329|https://canvasprotocol.org/||Spec for exchanging infinite canvases between apps; OCIF generator and prompt-to-form.|dev|CANVAS,COLLAB|2,4,3,3,3
+luaml|luaML hypertext browser|Kartik Agaram|1309,1310|https://akkartik.name/post/luaML2||Markup language and hypertext browser in 600 lines, with accessible perceptual colors.|dev,user|SMALL|2,3,2,1,4
+drawtalking|DrawTalking|Karl Toby Rosenberg|1311,1350,1358|https://github.com/KTRosenberg/DrawTalking||Sketching and speaking to build interactive simulations; teaching CS via visual metaphor.|user,edu|VIS,EDU,AI|4,3,4,2,5
+pastagang|Pastagang jams & Strudel|Lu Wilson|1313,1341,1361|https://pastagang.cc/paper/|https://youtu.be/k0H_rX7G2oQ|Many people live-coding music and visuals together in one shared document; collectively authored paper.|art|ART,LIVE,COLLAB|5,3,2,3,5
++frest|1314,1353
+figmata|Figmata|Geert Roumen|1316|https://medium.com/@geert.roumen/figmata-a76bf9008806||Figma plugin letting designers create dynamic data visualisations, inspired by Drawing Dynamic Visualizations.|art,pro|VIS,DATA,EUP|4,4,2,2,3
++foc-podcast|1317,1355,1360,1383
+prosetta|Prosetta|Charlie Roberts|1319|https://stinkymilo.github.io/Prosetta/Frontend/||Esolang for 2D drawing/animation hidden in free prose.|art,edu|LANG,ART|5,1,2,1,5
+pondiverse|Pondiverse|Lu Wilson|1321|https://pondiverse.com/||Place to share creations from creative tools; any tool can connect.|art|COMM,ART|4,3,2,3,4
+stitch|Stitch|Nick Arner,Elliot Boschewitz,Christian Clampitt,Adam Menges|992,1323|https://stitchdesign.app/||Open-source visual programming environment for interaction design prototyping (Origami-like).|art,pro|VIS,LIVE|4,4,4,3,3
++carousel|1324
+architecture-programming|Programming and architecture theory|Tomas Petricek|1325|https://tomasp.net/architecture/||Draft applying architecture theory ideas to programming.|res|ESSAY|3,2,2,3,4
+scrappy|Scrappy|Pontus Granström,John Chang|1326|https://pontus.granstrom.me/scrappy/||Tool for making little home-made apps for you and your friends.|user|EUP,MALL|4,4,2,2,4
++lopecode|1327,1356
++magic-of-code|1328
++gloodata|1330,1336,1340
+synonllm|Synonllm & LLM-native Ruby|Scott|1337,1351,1354,1369,1371|https://worksonmymachine.substack.com/||LLM-powered method resolution, MCP as universal plugins, Viable System Model for agents.|dev|AI,LANG|2,3,3,2,5
++blueprints|1337
+agent-evals|Formal theory of agent evals|Nilesh Trivedi|1338,1347|https://nilesh.trivedi.link/thoughts/we-need-a-formal-theory-of-agent-evals||Unifying type theory, testing and ML evals; reactive UI components exposed as LLM tools.|res,dev|AI,FORMAL|1,3,4,2,4
+sombra|Sombra|Dan Peddle|1344|https://chromewebstore.google.com/detail/sombra/jboedpbobeaboddnnhbcjdbncdgleo||Browser extension exposing private web data to AI agents.|user,dev|AI|1,3,2,2,3
++hamish-ga|1342
++rusher-talks|1349
+branchy|Branchy|Dennis Hansen|1357|https://branchy.co/||LLMs in a generative outline interface.|user|AI,THINK|2,3,2,1,3
+dynamicland-nl|Communal computing NL Discord|Laura Brekelmans|1362,1363|||Community for Dynamicland-style communal computing in the Netherlands.|user,res|COMM,HW|2,2,1,2,3
++nodes|1365
+glogg|Gløgg|Robin Heggelund Hansen|1367,1368|||Fully declarative relational language with source stored as AST in sqlite.|dev|LANG,DATA,STRUCT|1,2,4,2,5
++meaning-of-live|1370
++miqula|1372
+propagator-js|Propagator (JS)|Pandi Lin|1374,1376,1377,1378,1379|https://github.com/Semi-0/Propagator||JavaScript implementation of Sussman & Radul's propagator model.|dev,res|DATA,FORMAL|2,3,4,2,4
+folkjs|Live Programming in Hostile Territory|Christopher Shank,Orion Reed|1380|https://folkjs.org/live-2025/||LIVE 2025 paper on live programming on the hostile web (folkjs).|dev,res|LIVE,MALL|3,3,3,2,5
++otto-phd|1381
+codeline|Codeline|Rory Byrne|1384|https://github.com/rorybyrne/codeline||Run commands from source-code comments.|dev|LIVE|1,3,2,1,3
+llm-mediated|Reclaiming the computer through LLM-mediated computing|Mattias Rost|1385|https://interactions.acm.org/archive/view/september-october-2025/reclaiming-the-computer-through-llm-mediated-computing||ACM Interactions article critiquing app-centric computing and speculating on LLM-mediated computing.|res|AI,MALL,ESSAY|2,3,2,2,4
+wikifunctions|Wikifunctions|Denny Vrandečić|1387|https://www.wikifunctions.org/||Wiki of functions supporting multilingual Abstract Wikipedia.|user,dev|COLLAB,LANG|2,5,4,5,4
+vibecard|VibeCard|Mariano Guerra|1388,1390|https://marianoguerra.github.io/vibecard/||Build apps like a todo list in minutes with cards and macros.|user|EUP,LIVE|2,3,2,1,3
+creact|CReact|Daniel Coutinho Ribeiro|1389|https://github.com/creact-labs/creact||React-style declarative model for cloud infrastructure.|dev|LANG|1,3,3,2,3
+mattcurtis|Personal website|Matt Curtis|1391|https://mattcurtis.me/||Personal site and just-for-me things.|user|ART|2,1,1,1,2
+server-user-agents|Server User-Agents|When Leggett|1393,1394|https://its.whenthetimeca.me/p/for-server-user-agents||Advocating server-side user agents as missing internet architecture.|dev,res|MALL,COLLAB|1,3,3,3,4
+diff-heatmap|Diff heat map|Eli Mellen|1395|||Heat-map color scheme on git diffs to flag code needing attention.|dev|UNDER|2,3,2,1,3
++hyperdoc|1396
++tarvydas-blog|1397,1415,1418,1427,1432,1433,1434,1441,1444,1446,1450,1455,1467,1477
++lopecode|1398,1407,1442,1452,1478
++todepond-talks|1399,1404,1413
+ya-lang|Я (Ya) language|Murat Kasimov|1400,1466|https://muratkasimov.art/Ya/Tutorials/||Extremely composable embeddable language with clickable-token documentation engine, built on category theory.|dev,res|LANG,FORMAL,EDU|3,2,5,2,5
+qwikbuild|QwikBuild|Nilesh Trivedi|1401,1469|https://qwikbuild.com/||AI coding agent for mobile-native friends and family; SWE-WebDevBench benchmark.|user|AI,EUP|2,4,3,3,3
++wasm-groundup|1402,1403
+calc-brrr|Calculator go brrr|Dennis Hansen|1405|||Playful calculator experiment.|user|GAME|3,1,1,1,3
+taka|taka|Márton Gunyhó|1406|https://codeberg.org/marton/taka||Stack-based language with forward Polish notation used for Advent of Code.|dev|LANG,SMALL|1,2,2,1,3
+clickly|Clickly|Alexey Volkov|1408,1445|https://clickly.app/||No-code app builder with action flows: actions top-to-bottom, data left-to-right.|user,pro|EUP,VIS|3,4,3,3,3
+bicross|bicross & kiki & bamagotchi|Eli Mellen|1409,1435,1440,1447,1457|https://smallandnearlysilent.com/kiki/learn.html||Small playful programming toys: functional picross, array language kiki, HyperTalk-ish bamagotchi, constraint propagation.|user,art|SMALL,LANG,GAME|4,2,2,1,4
++blawx|1410
++emilprogviz|1411
++ara|1412,1460,1470
+figmata-matrix|Table-Matrix data bridging|Geert Roumen|1414|https://worrydream.com/MagicInk/||Bridging table, spatial matrix and visual forms of data, inspired by Magic Ink, Tufte, Excel and Figma.|art,pro|DATA,VIS,EUP|4,3,3,2,4
+cultures-programming|Cultures of Programming book|Tomas Petricek|1416|https://www.cambridge.org/core/books/cultures-of-programming/075A2D1DE611EE47807A6||Open-access book: history of programming as interaction of hacker, engineering, mathematical, managerial and humanistic cultures.|res,edu|ESSAY|3,4,2,4,3
+horowitz-plateau|Blurry boundaries & dimensions of live feedback|Joshua Horowitz|1417,1423,1471|https://joshuahhh.com/dims-of-feedback/||PLATEAU essays on programming vs direct use and the design space of live feedback.|res|ESSAY,LIVE|3,4,2,2,4
+vlojure|Vlojure / nested-circle shader environment|Ella Hoeppner|734,1419|https://vlojure.io/||Visual programming with code as nested circles of the AST, for shader graphics.|art,dev|VIS,STRUCT,ART|5,2,3,2,5
++calculang|1420
+stacky-bird|Stacky Bird|Jouke Waleson|1421|https://game.stackybird.com/||2D stack-based programming game for kids 4+, inspired by 2048 and RPN calculators.|kids,edu|GAME,EDU|4,4,2,2,4
+tailrmade|Tailrmade|Jakob Schindegger|1422|https://tailrmade.app/||Visual app builder running entirely in the browser.|user|EUP,VIS|2,4,3,3,3
++foc-podcast|1425,1471,1476
+rolling-software|Building software by rolling|Yi-Hung Chou|1426|https://www.researchgate.net/publication/399166870||Research paper on a new metaphor for building software.|res|ESSAY|2,2,2,1,4
+automat|Automat|Marek Rogalski|1306,1428|https://store.steampowered.com/app/4122050/Automat/||Game-like automation environment for your computer, coming to Steam.|user,dev|GAME,VIS,EUP|5,4,4,4,5
+lain|Lain|Pandi Lin|1429,1430,1431|https://github.com/Semi-0/lain-lang|https://www.youtube.com/watch?v=yg91Hchd1hI|Distributed programming language whose compiler is a propagator network, for multi-device users.|dev,res|LANG,DATA,COLLAB|2,2,5,3,5
++creact|1436
++hamish-ga|1437
+craft-software|Craft software and slop|Ezhik|1438|https://ezhik.jp/ai-slop-terrifies-me/||Essay: end-user programming as the way out of slop.|user|ESSAY,EUP|2,3,1,1,3
+margaui|MargaUI & Tutuca|Mariano Guerra|1439,1456,1459,1461,1465,1468,1472|https://marianoguerra.github.io/tutuca/||No-build Tailwind/daisyUI port and Tutuca, a zero-dependency SPA framework with playground time travel and an LLM benchmark.|dev|LIVE,AI|2,4,3,3,3
+term-rewriting-viz|Term rewriting visualization|Jimmy Miller|1443|https://jimmyhmiller.com/term-rewriting-experiment-one||Visualizing running program state via term rewriting rather than traces.|dev,res|UNDER,VIS|3,3,3,1,5
+vibey|vibey|Federico Pereiro|1448|https://buildwithvibey.com/||Exploration of ideas for vibe coding.|dev|AI|2,2,2,2,4
+osm-prompt|Prompting OpenStreetMap|Geert Roumen|1449|https://medium.com/@geert.roumen/c7e41e99aebd||Natural-language querying of OpenStreetMap for less tech-savvy users.|user|AI,DATA|3,4,2,2,3
+reverse-projection|Reverse Projection|Geert Roumen|1451|https://github.com/lemio/ReverseProjection|https://www.youtube.com/watch?v=HqPDnyKzze0|Dynamicland-inspired spatial computing using phones as paper and a camera instead of a projector (AR toolkit + leaflet/tldraw).|user,res|HW,CANVAS,3D|4,3,3,2,5
+wordwell|wordwell|Dennis Hansen|1453|https://wordwell.so/||Visual word explorer interpolating meaning between wells on a canvas.|user,art|CANVAS,AI,THINK|4,2,2,1,4
+fedwiki|Federated Wiki catalog entry|Konrad Hinsen|1454,1479|https://forum.malleable.systems/t/federated-wiki/418||Writing on Federated Wiki for the Malleable Systems catalog; essay on automating science.|res|MALL,ESSAY|1,3,1,1,2
+apl-grasshopper|APL sandbox from Grasshopper|Duane McLemore|1458|https://github.com/duanerobot/APL_Sandbox||AI-built APL sandbox by a Grasshopper (Rhino3d) node-graph user.|art,pro|VIS,AI|3,2,2,1,3
+tenfold|Tenfold|Ivy Reese|1462|https://www.inkandswitch.com/project/tenfold||Interactive art project celebrating 10 years of Ink & Switch.|art|ART|5,1,3,2,4
++synonllm|1463,1464
+pencil-game|Pencil-and-paper puzzle generator|Marcos D|1473|https://youtu.be/36j6ytVIL-g|https://youtu.be/36j6ytVIL-g|Animated generator/solver for a pencil-and-paper puzzle game.|user|GAME|3,2,2,1,3
++hest|1474
+starling|Starling proof assistant|ender|1475|https://dev.to/ender_minyard/introducing-starling-a-user-friendly-proof-assist||User-friendly proof assistant (Master's thesis).|edu,res|FORMAL,EDU|2,3,4,2,4
+bitsy-multiplayer|Multiplayer bitsy with Automerge|Jasmine Otto|1480|https://github.com/jazztap/bitsy|https://www.youtube.com/watch?v=81yFRBBVSQ4|Multiplayer in-browser game dev using bitsy and Automerge.|art,edu|GAME,COLLAB|4,3,3,2,4
++lookatthat|1481
+prose-entities|Visualizing entities in prose|Luke Stanley|1482|https://www.youtube.com/watch?v=81yFRBBVSQ4&t=1918s|https://www.youtube.com/watch?v=81yFRBBVSQ4&t=1918s|Visualizing relationships between entities in prose using embeddings.|user,res|THINK,AI,VIS|3,3,3,2,4
++drawtalking|1483
+value-probes|Value probes study (Hazel)|andrew blinn|1484|||User study on always-on live values alongside functional code.|res,edu|LIVE,UNDER|2,3,3,2,4
+pr-review-study|PR review user study|Bimal Gyawali,Dev Hayatpur|1485|||User study on how developers understand code changes in PRs.|res,dev|UNDER|1,3,2,1,2
+grain|Grain|Asker|1486|https://grain.asker.dev/||Text editor rendering the writing process into the type: tempo as weight, erasure as residue.|user,art|ART,THINK|5,2,2,1,5
++tarvydas-blog|1487,1502,1513,1538,1544
+wasm-agents|Domain-specific browser agents & generative UI|Mariano Guerra|1488,1491,1526,1532,1537|https://www.youtube.com/watch?v=RoYFUomDwp8|https://www.youtube.com/watch?v=dzYvfMRvc9c|Client-side agents with Wasm libraries, SQL/SPARQL as agent substrate, capability-based generative UI compiled to WebAssembly.|dev,res|AI,MALL|3,3,4,3,5
+logicflow|Logicflow|Aaditya Bhusal|1489|https://logicflow.dev/||Live visual editor where programming is chaining data transformations and seeing each step.|user,edu|VIS,LIVE,DATA|3,3,2,2,3
++knotend|1490
++foc-search|1492
++cultures-programming|1493
++yin-yang|1500
+agentic-patterns|Agentic engineering workflow|Shreyas Prakash|1494|https://shreyasprakash.com/my-agentic-engineering-workflow/||Personal agentic engineering patterns from 0 to 1.|dev|AI,ESSAY|1,3,1,1,2
+withered-tech|Withered Technology / Forest in the Tree|Tak Tran|1495|https://forestinthetree.com/|https://youtu.be/u9-sDQ1ksdA|Talk and YouTube channel of playful creative-tech projects using 'withered technology'.|art|ART,HW|5,2,2,2,4
+wirewright|Wirewright|homonoidian|1496,1511|https://github.com/wirewright/wirewright|https://youtu.be/LD6SZ8yfri4|Term-rewriting-based reactive system evolved from an amorphous code blob.|dev,res|LANG,DATA|3,2,5,2,5
++clickly|1497,1525
+nod|Notebooks-On-Demand|Eric Rawn|1498|https://github.com/erawn/nod||Python library + JupyterLab extension that spawns notebooks from inside running code.|dev,res|NB,LIVE|2,4,3,2,4
+taysom-art|Summer Art Days|William Taysom|1499,1501,1503,1504,1505,1509,1510,1512,1515,1516,1519,1522,1530,1531,1533|https://youtu.be/Nc8_OsVOLwY|https://youtu.be/RhcI5CiMbDQ|Daily art explorations with an AI agent: logic programming in tldraw, zooming through a billion words, MUDs, live specifications.|art,res|AI,ART,LIVE|5,2,3,2,5
++lain|1506,1507,1508
++lopecode|1514,1520,1535,1536
+esp32-flasher|ESP32-S3 browser flasher|Geert Roumen|1517|https://github.com/lemio/ESP32-S3-Flasher|https://www.youtube.com/watch?v=0jc9OUHBVbw|Flash and customize ESP32 firmware from the browser without installing tooling.|dev,user|HW,EUP|2,4,2,2,3
++bicross|1518
+patchwork|Patchwork|Ivy Reese,Arcade Wise|1521,1527,1540|https://www.youtube.com/watch?v=4UxGijnuXEs|https://www.youtube.com/watch?v=4UxGijnuXEs|Ink & Switch local-first space for docs built from tools that are themselves docs.|user,dev|MALL,COLLAB,NB|3,4,4,4,5
+agentpitch|AgentPitch|Gang Tao|1523|https://agentpitch.surge.sh/||Agent-based soccer simulator used to simulate all FIFA 2026 games.|user|AI,GAME|3,2,3,2,3
+dmovie|dmovie vibe debugging & Raptor|xyzzy|1524,1534|https://github.com/xyzzyapps/dmovie||'Vibe debugging' prototype and Raptor, an LLM-prototyped dynamic language.|dev|AI,UNDER,LANG|2,3,3,1,4
+trackosc|TrackOSC|Joel Gethin Lewis|1528,1542|https://github.com/JGL/TrackOSC||iOS/macOS app streaming Apple Vision body/hand/face tracking over OSC for creative tech.|art|ART,HW|4,4,2,2,3
+creative-tech-pfp|Past, present & future of creative technology|Joel Gethin Lewis|1529|https://creativetech.davidchatting.com/||Call for artefacts on creative technology's past, present and future.|art,res|COMM,ART|3,2,1,2,3
+schematic-canvas|Schematic Canvas IDE|Daniel Garcia|1539|||Canvas-based schematic IDE.|dev|CANVAS,VIS|3,3,3,2,4
+desh|desh|Dev Doshi|1541|||Malleable developer environment for humans and agents with hypermedia-inspired contextual actions.|dev|MALL,AI|2,3,3,2,4
+lawful-substrates|Lawful Substrates|mark915|1543|https://lattice-substrate.github.io/blog/2026/09/04/governed-lawful-substrates/||Paper on a constitutional strategy for computational worlds.|res|ESSAY,FORMAL|1,1,4,2,5
