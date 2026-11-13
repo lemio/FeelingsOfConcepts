@@ -130,6 +130,16 @@ MANUAL={'jsbubbles':dict(image='images/manual/jsbubbles.jpg',image_type='readme-
 # Medium articles captured in the user's logged-in browser (cropped to the article column)
 for _k in ['darklang','openapi-programs','tarpit-ts','enso','parabeac','miqula','figmata','osm-prompt']:
     MANUAL[_k]=dict(image=f'images/manual/{_k}.jpg',image_type='screenshot')
+# Matrix project: the post linked Magic Ink as a reference; the project itself is the Medium
+# article, and its visual is the demo video uploaded to Slack with the post.
+MANUAL['figmata-matrix']=dict(
+    name='Beyond Excel: Enter the Matrix',
+    url='https://medium.com/design-bootcamp/beyond-excel-enter-the-matrix-0cfbd358c6bc',
+    wayback_url='https://web.archive.org/web/2026/https://medium.com/design-bootcamp/beyond-excel-enter-the-matrix-0cfbd358c6bc',
+    video='https://history.futureofcoding.org/history/msg_files/F0A/F0A6L1B44SZ.mp4',
+    image='https://history.futureofcoding.org/history/msg_files/F0A/F0A6L1B44SZ.mp4',
+    image_type='slack-video',
+    image_source='https://akkartik.name/archives/foc/share-your-work/index.html#1767535558.021409')
 MANUAL['openapi-programs']['url']='https://medium.com/p/problems-with-api-specifications-690be2c30f29'
 for pr in projects:
     if pr['id'] in MANUAL:
@@ -156,6 +166,16 @@ for pr in projects:
         if imgs:   pr.update(image=imgs[0][1]['url'], image_type='slack-image', image_source=imgs[0][0]['archive'])
         elif prevs: pr.update(image=prevs[0][1]['image'], image_type='link-preview', image_source=prevs[0][1]['link'] or prevs[0][0]['archive'])
         elif vids: pr.update(image=vids[0][1]['url'], image_type='slack-video', image_source=vids[0][0]['archive'])
+
+# ---- all Slack videos per project (own posts + the project people's thread replies),
+# collected by scripts/slack_videos.py from the cached history; referenced, never copied.
+SVIDS=json.load(open('slack_videos.json')) if os.path.exists('slack_videos.json') else {}
+for pr in projects:
+    pr['slack_videos']=SVIDS.get(pr['id'],[])
+    if pr['slack_videos'] and not pr['video']: pr['video']=pr['slack_videos'][0]['url']
+    if pr['slack_videos'] and not pr['image']:
+        v=pr['slack_videos'][0]
+        pr.update(image=v['url'], image_type='slack-video', image_source=SYW+v['post'])
 
 # people
 pp=collections.defaultdict(lambda: dict(projects=[],ideas=collections.Counter(),audience=collections.Counter()))

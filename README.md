@@ -33,7 +33,7 @@ channel at the time of saving). Nothing after that is included.
 | People | 330, of whom 219 have an #introduce-yourself post |
 | Projects with an image | 422 |
 | Projects with a GitHub link | 142 |
-| Projects with a video | 146 |
+| Projects with a video | 150 (69 with videos uploaded to Slack, 107 videos) |
 
 ## Repository layout
 
@@ -101,6 +101,7 @@ meta      sources, taxonomy (themes → ideas), audiences, rating definitions
 projects  id, name, description, people, shared_by,
           url, demo_url, video, github_url, wayback_url, link_status,
           image, image_type, image_source,
+          slack_videos[] { url, title, post, thread_reply },
           ideas, theme, audience, ratings,
           first_date, last_date, comments,
           posts[] { uuid, date, author, comments, archive, excerpt, html,
@@ -169,6 +170,7 @@ exactly.
 | 6. GitHub Pages / gists | `python3 scripts/gh_pages_resolve.py` | → `gh_pages_links.json` |
 | 7. Screenshots | `tr '\t' '\n' < data/work/shots.tsv \| xargs -n2 -P6 scripts/screenshot.sh` then `scripts/convert_shots.sh` | → `public/images/shots/` |
 | 7b. Slack uploads | `python3 scripts/slack_files.py` then `python3 scripts/check_remote_media.py` | search.futureofcoding.org history → `slack_files.json`, `remote_media_status.json` |
+| 7c. Slack videos | `python3 scripts/slack_videos.py` (no network: reads the cached history) | `slack_history/` → `slack_videos.json` |
 | 8. **Build dataset** | `npm run data` (= `python3 scripts/build_dataset.py`) | everything above → `public/data/projects.json`, avatars |
 
 The hand-curated inputs are:

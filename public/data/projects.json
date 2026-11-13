@@ -762,7 +762,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "krouse-essays",
@@ -858,7 +859,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "programmable-systems",
@@ -933,7 +935,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "hempel-centers",
@@ -1008,7 +1011,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "nlpl",
@@ -1077,7 +1081,15 @@
    ],
    "github_url": "https://github.com/nlpl-lang/nlpl-editor",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/FDD/FDDEQFG15.mov",
+     "title": "nlpl-v1.mov",
+     "post": "1539286006.000100",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "mind-bicycles",
@@ -1153,7 +1165,8 @@
    ],
    "github_url": "https://github.com/pel-daniel/mind-bicycles",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "optic",
@@ -1260,7 +1273,8 @@
    ],
    "github_url": "https://github.com/acunniffe/cogent-engine",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "instadeq",
@@ -2175,7 +2189,15 @@
    ],
    "github_url": "https://github.com/instadeq/firestore-query-parser-js",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/FDS/FDS609CP8.mp4",
+     "title": "instadeq-changes-history-undo.mp4",
+     "post": "1540827350.008200",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "viu",
@@ -2225,7 +2247,8 @@
    ],
    "github_url": "https://github.com/fkohlgrueber/viu",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "mu",
@@ -2649,7 +2672,8 @@
    ],
    "github_url": "https://github.com/akkartik/mu",
    "demo_url": "http://akkartik.github.io/mu/html/apps/life.mu.html",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "knuth-reading",
@@ -2705,7 +2729,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "pane",
@@ -2765,7 +2790,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/FEC/FECK3QTJ8.mp4",
+     "title": "loop.mp4",
+     "post": "1543308265.086500",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "assemblage",
@@ -2816,7 +2849,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "code-map-ast",
@@ -2900,7 +2934,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "toystore",
@@ -2952,7 +2987,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "afterclass",
@@ -3005,7 +3041,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "craft-instruments",
@@ -3057,7 +3094,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "postman-flows",
@@ -3109,7 +3147,8 @@
    ],
    "github_url": "https://github.com/postmanlabs/postman-app-support",
    "demo_url": "https://www.postman.com",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "tofu",
@@ -3120,7 +3159,7 @@
    ],
    "shared_by": [],
    "url": "https://gregoor.github.io/tofu/",
-   "video": null,
+   "video": "https://history.futureofcoding.org/history/msg_files/F03/F03A6DY6SSJ.mov",
    "image": "images/shots/tofu.jpg",
    "image_type": "wayback-screenshot",
    "image_source": "https://web.archive.org/web/20190711115006/https://gregoor.github.io/tofu/",
@@ -3181,7 +3220,15 @@
    ],
    "github_url": "https://github.com/Gregoor/tofu",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F03/F03A6DY6SSJ.mov",
+     "title": "Screen Recording 2022-04-06 at 16.54.02.mov",
+     "post": "1649001855.037569",
+     "thread_reply": true
+    }
+   ]
   },
   {
    "id": "imgui-essay",
@@ -3231,7 +3278,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "pl-course",
@@ -3283,7 +3331,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "mech",
@@ -3402,7 +3451,8 @@
    ],
    "github_url": "https://github.com/mech-lang/mech",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "gtoolkit",
@@ -3574,7 +3624,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dashdash",
@@ -3625,7 +3676,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "darklang",
@@ -3751,7 +3803,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "clj-datalog",
@@ -3808,7 +3861,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dacein",
@@ -3871,7 +3925,8 @@
    ],
    "github_url": "https://github.com/szymonkaliski/dacein",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "loyc",
@@ -3968,7 +4023,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "vc-simple",
@@ -4035,7 +4091,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "lobster",
@@ -4120,7 +4177,8 @@
    ],
    "github_url": "https://github.com/aardappel/lobster",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "moldable-media",
@@ -4178,7 +4236,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "syvis",
@@ -4251,7 +4310,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "lamdu",
@@ -4362,7 +4422,21 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/FK5/FK5GZLNBB.mp4",
+     "title": "Static Types Work in Progress.mp4",
+     "post": "1559859894.009500",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F05/F057LG7KX6Z.mp4",
+     "title": "lamdu-resize.mp4",
+     "post": "1684076932.395099",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "vp-codex",
@@ -4434,7 +4508,8 @@
    ],
    "github_url": "https://github.com/ivyreese/visual-programming-codex",
    "demo_url": "https://ivanish.ca/codex",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "something-new",
@@ -4485,7 +4560,8 @@
    ],
    "github_url": "https://github.com/d-cook/SomethingNew",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "ideal-toolset",
@@ -4535,7 +4611,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "human-pl",
@@ -4597,7 +4674,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "beads",
@@ -4858,7 +4936,8 @@
    ],
    "github_url": "https://github.com/magicmouse/beads-examples",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "storyscript",
@@ -5095,7 +5174,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "livecoder",
@@ -5170,7 +5250,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "maraca",
@@ -5221,7 +5302,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "paradigm-graphic",
@@ -5299,7 +5381,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "polide",
@@ -5393,7 +5476,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "openapi-programs",
@@ -5445,7 +5529,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "nodes",
@@ -5533,7 +5618,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "tarpit-ts",
@@ -5595,7 +5681,8 @@
    ],
    "github_url": "https://github.com/taowen/define-function",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "strat",
@@ -5654,7 +5741,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "flowcode",
@@ -5716,7 +5804,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "hempel-triumvirate",
@@ -5784,7 +5873,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "human-synthesis",
@@ -5835,7 +5925,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "hest",
@@ -5921,7 +6012,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "whole-code-catalog",
@@ -5972,7 +6064,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "tree-notation",
@@ -6052,7 +6145,8 @@
    ],
    "github_url": "https://github.com/sponsors/breck7",
    "demo_url": null,
-   "link_status": "domain-taken-over"
+   "link_status": "domain-taken-over",
+   "slack_videos": []
   },
   {
    "id": "mmm",
@@ -6126,7 +6220,8 @@
    ],
    "github_url": "https://gist.github.com/s-ol/8b747a43f047d20997c7dfe26edd9712",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "storyforj",
@@ -6177,7 +6272,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "boomla",
@@ -6228,7 +6324,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "fibery",
@@ -6279,7 +6376,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "whitebox",
@@ -6290,7 +6388,7 @@
    ],
    "shared_by": [],
    "url": null,
-   "video": null,
+   "video": "https://history.futureofcoding.org/history/msg_files/F05/F05HZ2XU1U6.mp4",
    "image": "https://history.futureofcoding.org/history/msg_files/F01/F01PMKW1ZEX.gif",
    "image_type": "slack-image",
    "image_source": "https://akkartik.name/archives/foc/share-your-work/index.html#1614522053.039300",
@@ -6404,7 +6502,21 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F05/F05HZ2XU1U6.mp4",
+     "title": "20230720_160718_lock_registers_disassembly_sm.mp4",
+     "post": "1651021291.678509",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F05/F05JVDMPG2U.mp4",
+     "title": "20230719_131721_v0.116.0_highlights.mp4",
+     "post": "1651021291.678509",
+     "thread_reply": true
+    }
+   ]
   },
   {
    "id": "tht",
@@ -6454,7 +6566,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "nextjournal",
@@ -6524,7 +6637,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "codist",
@@ -6577,7 +6691,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "visual-groups",
@@ -6638,7 +6753,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "glance",
@@ -6725,7 +6841,8 @@
    ],
    "github_url": "https://github.com/rgleichman/glance",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "tidal-feedback",
@@ -6782,7 +6899,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "rosettagit",
@@ -6834,7 +6952,8 @@
    ],
    "github_url": "https://github.com/ad-si/RosettaGit",
    "demo_url": "https://rosettagit.org",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "taysom-essays",
@@ -6906,7 +7025,8 @@
    ],
    "github_url": "https://gist.github.com/wtaysom/7e5fda6d65807073c3fa6b92b1e25a32",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "api-inliner",
@@ -6973,7 +7093,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "lesser-essays",
@@ -7058,7 +7179,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "slang",
@@ -7110,7 +7232,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dev-tools-talk",
@@ -7194,7 +7317,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "startup-ideas",
@@ -7261,7 +7385,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "instadeq-teach-html",
@@ -7336,7 +7461,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "apps-to-langs",
@@ -7387,7 +7513,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "operon",
@@ -7449,7 +7576,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "observable-jupyter",
@@ -7501,7 +7629,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "openapi-ui",
@@ -7552,7 +7681,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "jsbubbles",
@@ -7653,7 +7783,8 @@
    ],
    "github_url": "https://github.com/Raathigesh/waypoint",
    "demo_url": "https://waypoint.netlify.app",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "validation-dsl",
@@ -7703,7 +7834,8 @@
    ],
    "github_url": "https://gist.github.com/opethe1st/1a81d5b7f167ff650c49449221a831ce",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "wasp",
@@ -7817,7 +7949,8 @@
    ],
    "github_url": "https://github.com/wasp-lang/wasp",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "alv",
@@ -7887,7 +8020,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "godot-vs",
@@ -7989,7 +8123,8 @@
    ],
    "github_url": "https://github.com/godotengine/godot-roadmap",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "loyc-principles",
@@ -8056,7 +8191,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "yazz",
@@ -8107,7 +8243,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "collabscout",
@@ -8157,7 +8294,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "codefaster",
@@ -8257,7 +8395,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "schema",
@@ -8359,7 +8498,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "app-frames",
@@ -8409,7 +8549,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "ast-images",
@@ -8467,7 +8608,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F01/F014L83QPRT.mp4",
+     "title": "full_may29_6_animation.mp4",
+     "post": "1591039501.266000",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "deja-vu",
@@ -8524,7 +8673,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "fizz",
@@ -8598,7 +8748,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "codebert",
@@ -8656,7 +8807,8 @@
    ],
    "github_url": "https://github.com/autosoft-dev/code-bert",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "cambria",
@@ -8730,7 +8882,8 @@
    ],
    "github_url": "https://github.com/inkandswitch/cambria-project",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "edix",
@@ -8814,7 +8967,8 @@
    ],
    "github_url": "https://github.com/fkohlgrueber/edix-1",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "rust-ownership",
@@ -8865,7 +9019,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "irreactive",
@@ -8921,7 +9076,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "hamish-editor",
@@ -9014,7 +9170,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "enso",
@@ -9170,7 +9327,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "open-app",
@@ -9256,7 +9414,8 @@
    ],
    "github_url": "https://github.com/cameronrking/olympus",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "coderoad",
@@ -9307,7 +9466,8 @@
    ],
    "github_url": "https://github.com/coderoad/coderoad-vscode",
    "demo_url": "https://coderoad.github.io",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "scrubbable",
@@ -9365,7 +9525,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F01/F0192SCHKT4.mp4",
+     "title": "2020-08-19 00-23-12.mp4",
+     "post": "1597790379.004300",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "clipnote",
@@ -9422,7 +9590,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F01/F019B3PPXGA.mp4",
+     "title": "2020-08-22 21-23-04.mp4",
+     "post": "1598124464.059400",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "apparatus-magnets",
@@ -9482,7 +9658,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "layered-text",
@@ -9557,7 +9734,21 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F01/F019LAE5ZJP.mp4",
+     "title": "layered text.mp4",
+     "post": "1598502207.080100",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F01/F01BBPKF7KQ.mov",
+     "title": "Screen Recording 2020-09-27 at 02.33.08.mov",
+     "post": "1601313820.018300",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "horizon-vs",
@@ -9627,7 +9818,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "root-ui",
@@ -9678,7 +9870,8 @@
    ],
    "github_url": "https://github.com/den1k/root",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "persist-continuations",
@@ -9729,7 +9922,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "mito",
@@ -9781,7 +9975,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "adacraft",
@@ -9851,7 +10046,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "read-aloud",
@@ -9908,7 +10104,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "message-not-understood",
@@ -9971,7 +10168,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "docly",
@@ -10043,7 +10241,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "flowsheets",
@@ -10098,7 +10297,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dsn",
@@ -10160,7 +10360,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": "domain-taken-over"
+   "link_status": "domain-taken-over",
+   "slack_videos": []
   },
   {
    "id": "idx",
@@ -10210,7 +10411,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "code-explorer",
@@ -10267,7 +10469,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "crdt-wasm",
@@ -10317,7 +10520,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "expressiveness-bench",
@@ -10394,7 +10598,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "fizz-gui",
@@ -10451,7 +10656,8 @@
    ],
    "github_url": "https://github.com/memononen/nanovg",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "maughan-env",
@@ -10580,7 +10786,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "alan",
@@ -10636,7 +10843,8 @@
    ],
    "github_url": "https://github.com/alantech/alan",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "expressionrunner",
@@ -10694,7 +10902,8 @@
    ],
    "github_url": "https://github.com/devhelpr/expressionrunner",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "chris-granger-new",
@@ -10785,7 +10994,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "ucisc",
@@ -10843,7 +11053,8 @@
    ],
    "github_url": "https://github.com/grokthis/ucisc",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "meta-env",
@@ -10901,7 +11112,8 @@
    ],
    "github_url": "https://github.com/rasendubi/meta",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "neontetra",
@@ -10974,7 +11186,8 @@
    ],
    "github_url": "https://github.com/EmmanuelOga/NeonTetra",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "channel-capacity",
@@ -11024,7 +11237,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "graphn",
@@ -11135,7 +11349,21 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F01/F01MSL6CMJ5.mp4",
+     "title": "dKja25C8Fw.mp4",
+     "post": "1612818027.052200",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F02/F027UES9T4L.mp4",
+     "title": "Vertex Colors Master.mp4",
+     "post": "1625872585.151400",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "zagie",
@@ -11193,7 +11421,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F01/F01FP7B94VC.mp4",
+     "title": "miroalg.mp4",
+     "post": "1606827121.315700",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "gadget",
@@ -11278,7 +11514,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "css-structure",
@@ -11334,7 +11571,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "mockmechanics",
@@ -11513,7 +11751,39 @@
    ],
    "github_url": "https://github.com/felipereigosa/mock-mechanics",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F01/F01PT6K0P8V.mkv",
+     "title": "recording-2021-03-02_14.07.08.mkv",
+     "post": "1614679421.045400",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F02/F02J9GY70B0.mp4",
+     "title": "gif.mp4",
+     "post": "1634753423.110600",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F02/F02KRHNDPTR.mp4",
+     "title": "short.mp4",
+     "post": "1636028941.036800",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F04/F0433MM3PPB.mp4",
+     "title": "trailer.mp4",
+     "post": "1663337871.596539",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F04/F045YUK5N2K.mp4",
+     "title": "turing2.mp4",
+     "post": "1665671604.616799",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "bloom-dom",
@@ -11569,7 +11839,8 @@
    ],
    "github_url": "https://github.com/nonphoto/bloom",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "aflow",
@@ -11621,7 +11892,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "zero-lang",
@@ -11673,7 +11945,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "treebase-sheets",
@@ -11781,7 +12054,8 @@
    ],
    "github_url": "https://github.com/breck7/scroll",
    "demo_url": "https://scroll.surf",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dirgui",
@@ -11839,7 +12113,21 @@
    ],
    "github_url": "https://github.com/alltom/dirgui",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F01/F01KEM5N98U.mov",
+     "title": "2021-01-16 dirgui.mov",
+     "post": "1611133012.028600",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F01/F01KEM9J22G.mov",
+     "title": "2021-01-19 nesting dirgui.mov",
+     "post": "1611133012.028600",
+     "thread_reply": true
+    }
+   ]
   },
   {
    "id": "nlphistory",
@@ -11890,7 +12178,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "curius",
@@ -11941,7 +12230,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "parabeac",
@@ -11994,7 +12284,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "game-teaching",
@@ -12052,7 +12343,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "compose",
@@ -12131,7 +12423,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "emilprogviz",
@@ -12205,7 +12498,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "scroll",
@@ -12301,7 +12595,8 @@
    ],
    "github_url": "https://github.com/treenotation/dumbdown",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "android-testing",
@@ -12352,7 +12647,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "foc-search",
@@ -12462,7 +12758,15 @@
    ],
    "github_url": "https://github.com/marianoguerra/Feeling-of-Computing",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F01/F01Q0EU3L0H.mp4",
+     "title": "foc-search-pagination.mp4",
+     "post": "1614550734.041200",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "jp-weekly",
@@ -12518,7 +12822,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "graph-outliner",
@@ -12588,7 +12893,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "non-typewriter",
@@ -12647,7 +12953,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "foam-reactive",
@@ -12706,7 +13013,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "web-automation",
@@ -12757,7 +13065,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "emotibit",
@@ -12808,7 +13117,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "mendix-runtime",
@@ -12866,7 +13176,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "reactive-js",
@@ -12916,7 +13227,8 @@
    ],
    "github_url": "https://github.com/YousefED/reactive",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "meemoo",
@@ -12989,7 +13301,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "tarvydas-blog",
@@ -13679,7 +13992,8 @@
    ],
    "github_url": "https://github.com/guitarvydas/py0d",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "live-repl",
@@ -13742,7 +14056,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dion",
@@ -13793,7 +14108,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dida",
@@ -13854,7 +14170,8 @@
    ],
    "github_url": "https://github.com/jamii/dida",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "against-sql",
@@ -13905,7 +14222,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "neighborhood",
@@ -13956,7 +14274,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "nextjournal-clerk",
@@ -14146,7 +14465,8 @@
    ],
    "github_url": "https://github.com/nextjournal/clerk",
    "demo_url": "https://clerk.vision",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "flowrunner",
@@ -14291,7 +14611,8 @@
    ],
    "github_url": "https://github.com/devhelpr/expressionrunner",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "guidedtrack",
@@ -14354,7 +14675,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "wheel",
@@ -14438,7 +14760,8 @@
    ],
    "github_url": "https://github.com/xyzzyapps/loom",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "go-fsm",
@@ -14494,7 +14817,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "simoji",
@@ -14554,7 +14878,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "concrete-math",
@@ -14613,7 +14938,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "iroam",
@@ -14671,7 +14997,8 @@
    ],
    "github_url": "https://github.com/Stvad/iroam",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "paper-vscode",
@@ -14728,7 +15055,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "plato",
@@ -14815,7 +15143,21 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F065YBMC596.mp4",
+     "title": "MacroDemo_FullDraft_17.mp4",
+     "post": "1699645040.076329",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F067UQAP6P9.mp4",
+     "title": "Plato Demo Video Comp 2.mp4",
+     "post": "1701453034.659699",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "natto",
@@ -14874,7 +15216,8 @@
    ],
    "github_url": "https://github.com/LingDong-/fishdraw",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "flourish",
@@ -14925,7 +15268,8 @@
    ],
    "github_url": "https://github.com/FlourishLang/flourish1.5",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "growth-hacker",
@@ -14975,7 +15319,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "ruby-symex",
@@ -15025,7 +15370,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "instadeq-old",
@@ -15111,7 +15457,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "rxjava",
@@ -15161,7 +15508,8 @@
    ],
    "github_url": "https://github.com/ReactiveX/RxJava",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "simpletalk",
@@ -15220,7 +15568,8 @@
    ],
    "github_url": "https://github.com/dkrasner/Simpletalk",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "review-jam",
@@ -15271,7 +15620,8 @@
    ],
    "github_url": "https://github.com/marianoguerra/marianoguerra.github.io",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "ald",
@@ -15353,7 +15703,8 @@
    ],
    "github_url": "https://github.com/tromp/tromp.github.io",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "arner-notes",
@@ -15492,7 +15843,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "lisperanto",
@@ -15612,7 +15964,8 @@
    ],
    "github_url": "https://github.com/uprun/Lisperanto",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "just-start",
@@ -15673,7 +16026,8 @@
    ],
    "github_url": "https://github.com/sbutler-gh/just-start",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "sutro",
@@ -15725,7 +16079,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "jp-json",
@@ -15787,7 +16142,8 @@
    ],
    "github_url": "https://github.com/dnmfarrell/jp",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "teliva",
@@ -15872,7 +16228,8 @@
    ],
    "github_url": "https://github.com/akkartik/teliva",
    "demo_url": "https://akkartik.github.io/teliva/doc/manual.html",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "heartpunk",
@@ -15933,7 +16290,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "glide-discover",
@@ -15989,7 +16347,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "primitive-vr",
@@ -16065,7 +16424,15 @@
    ],
    "github_url": "https://github.com/samuelmtimbo/unit",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F03/F0316G0GSNN.mp4",
+     "title": "PRIME 2022-02-01 12-00-41.mp4",
+     "post": "1643747012.895199",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "foc-newsletter",
@@ -16127,7 +16494,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": "domain-taken-over"
+   "link_status": "domain-taken-over",
+   "slack_videos": []
   },
   {
    "id": "advent-foc",
@@ -16234,7 +16602,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "webcode",
@@ -16329,7 +16698,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "breadboard",
@@ -16381,7 +16751,8 @@
    ],
    "github_url": "http://github.com/redefinesoftware/breadboarder",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "syncedstore",
@@ -16442,7 +16813,8 @@
    ],
    "github_url": "https://github.com/YousefED/Matrix-CRDT",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "typecell",
@@ -16524,7 +16896,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "coalesce-notebooks",
@@ -16592,7 +16965,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": "domain-taken-over"
+   "link_status": "domain-taken-over",
+   "slack_videos": []
   },
   {
    "id": "deathbykeystroke",
@@ -16686,7 +17060,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "reflection-editor",
@@ -16736,7 +17111,8 @@
    ],
    "github_url": "https://github.com/Merlin04/reflection",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "afghan-coding",
@@ -16787,7 +17163,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "hiapl",
@@ -16838,7 +17215,8 @@
    ],
    "github_url": "https://github.com/marianoguerra/hiapl",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "division-of-labor",
@@ -16888,7 +17266,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "frugel",
@@ -16940,7 +17319,8 @@
    ],
    "github_url": "https://github.com/cdfa/frugel",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "noodl",
@@ -17009,7 +17389,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "blawx",
@@ -17146,7 +17527,8 @@
    ],
    "github_url": "https://github.com/Lexpedite/blawx",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "cranq",
@@ -17207,7 +17589,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "clay",
@@ -17267,7 +17650,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "pwl-edu",
@@ -17352,7 +17736,8 @@
    ],
    "github_url": "https://github.com/papers-we-love/edu",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "sturdy",
@@ -17403,7 +17788,8 @@
    ],
    "github_url": "https://github.com/sturdy-dev/sturdy",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "nocode-history",
@@ -17542,7 +17928,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "hytradboi",
@@ -17594,7 +17981,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "wasm-scrna",
@@ -17651,7 +18039,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "taowen-tools",
@@ -17712,7 +18101,8 @@
    ],
    "github_url": "https://github.com/taowen/define-function",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "sicm-clerk",
@@ -17812,7 +18202,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "crosscut",
@@ -17878,7 +18269,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "hamish-ga",
@@ -18040,7 +18432,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F07A7GECRA4.mp4",
+     "title": "tiktok0.mp4",
+     "post": "1719261289.824699",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "shape-of-data",
@@ -18092,7 +18492,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "imp",
@@ -18156,7 +18557,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "code-bubbles-auto",
@@ -18250,7 +18652,27 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F03/F03CN94HNKS.mov",
+     "title": "04-18.mov",
+     "post": "1650340488.796839",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F03/F03K94JM17U.mov",
+     "title": "Screen Recording 2022-06-11 at 11.45.37 AM.mov",
+     "post": "1654966255.322579",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F03/F03N5KFUEJE.mov",
+     "title": "Screen Recording 2022-07-03 at 5.29.17 PM.mov",
+     "post": "1656887652.556199",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "compass-geometry",
@@ -18309,7 +18731,8 @@
    ],
    "github_url": "https://gist.github.com/akkartik/20a0c7e7589c6179666fc78bc04b28b4",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "intro-bookmarklet",
@@ -18359,7 +18782,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "end-user-os",
@@ -18410,7 +18834,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "lookatthat",
@@ -18511,7 +18936,8 @@
    ],
    "github_url": "https://github.com/tikimcfee/LookAtThat",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "coseller",
@@ -18561,7 +18987,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "composability",
@@ -18611,7 +19038,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "desk",
@@ -18698,7 +19126,8 @@
    ],
    "github_url": "https://github.com/Hihaheho/Desk",
    "demo_url": "https://desk-x.com",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "readablescript",
@@ -18749,7 +19178,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dbuf",
@@ -18800,7 +19230,8 @@
    ],
    "github_url": "https://github.com/bintoca/dbuf",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "henosia",
@@ -19014,7 +19445,45 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F03/F03JT2BRGF8.mp4",
+     "title": "spacing-aware-coding.mp4",
+     "post": "1654786282.279399",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F04/F044GTPG734.mp4",
+     "title": "slider-wars.mp4",
+     "post": "1664473300.773799",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F04/F04LK371AUF.mp4",
+     "title": "henosia-breakpoint-locals.mp4",
+     "post": "1674923677.877949",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F06MHRM9JVB.mp4",
+     "title": "Turing complete trolling.mp4",
+     "post": "1709385779.394789",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F070RU602R3.mp4",
+     "title": "copilot streaming - music player.mp4",
+     "post": "1714138539.873969",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F070URPQSTC.mp4",
+     "title": "copilot streaming - vacation.mp4",
+     "post": "1714138539.873969",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "text-second-brain",
@@ -19070,7 +19539,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "videotext",
@@ -19146,7 +19616,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "makeabetter",
@@ -19196,7 +19667,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "codeball",
@@ -19270,7 +19742,8 @@
    ],
    "github_url": "https://github.com/sturdy-dev/semantic-code-search",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "jimmy-visualizer",
@@ -19327,7 +19800,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "lines-love",
@@ -19468,7 +19942,21 @@
    ],
    "github_url": "https://github.com/akkartik/lines-polygon-experiment",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F03/F03N6U5ADNY.webm",
+     "title": "lines-export.webm",
+     "post": "1656807435.038059",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F03/F03V08C3HQX.webm",
+     "title": "bifold-recap.webm",
+     "post": "1661618258.633019",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "linkians",
@@ -19526,7 +20014,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F03/F03KP80UDAP.mp4",
+     "title": "linkians-long-cut.mp4",
+     "post": "1655254913.892569",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "games-degree",
@@ -19578,7 +20074,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "grasp",
@@ -19662,7 +20159,8 @@
    ],
    "github_url": "https://github.com/panicz/grasp-android",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "eyg",
@@ -20015,7 +20513,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "preimp",
@@ -20066,7 +20565,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "grapher",
@@ -20169,7 +20669,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "gloodata",
@@ -20496,7 +20997,8 @@
    ],
    "github_url": "https://github.com/gloodata/extension-demography",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "knotend",
@@ -20566,7 +21068,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "hof",
@@ -20624,7 +21127,8 @@
    ],
    "github_url": "http://github.com/hofstadter-io/hof",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "zoa",
@@ -20677,7 +21181,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "data-rabbit",
@@ -20736,7 +21241,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": "domain-taken-over"
+   "link_status": "domain-taken-over",
+   "slack_videos": []
   },
   {
    "id": "normand-books",
@@ -20788,7 +21294,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "pldb",
@@ -20873,7 +21380,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "jason-spreadsheet",
@@ -20930,7 +21438,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "skymass",
@@ -20991,7 +21500,8 @@
    ],
    "github_url": "https://github.com/skymasshq/skymass-demo",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "valtown",
@@ -21060,7 +21570,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "columnator",
@@ -21110,7 +21621,8 @@
    ],
    "github_url": "https://github.com/ruza-net/columnator",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "buzz",
@@ -21167,7 +21679,15 @@
    ],
    "github_url": "https://github.com/chidiwilliams/buzz",
    "demo_url": "https://chidiwilliams.github.io/buzz",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F04/F0444MYN8RL.mp4",
+     "title": "buzz-demo.mp4",
+     "post": "1664395028.493529",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "ohayo",
@@ -21220,7 +21740,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "rusher-talks",
@@ -21295,7 +21816,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "classic-ux",
@@ -21347,7 +21869,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dtu",
@@ -21403,7 +21926,8 @@
    ],
    "github_url": "https://github.com/spawnfest/dtu",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "spellular",
@@ -21580,7 +22104,8 @@
    ],
    "github_url": "https://github.com/TodePond/DreamBerd",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "forest",
@@ -21631,7 +22156,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "yirgacheffe",
@@ -21682,7 +22208,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "learnawesome",
@@ -21747,7 +22274,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "uptointerpretation",
@@ -21820,7 +22348,8 @@
    ],
    "github_url": "https://github.com/NicholasLYang/uptointerpretation",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "glide-components",
@@ -21872,7 +22401,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "action-cat",
@@ -21975,7 +22505,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "subset",
@@ -22068,7 +22599,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F04/F04P263QNSZ.mp4",
+     "title": "CleanShot 2023-02-10 at 14.56.46.mp4",
+     "post": "1676070286.756669",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "devtools-fm",
@@ -22124,7 +22663,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "rusher-hardware",
@@ -22182,7 +22722,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "codex-find",
@@ -22232,7 +22773,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "jaredly",
@@ -22318,7 +22860,8 @@
    ],
    "github_url": "https://gist.github.com/jaredly/13abec33c7576c4636ca87039a999cf2",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "nodysseus",
@@ -22377,7 +22920,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dreamberd",
@@ -22445,7 +22989,8 @@
    ],
    "github_url": "https://github.com/TodePond/GulfOfMexico",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "wasm-groundup",
@@ -22702,7 +23247,21 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F09/F090PE03REY.mp4",
+     "title": "wasmvm-call-stack.mp4",
+     "post": "1749492234.005079",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F09/F091AD5G87P.mp4",
+     "title": "wasmvm-loop.mp4",
+     "post": "1749819932.589529",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "sqrl",
@@ -22753,7 +23312,8 @@
    ],
    "github_url": "https://github.com/sqrl-lang/sqrl",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "outables",
@@ -22809,7 +23369,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "leibniz",
@@ -22861,7 +23422,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "moon-maker",
@@ -22923,7 +23485,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "flyde",
@@ -23010,7 +23573,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F06HT4W169E.mov",
+     "title": "Screen Recording 2024-02-04 at 23.15.34.mov",
+     "post": "1707082341.199819",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "vlhcc",
@@ -23060,7 +23631,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "riverbed",
@@ -23121,7 +23693,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "hivemind",
@@ -23172,7 +23745,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "magic-hands",
@@ -23229,7 +23803,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "quickpoint",
@@ -23350,7 +23925,21 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F05/F05HJ1DKZPB.mov",
+     "title": "Screen Recording 2023-07-14 at 20.07.46.mov",
+     "post": "1689363891.955519",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F05/F05J6SPH74J.mp4",
+     "title": "RPReplay_Final1689953477",
+     "post": "1689953869.162649",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "aicombinator",
@@ -23400,7 +23989,8 @@
    ],
    "github_url": "https://github.com/aicombinator/bot",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "tarvydas-0d",
@@ -23475,7 +24065,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "empirical",
@@ -23525,7 +24116,8 @@
    ],
    "github_url": "https://github.com/jimmyhmiller/jimmyhmiller.github.io",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "snap-love",
@@ -23642,7 +24234,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "magic-of-code",
@@ -23756,7 +24349,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "tana",
@@ -23820,7 +24414,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "adjacent-possible",
@@ -23879,7 +24474,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F05/F05A4JBA0NB.mp4",
+     "title": "w.mp4",
+     "post": "1685639798.778269",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "magnet",
@@ -23981,7 +24584,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "basic-js",
@@ -24033,7 +24637,8 @@
    ],
    "github_url": "https://github.com/kgrgreer/foam3",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "lintrule",
@@ -24090,7 +24695,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "object-network",
@@ -24278,7 +24884,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "signals-fw",
@@ -24335,7 +24942,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F05/F05G90S5MNY.mp4",
+     "title": "20230710-0112-00.2263974.mp4",
+     "post": "1688951860.173829",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "coil",
@@ -24403,7 +25018,27 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F05/F05H9DQ0800.mov",
+     "title": "Screen Recording 2023-07-11 at 5.50.58 PM.mov",
+     "post": "1689083336.878249",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F05/F05GM5D3D9B.mov",
+     "title": "Screen Recording 2023-07-12 at 10.49.12 AM.mov",
+     "post": "1689083336.878249",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F061613D62C.mov",
+     "title": "Screen Recording 2023-10-10 at 9.57.31 AM.mov",
+     "post": "1696946448.505859",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "kairon",
@@ -24467,7 +25102,15 @@
    ],
    "github_url": "https://github.com/felipereigosa/kairon",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F05/F05HYBUHLJC.mp4",
+     "title": "trailer.mp4",
+     "post": "1689513963.397849",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "frest",
@@ -24586,7 +25229,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "brand-tool",
@@ -24657,7 +25301,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "unison-cloud",
@@ -24720,7 +25365,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "ui-combinators",
@@ -24795,7 +25441,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "ml-product",
@@ -24874,7 +25521,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "meaning-of-live",
@@ -24949,7 +25597,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "devine",
@@ -25000,7 +25649,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "type-inference-viz",
@@ -25060,7 +25710,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F0608CJLCCC.mp4",
+     "title": "hm.mp4",
+     "post": "1696651785.106339",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "diy-mastodon",
@@ -25122,7 +25780,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "feminism-agile",
@@ -25178,7 +25837,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "hyperlayer",
@@ -25228,7 +25888,8 @@
    ],
    "github_url": "https://github.com/geoffw8/hyperlayer",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "m-ld",
@@ -25279,7 +25940,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "rusher-ga",
@@ -25337,7 +25999,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "not-forth",
@@ -25406,7 +26069,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F060VDRF762.mov",
+     "title": "noaudio.mov",
+     "post": "1697206963.447319",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "kopi",
@@ -25476,7 +26147,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "colorful-types",
@@ -25564,7 +26236,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F0671G5D5TQ.mov",
+     "title": "Screen Recording 2023-11-22 at 9.01.40 PM.mov",
+     "post": "1700856197.537999",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "wordplay",
@@ -25617,7 +26297,8 @@
    ],
    "github_url": "https://github.com/wordplaydev/wordplay",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "mightymeld",
@@ -25669,7 +26350,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "arroost",
@@ -25789,7 +26471,63 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F0649SL223W.mp4",
+     "title": "7bbdaf354f99f43c.mp4",
+     "post": "1699036514.363559",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F0640PURWBY.mp4",
+     "title": "759fb570260a7967 (1).mp4",
+     "post": "1699036514.363559",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F064WELS6AU.mp4",
+     "title": "2023-11-01 at 20.16.13 - Apricot Bobcat.mp4",
+     "post": "1699036514.363559",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F064L4G5N5P.mp4",
+     "title": "2023-10-25 at 16.35.15 - Chocolate Gorilla-2.mp4",
+     "post": "1699036514.363559",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F063SUULG15.mp4",
+     "title": "2023-11-01 at 17.10.07 - Amethyst Rooster-1.mp4",
+     "post": "1699036514.363559",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F0647F4JFC2.mp4",
+     "title": "2023-11-01 at 17.32.59 - Yellow Turkey.mp4",
+     "post": "1699036514.363559",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F0647CH2C67.mp4",
+     "title": "2023-11-01 at 19.25.08 - Olive Amphibian.mp4",
+     "post": "1699036514.363559",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F064WFAG8P2.mp4",
+     "title": "1eac3af7f2d255a1.mp4",
+     "post": "1699036514.363559",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F0645NUR7K7.mp4",
+     "title": "2023-11-01 at 16.49.58 - Harlequin Falcon-1.mp4",
+     "post": "1699036514.363559",
+     "thread_reply": true
+    }
+   ]
   },
   {
    "id": "levlo",
@@ -25885,7 +26623,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": "domain-taken-over"
+   "link_status": "domain-taken-over",
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F07L925PQN7.mp4",
+     "title": "document-generation-240906.mp4",
+     "post": "1725624790.441319",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "latent-centers",
@@ -25936,7 +26682,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "shady-phoney",
@@ -25988,7 +26735,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "nj-cards",
@@ -26046,7 +26794,8 @@
    ],
    "github_url": "https://github.com/marianoguerra/nj-cards",
    "demo_url": "https://marianoguerra.github.io/nj-cards/",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "nilenso-sheets",
@@ -26109,7 +26858,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "carousel",
@@ -26215,7 +26965,21 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F0673K70HDZ.webm",
+     "title": "lua-carousel.webm",
+     "post": "1700767728.533219",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F08/F08SC8RQS01.webm",
+     "title": "carousel-docs.webm",
+     "post": "1747066365.676289",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "jhp-libs",
@@ -26266,7 +27030,8 @@
    ],
    "github_url": "https://github.com/jhp/palimpsest",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "wigwam",
@@ -26317,7 +27082,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "pebble",
@@ -26380,7 +27146,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "motion-extract",
@@ -26462,7 +27229,21 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F069G4R7KK2.mp4",
+     "title": "birds.mp4",
+     "post": "1701814567.402839",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F068W5FTC4X.mp4",
+     "title": "parabola.mp4",
+     "post": "1702048484.658379",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "wizardry-frontier",
@@ -26512,7 +27293,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "shader-park",
@@ -26570,7 +27352,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "montaigne",
@@ -26660,7 +27443,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "llvm-ir",
@@ -26710,7 +27494,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "llm-creative",
@@ -26767,7 +27552,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "stuck",
@@ -26817,7 +27603,8 @@
    ],
    "github_url": "https://github.com/jimmyhmiller/jimmyhmiller.github.io",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "formula-recursion",
@@ -26868,7 +27655,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "human-server",
@@ -26943,7 +27731,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "simplicity",
@@ -26993,7 +27782,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "polygon",
@@ -27050,7 +27840,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "unit",
@@ -27110,7 +27901,8 @@
    ],
    "github_url": "https://github.com/samuelmtimbo/unit",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "otto-phd",
@@ -27178,7 +27970,8 @@
    ],
    "github_url": "https://github.com/dynamicabstractions/reading-group",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "blueprints",
@@ -27245,7 +28038,8 @@
    ],
    "github_url": "https://github.com/sublayerapp/blueprints",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "recursive-dm",
@@ -27305,7 +28099,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "notation-repr",
@@ -27357,7 +28152,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "tldraw-notepad",
@@ -27415,7 +28211,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "bicycle-codes",
@@ -27521,7 +28318,8 @@
    ],
    "github_url": "https://github.com/bicycle-codes/scroll-progress",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "juno",
@@ -27579,7 +28377,15 @@
    ],
    "github_url": "https://github.com/KinaKnowledge/juno-lang",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F06KEF63TEJ.mov",
+     "title": "junolang_react_live_coding.mov",
+     "post": "1708403681.093299",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "emweb",
@@ -27631,7 +28437,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "zest",
@@ -27715,7 +28522,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "ten-dev",
@@ -27774,7 +28582,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": "domain-taken-over"
+   "link_status": "domain-taken-over",
+   "slack_videos": []
   },
   {
    "id": "cloudbugfix",
@@ -27824,7 +28633,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "unregulated-io",
@@ -27874,7 +28684,8 @@
    ],
    "github_url": "https://github.com/google/flatbuffers",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "omnipilot",
@@ -27885,7 +28696,7 @@
    ],
    "shared_by": [],
    "url": "https://omnipilot.ai/",
-   "video": null,
+   "video": "https://history.futureofcoding.org/history/msg_files/F06/F06N5FD15CM.mp4",
    "image": "images/shots/omnipilot.jpg",
    "image_type": "screenshot",
    "image_source": "https://omnipilot.ai/",
@@ -27926,7 +28737,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F06N5FD15CM.mp4",
+     "title": "Screen slack.mp4",
+     "post": "1709743834.765159",
+     "thread_reply": true
+    }
+   ]
   },
   {
    "id": "codeflowcanvas",
@@ -28024,7 +28843,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": "domain-taken-over"
+   "link_status": "domain-taken-over",
+   "slack_videos": []
   },
   {
    "id": "programming-games",
@@ -28077,7 +28897,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "oklch-colors",
@@ -28128,7 +28949,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "khipu",
@@ -28198,7 +29020,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "slate",
@@ -28251,7 +29074,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "everywhere-computer",
@@ -28302,7 +29126,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "resheet",
@@ -28365,7 +29190,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "lattice",
@@ -28423,7 +29249,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "cherrierview",
@@ -28481,7 +29308,15 @@
    ],
    "github_url": "https://github.com/tikimcfee/LookAtThat",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F06/F06TTTR3HTN.mov",
+     "title": "1080p.mov",
+     "post": "1712778943.134579",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "torn-leaf",
@@ -28554,7 +29389,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "polylab",
@@ -28683,7 +29519,15 @@
    ],
    "github_url": "https://github.com/vezwork/polylab",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F0758V8DUB1.mp4",
+     "title": "Kapture 2024-05-29 at 16.05.33.mp4",
+     "post": "1717013177.435919",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "clog-inspector",
@@ -28741,7 +29585,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "calculang",
@@ -28752,7 +29597,7 @@
    ],
    "shared_by": [],
    "url": "https://calculang.dev/",
-   "video": null,
+   "video": "https://history.futureofcoding.org/history/msg_files/F07/F07LX3VJN07.mp4",
    "image": "images/shots/calculang.jpg",
    "image_type": "screenshot",
    "image_source": "https://calculang.dev/",
@@ -28923,7 +29768,15 @@
    ],
    "github_url": "https://github.com/idyll-lang/fidyll",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F07LX3VJN07.mp4",
+     "title": "2024-09-13 12-19-42.mp4",
+     "post": "1726089947.701999",
+     "thread_reply": true
+    }
+   ]
   },
   {
    "id": "canvas-autocomplete",
@@ -28981,7 +29834,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "quiver",
@@ -29045,7 +29899,27 @@
    ],
    "github_url": "https://github.com/Little-Languages/quiver",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F0710H1P9RD.mov",
+     "title": "Screen Recording 2024-04-30 at 4.43.32 PM.mov",
+     "post": "1714522401.546399",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F07255FSE3S.mov",
+     "title": "Screen Recording 2024-05-01 at 12.54.31 AM.mov",
+     "post": "1714522401.546399",
+     "thread_reply": true
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F071P7UML8L.mp4",
+     "title": "Screen_Recording_2024-05-01_at_4.06.38_PM",
+     "post": "1714522401.546399",
+     "thread_reply": true
+    }
+   ]
   },
   {
    "id": "drawdeadfish",
@@ -29102,7 +29976,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "db48x",
@@ -29160,7 +30035,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "fig",
@@ -29233,7 +30109,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "forethink",
@@ -29304,7 +30181,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F072SKJDECE.mp4",
+     "title": "2024-05-10-Forethink-placeholder-resolution-for-single-execution.mp4",
+     "post": "1715377066.910579",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "cell-tutorial",
@@ -29364,7 +30249,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "propagators",
@@ -29424,7 +30310,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "agile-essay",
@@ -29480,7 +30367,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "solving-vs-influencing",
@@ -29531,7 +30419,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "hypotalk",
@@ -29590,7 +30479,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "uracoder",
@@ -29648,7 +30538,8 @@
    ],
    "github_url": "https://gist.github.com/melaniehoff/95ca90df7ca47761dc3d3d58fead22d4",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "make-your-self",
@@ -29769,7 +30660,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "labview-ai",
@@ -29845,7 +30737,21 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F07A8DL0JN9.mp4",
+     "title": "RPReplay_Final1719619706",
+     "post": "1719619807.724589",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F07AUATTESE.mp4",
+     "title": "GAIA Voice Demo.mp4",
+     "post": "1719988023.569839",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "folk",
@@ -29899,7 +30805,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "anim-stack",
@@ -29952,7 +30859,8 @@
    ],
    "github_url": "https://github.com/cben/animation-stack-language",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "diplomatic",
@@ -30009,7 +30917,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F07AYQVR8HG.mov",
+     "title": "diplomatic-status-demo-720.mov",
+     "post": "1720039689.044269",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "hack-tooling",
@@ -30061,7 +30977,8 @@
    ],
    "github_url": "https://github.com/Warkanlock/hack-tooling",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "2222",
@@ -30113,7 +31030,8 @@
    ],
    "github_url": "https://github.com/ivyreese/2222",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "vsps",
@@ -30165,7 +31083,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "spectral",
@@ -30224,7 +31143,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F07CFJRG41F.mp4",
+     "title": "Spectral_demo_2.mp4",
+     "post": "1720727079.821539",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "machine-ethics",
@@ -30275,7 +31202,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "okapi",
@@ -30325,7 +31253,8 @@
    ],
    "github_url": "https://github.com/thegreatercurve/okapi",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dendryscope",
@@ -30384,7 +31313,8 @@
    ],
    "github_url": "https://github.com/JazzTap/DendryScope",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "watch-scratch",
@@ -30442,7 +31372,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F07D7AYBF39.mp4",
+     "title": "Screen Recording 2024-07-23 at 0.49.11",
+     "post": "1721731530.228429",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "signal-nodes",
@@ -30519,7 +31457,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "synthesis-math",
@@ -30581,7 +31520,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "tensort",
@@ -30633,7 +31573,8 @@
    ],
    "github_url": "https://github.com/kaBeech/tensort",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "bloquecitos",
@@ -30693,7 +31634,15 @@
    ],
    "github_url": "https://github.com/marianoguerra/marianoguerra.github.io",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F07J4HZ7BD5.mp4",
+     "title": "bloquecitos-demo.mp4",
+     "post": "1724692280.129489",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "ludwig",
@@ -30768,7 +31717,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "fractions-love",
@@ -30837,7 +31787,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F08/F08B859EWKC.webm",
+     "title": "v6-2-2.webm",
+     "post": "1738345065.857289",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "semantic-vim",
@@ -30893,7 +31851,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "schrodinger-wiki",
@@ -30968,7 +31927,8 @@
    ],
    "github_url": "https://github.com/marianoguerra/webvectors",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "cubode",
@@ -31027,7 +31987,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F07LXT0J09L.mp4",
+     "title": "Cubode-ProductDemo-05-09-2024.mp4",
+     "post": "1726139806.586109",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "motif",
@@ -31080,7 +32048,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "qa-research",
@@ -31130,7 +32099,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "bloom-penrose",
@@ -31182,7 +32152,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "kendraio",
@@ -31240,7 +32211,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "mietencheck",
@@ -31290,7 +32262,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "binsbergen-papers",
@@ -31358,7 +32331,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "todepond-talks",
@@ -31551,7 +32525,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F0A/F0A6WL84CFK.mp4",
+     "title": "pastayearrr.mp4",
+     "post": "1767377339.137899",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "ara",
@@ -31647,7 +32629,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "feeling-is-reality",
@@ -31704,7 +32687,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F07/F07SYPYHLPN.mp4",
+     "title": "Feeling is Reality.mp4",
+     "post": "1729549918.845699",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "miqula",
@@ -31771,7 +32762,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "yin-yang",
@@ -31849,7 +32841,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "spreadsheet-paint",
@@ -31913,7 +32906,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "ukstug",
@@ -31997,7 +32991,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "collective-idea",
@@ -32047,7 +33042,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "smallweb",
@@ -32140,7 +33136,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "fishtower",
@@ -32210,7 +33207,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "drostes-lair",
@@ -32277,7 +33275,8 @@
    ],
    "github_url": "https://github.com/vezwork/drostes-lair-post",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "pairs-campaign",
@@ -32327,7 +33326,8 @@
    ],
    "github_url": "https://github.com/akovantsev/corpus",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "gadget-integration",
@@ -32377,7 +33377,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "lopecode",
@@ -32596,7 +33597,27 @@
    ],
    "github_url": "https://github.com/tomlarkworthy/lopecode",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F08/F0887K0E431.mov",
+     "title": "direct_manipulation.mov",
+     "post": "1736887140.630119",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F0A/F0AG204T8G4.mov",
+     "title": "tour.mov",
+     "post": "1771513720.620429",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F0A/F0AR9RK6KN0.mov",
+     "title": "crank.mov",
+     "post": "1775510069.749669",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "wrapper",
@@ -32646,7 +33667,8 @@
    ],
    "github_url": "https://github.com/inkandswitch/wrapper",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "cell-todis",
@@ -32710,7 +33732,8 @@
    ],
    "github_url": "https://github.com/altocodenl/cell",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dense-ui",
@@ -32767,7 +33790,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F08/F088B41P5QC.mp4",
+     "title": "2025-01-11 Phosphor at 09.44AM.mp4",
+     "post": "1736600042.219749",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "fifo",
@@ -32835,7 +33866,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "preview-mixin",
@@ -32892,7 +33924,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "transclusion-rects",
@@ -32950,7 +33983,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F08/F08BEQL55D1.mov",
+     "title": "bidirectional transclusion.mov",
+     "post": "1738482905.918339",
+     "thread_reply": true
+    }
+   ]
   },
   {
    "id": "adventure-calculus",
@@ -33001,7 +34042,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "functioncharts",
@@ -33075,7 +34117,8 @@
    ],
    "github_url": "https://github.com/billbudge/WebEditorFramework",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "tweety",
@@ -33190,7 +34233,8 @@
    ],
    "github_url": "https://github.com/pomdtr/tweety",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "sonnet-toys",
@@ -33243,7 +34287,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "ariana",
@@ -33293,7 +34338,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "watware",
@@ -33354,7 +34400,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "skwak",
@@ -33405,7 +34452,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "ai-chip",
@@ -33475,7 +34523,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "algorave-workshop",
@@ -33545,7 +34594,8 @@
    ],
    "github_url": "https://github.com/xyzzyapps/algorave-workshop-hyd-2025-feb",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "talise",
@@ -33597,7 +34647,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F08/F08FSSK41RS.webm",
+     "title": "Kazam_screencast_00001.webm",
+     "post": "1740833089.867409",
+     "thread_reply": true
+    }
+   ]
   },
   {
    "id": "ezhik-sheet",
@@ -33655,7 +34713,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "flash-notes",
@@ -33706,7 +34765,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "hyperdoc",
@@ -33786,7 +34846,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "ocif",
@@ -33854,7 +34915,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "luaml",
@@ -33923,7 +34985,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F08/F08LGGUPLG7.webm",
+     "title": "luaML2-contrast.webm",
+     "post": "1743834482.122199",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "drawtalking",
@@ -34016,7 +35086,15 @@
    ],
    "github_url": "https://github.com/KTRosenberg/DrawTalking",
    "demo_url": "https://ktrosenberg.github.io/drawtalking/",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F09/F094RB821TR.mov",
+     "title": "solution-video.mov",
+     "post": "1752110365.452099",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "pastagang",
@@ -34102,7 +35180,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "figmata",
@@ -34174,7 +35253,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "prosetta",
@@ -34226,7 +35306,8 @@
    ],
    "github_url": "https://github.com/StinkyMilo/Prosetta",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "pondiverse",
@@ -34277,7 +35358,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "stitch",
@@ -34355,7 +35437,8 @@
    ],
    "github_url": "https://github.com/StitchDesign/Stitch",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "architecture-programming",
@@ -34405,7 +35488,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "scrappy",
@@ -34457,7 +35541,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "synonllm",
@@ -34598,7 +35683,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "agent-evals",
@@ -34674,7 +35760,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "sombra",
@@ -34731,7 +35818,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "branchy",
@@ -34789,7 +35877,15 @@
    ],
    "github_url": "https://github.com/dennishansen/branchy",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F09/F095KAHAB3J.mov",
+     "title": "branchy demo.mov",
+     "post": "1752017197.499209",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "dynamicland-nl",
@@ -34852,7 +35948,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "glogg",
@@ -34924,7 +36021,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F09/F09A1JGQ8MU.mov",
+     "title": "glogg.mp4",
+     "post": "1754999789.601319",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "propagator-js",
@@ -35022,7 +36127,8 @@
    ],
    "github_url": "https://github.com/Semi-0/Propagator",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "folkjs",
@@ -35075,7 +36181,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "codeline",
@@ -35125,7 +36232,8 @@
    ],
    "github_url": "https://github.com/rorybyrne/codeline",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "llm-mediated",
@@ -35183,7 +36291,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "wikifunctions",
@@ -35241,7 +36350,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "vibecard",
@@ -35315,7 +36425,8 @@
    ],
    "github_url": "https://github.com/marianoguerra/vibecard",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "creact",
@@ -35376,7 +36487,8 @@
    ],
    "github_url": "https://github.com/creact-labs/creact",
    "demo_url": "https://creact-labs.github.io/creact/",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "mattcurtis",
@@ -35432,7 +36544,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "server-user-agents",
@@ -35501,7 +36614,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "diff-heatmap",
@@ -35558,7 +36672,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F09/F09PTFM25FV.mkv",
+     "title": "2025-10-31 11-23-03.mkv",
+     "post": "1761924837.139409",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "ya-lang",
@@ -35622,7 +36744,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "qwikbuild",
@@ -35690,7 +36813,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "calc-brrr",
@@ -35747,7 +36871,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F0A/F0A0P50HRLL.mov",
+     "title": "Screen Recording 2025-11-29 at 5.47.55 PM.mov",
+     "post": "1764467628.140059",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "taka",
@@ -35804,7 +36936,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "clickly",
@@ -35903,7 +37036,21 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F0A/F0A3WKKP2AU.mov",
+     "title": "Action flow and data binding - 2025.12.11_2457.mov",
+     "post": "1765480158.894129",
+     "thread_reply": false
+    },
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F0A/F0AJJ4Y1HDK.mp4",
+     "title": "What's new - Mar 3rd, 2026.mp4",
+     "post": "1772669147.635169",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "bicross",
@@ -36029,23 +37176,24 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "figmata-matrix",
-   "name": "Table-Matrix data bridging",
+   "name": "Beyond Excel: Enter the Matrix",
    "description": "Bridging table, spatial matrix and visual forms of data, inspired by Magic Ink, Tufte, Excel and Figma.",
    "people": [
     "Geert Roumen"
    ],
    "shared_by": [],
-   "url": "https://worrydream.com/MagicInk/",
+   "url": "https://medium.com/design-bootcamp/beyond-excel-enter-the-matrix-0cfbd358c6bc",
    "video": "https://history.futureofcoding.org/history/msg_files/F0A/F0A6L1B44SZ.mp4",
-   "image": "images/shots/figmata-matrix.jpg",
-   "image_type": "screenshot",
-   "image_source": "https://worrydream.com/MagicInk/",
+   "image": "https://history.futureofcoding.org/history/msg_files/F0A/F0A6L1B44SZ.mp4",
+   "image_type": "slack-video",
+   "image_source": "https://akkartik.name/archives/foc/share-your-work/index.html#1767535558.021409",
    "wayback_timestamp": null,
-   "wayback_url": "https://web.archive.org/web/20260104/https://worrydream.com/MagicInk/",
+   "wayback_url": "https://web.archive.org/web/2026/https://medium.com/design-bootcamp/beyond-excel-enter-the-matrix-0cfbd358c6bc",
    "wayback_video": null,
    "audience": [
     "art",
@@ -36089,7 +37237,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F0A/F0A6L1B44SZ.mp4",
+     "title": "matrix_example_plc.mp4",
+     "post": "1767535558.021409",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "cultures-programming",
@@ -36153,7 +37309,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "horowitz-plateau",
@@ -36228,7 +37385,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "vlojure",
@@ -36301,7 +37459,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F0A/F0A7V6Z7XD4.mov",
+     "title": "Screen Recording 2026-01-09 at 11.10.44 PM.mov",
+     "post": "1768022428.254509",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "stacky-bird",
@@ -36360,7 +37526,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F0A/F0A7LSUPS1M.mp4",
+     "title": "stacky-bird-demo.mp4",
+     "post": "1768161690.642199",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "tailrmade",
@@ -36417,7 +37591,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "rolling-software",
@@ -36467,7 +37642,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "automat",
@@ -36531,7 +37707,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "lain",
@@ -36645,7 +37822,8 @@
    ],
    "github_url": "https://github.com/Semi-0/lain-lang-compiler",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "craft-software",
@@ -36702,7 +37880,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "margaui",
@@ -36825,7 +38004,8 @@
    ],
    "github_url": "https://github.com/marianoguerra/tutuca",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "term-rewriting-viz",
@@ -36884,7 +38064,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "vibey",
@@ -36934,7 +38115,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "osm-prompt",
@@ -36998,7 +38180,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "reverse-projection",
@@ -37057,7 +38240,8 @@
    ],
    "github_url": "https://github.com/lemio/ReverseProjection",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "wordwell",
@@ -37117,7 +38301,15 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": [
+    {
+     "url": "https://history.futureofcoding.org/history/msg_files/F0A/F0ARL0Q2733.mov",
+     "title": "Screen Recording 2026-04-06 at 4.53.57 PM.mov",
+     "post": "1775520835.831359",
+     "thread_reply": false
+    }
+   ]
   },
   {
    "id": "fedwiki",
@@ -37185,7 +38377,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "apl-grasshopper",
@@ -37244,7 +38437,8 @@
    ],
    "github_url": "https://github.com/duanerobot/APL_Sandbox",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "tenfold",
@@ -37294,7 +38488,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "pencil-game",
@@ -37344,7 +38539,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "starling",
@@ -37396,7 +38592,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "bitsy-multiplayer",
@@ -37450,7 +38647,8 @@
    ],
    "github_url": "https://github.com/JazzTap/bitsy",
    "demo_url": "https://bitsy.org",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "prose-entities",
@@ -37505,7 +38703,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "value-probes",
@@ -37557,7 +38756,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "pr-review-study",
@@ -37609,7 +38809,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "grain",
@@ -37661,7 +38862,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "wasm-agents",
@@ -37757,7 +38959,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "logicflow",
@@ -37810,7 +39013,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "agentic-patterns",
@@ -37861,7 +39065,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "withered-tech",
@@ -37912,7 +39117,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "wirewright",
@@ -37975,7 +39181,8 @@
    ],
    "github_url": "https://github.com/wirewright/wirewright",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "nod",
@@ -38027,7 +39234,8 @@
    ],
    "github_url": "https://github.com/erawn/nod",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "taysom-art",
@@ -38234,7 +39442,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "esp32-flasher",
@@ -38286,7 +39495,8 @@
    ],
    "github_url": "https://github.com/lemio/ESP32-S3-Flasher",
    "demo_url": "https://lemio.github.io/EmbeddedScreenSharing/wizard.html",
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "patchwork",
@@ -38362,7 +39572,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "agentpitch",
@@ -38413,7 +39624,8 @@
    ],
    "github_url": "https://github.com/gangtao/AgentPitch",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "dmovie",
@@ -38476,7 +39688,8 @@
    ],
    "github_url": "https://github.com/xyzzyapps/dmovie",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "trackosc",
@@ -38538,7 +39751,8 @@
    ],
    "github_url": "https://github.com/JGL/TrackOSC",
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "creative-tech-pfp",
@@ -38590,7 +39804,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "schematic-canvas",
@@ -38641,7 +39856,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "desh",
@@ -38692,7 +39908,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   },
   {
    "id": "lawful-substrates",
@@ -38743,7 +39960,8 @@
    ],
    "github_url": null,
    "demo_url": null,
-   "link_status": null
+   "link_status": null,
+   "slack_videos": []
   }
  ],
  "people": [

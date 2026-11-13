@@ -71,14 +71,30 @@ function wireExpanders() {
 
 /** Files uploaded with the post and link previews, referenced on history.futureofcoding.org. */
 function slackMedia(x) {
-  const files = (x.files || []).map(f => f.kind === 'video'
-    ? `<video src="${esc(f.url)}#t=0.5" controls muted playsinline preload="metadata" title="${esc(f.title)}"></video>`
-    : `<a href="${esc(f.url)}" target="_blank" rel="noopener" title="${esc(f.title)}"><img src="${esc(f.url)}" alt="${esc(f.title)}" loading="lazy"></a>`);
+  const files = (x.files || []).filter(f => f.kind === 'image').map(f =>
+    `<a href="${esc(f.url)}" target="_blank" rel="noopener" title="${esc(f.title)}"><img src="${esc(f.url)}" alt="${esc(f.title)}" loading="lazy" onerror="this.parentNode.remove()"></a>`);
   const previews = (x.previews || []).slice(0, 2).map(v =>
     `<a class="lpreview" href="${esc(v.link || v.image)}" target="_blank" rel="noopener"><img src="${esc(v.image)}" alt="" loading="lazy" referrerpolicy="no-referrer"><span>${esc(v.title)}</span></a>`);
   if (!files.length && !previews.length) return '';
   return `<div class="smedia">${files.join('')}${previews.join('')}</div>`;
 }
+
+/** All videos uploaded to Slack for this project (own posts and the project people's thread
+ *  replies). Only the first two load a preview frame; the rest load nothing until played. */
+function slackVideos(p) {
+  // the project's main visual may already be the first Slack video: don't show it twice
+  const v = (p.slack_videos || []).filter(f => !(p.image_type === 'slack-video' && f.url === p.image));
+  if (!v.length) return '';
+  return `<h3>Videos from Slack (${v.length})</h3><div class="svideos">${v.map((f, i) => `
+    <figure>
+      <video src="${esc(f.url)}${i < 2 ? '#t=0.5' : ''}" controls playsinline preload="${i < 2 ? 'metadata' : 'none'}" onerror="this.closest('figure').remove()"></video>
+      <figcaption>${esc(f.title)}${f.thread_reply ? ' · in thread' : ''} ·
+        <a href="${SYW_ARCHIVE}${f.post}" target="_blank" rel="noopener">post ↗</a> ·
+        <a href="${esc(f.url)}" target="_blank" rel="noopener">file ↗</a></figcaption>
+    </figure>`).join('')}</div>`;
+}
+
+const SYW_ARCHIVE = 'https://akkartik.name/archives/foc/share-your-work/index.html#';
 
 function slackPost(x, i) {
   const commentsUrl = x.archive.replace('index.html#', '') + '.html';
@@ -115,6 +131,7 @@ export function selectProject(p) {
     <p>${esc(p.description)}</p>
     ${p.link_status === 'domain-taken-over' ? `<div class="warn">The original domain has been taken over by an unrelated site, so the live link was removed. The archived version shows it as it was.</div>` : ''}
     ${projectLinks(p)}
+    ${slackVideos(p)}
     <h3>What was posted on Slack (${p.posts.length})</h3>
     ${p.posts.map(slackPost).join('')}
     <h3>Ideas</h3><div class="tags">${p.ideas.map(ideaTag).join('')}</div>
