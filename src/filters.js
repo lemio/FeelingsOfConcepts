@@ -92,7 +92,10 @@ export function drawFilters() {
   const { D, M } = store;
   const F = d3.select('#filters');
   const any = state.tokens.length || state.media;
+  // The row floats over the top of the stage (see .filters in toolbar.css), so showing or
+  // hiding it never moves the chart. Scrolling lists get top padding while it is visible.
   F.style('display', any ? 'flex' : 'none');
+  d3.select('#list').classed('with-filters', !!any);
   if (!any) { F.html(''); return; }
   const n = D.projects.filter(p => projMatch(p)).length;
   const dot = t => (t.type === 'theme' || t.type === 'idea')

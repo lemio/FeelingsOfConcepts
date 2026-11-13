@@ -24,7 +24,8 @@ select{background:var(--surface-1);border:1px solid var(--border);border-radius:
 .sugg mark{background:none;color:inherit;font-weight:700}
 
 /* active filter chips, shown under the toolbar */
-.filters{display:none;flex-wrap:wrap;gap:6px;padding:8px 16px;align-items:center;border-bottom:1px solid var(--border);font-size:12px}
+/* floats over the top of #stage: never pushes the visualisation down */
+.filters{position:absolute;top:0;left:0;right:0;z-index:5;display:none;flex-wrap:wrap;gap:6px;padding:8px 16px;align-items:center;border-bottom:1px solid var(--border);font-size:12px;background:color-mix(in srgb,var(--surface-1) 88%,transparent);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
 .filters .count{color:var(--text-muted);margin-right:4px}
 .fchip{display:inline-flex;align-items:center;gap:6px;background:var(--surface-2);border-radius:999px;padding:3px 4px 3px 10px}
 .fchip .k{color:var(--text-muted)}
