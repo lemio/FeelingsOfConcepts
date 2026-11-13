@@ -1,6 +1,6 @@
 import * as d3 from 'd3';
 import { store } from './data.js';
-import { esc, asset } from './util.js';
+import { esc, projectVisual } from './util.js';
 
 const tip = () => d3.select('#tip');
 
@@ -20,7 +20,7 @@ export function moveTip(e) {
 export const hideTip = () => tip().style('display', 'none');
 
 export const projTip = p =>
-  `${p.image ? `<img src="${asset(p.image)}" alt="">` : ''}<b>${esc(p.name)}</b>` +
+  `${projectVisual(p)}<b>${esc(p.name)}</b>` +
   `<div class="d">${esc(p.description)}</div><div class="m">${esc(p.people.join(', '))} · ${p.first_date.slice(0, 4)}</div>`;
 
 export const personTip = pe => {

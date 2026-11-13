@@ -31,9 +31,9 @@ channel at the time of saving). Nothing after that is included.
 |---|---|
 | Projects | 507 (from ~1,400 non-trivial posts) |
 | People | 330, of whom 219 have an #introduce-yourself post |
-| Projects with an image | 345 |
+| Projects with an image | 422 |
 | Projects with a GitHub link | 142 |
-| Projects with a video | 94 |
+| Projects with a video | 146 |
 
 ## Repository layout
 
@@ -103,7 +103,9 @@ projects  id, name, description, people, shared_by,
           image, image_type, image_source,
           ideas, theme, audience, ratings,
           first_date, last_date, comments,
-          posts[] { uuid, date, author, comments, archive, excerpt, html }
+          posts[] { uuid, date, author, comments, archive, excerpt, html,
+                  files[] { kind, url, title, mimetype },   # Slack uploads
+                  previews[] { image, title, link } }       # link unfurls
 people    name, avatar, intro { uuid, date, archive, text },
           projects, ideas, audience, main_theme, similar[]
 ```
@@ -136,6 +138,13 @@ people    name, avatar, intro { uuid, date, archive, text },
      rendering of the README.
    - Video thumbnails from YouTube, Vimeo or Loom.
    - Medium articles, captured in a logged-in browser and cropped to the article.
+   - For projects that still had nothing: images and videos uploaded to Slack, or the
+     link-preview image of the post. These come from the history behind
+     [search.futureofcoding.org](https://search.futureofcoding.org/) (by Mariano Guerra).
+     They are **referenced, not copied**: the URLs point at `history.futureofcoding.org`.
+     Dead URLs are skipped (HEAD check), and the page falls back to a title tile if an
+     image disappears later. Every post in the side panel also shows its uploads and link
+     previews.
 5. **Clean links**:
    - Domains now owned by someone else lost their live link but keep the archived link
      (`link_status: "domain-taken-over"`).
@@ -159,6 +168,7 @@ exactly.
 | 5. GitHub README rules | `python3 scripts/github_media.py` then `github_images.py`, `github_validate.py` | → `github_media.json`, `public/images/github/` |
 | 6. GitHub Pages / gists | `python3 scripts/gh_pages_resolve.py` | → `gh_pages_links.json` |
 | 7. Screenshots | `tr '\t' '\n' < data/work/shots.tsv \| xargs -n2 -P6 scripts/screenshot.sh` then `scripts/convert_shots.sh` | → `public/images/shots/` |
+| 7b. Slack uploads | `python3 scripts/slack_files.py` then `python3 scripts/check_remote_media.py` | search.futureofcoding.org history → `slack_files.json`, `remote_media_status.json` |
 | 8. **Build dataset** | `npm run data` (= `python3 scripts/build_dataset.py`) | everything above → `public/data/projects.json`, avatars |
 
 The hand-curated inputs are:
@@ -175,12 +185,20 @@ The hand-curated inputs are:
 The scripts were written for a one-off run on macOS (they use `sips` for images and the
 Chrome path on macOS; set `CHROME=` to override in `screenshot.sh`).
 
+## Related
+
+- [Future of Coding search](https://search.futureofcoding.org/) by Mariano Guerra lets you
+  search the full history of the community Slack, including threads and every channel. This
+  map only covers top-level posts in #share-your-work.
+- The Slack archive this data comes from is kept by Kartik Agaram at
+  [akkartik.name/archives/foc](https://akkartik.name/archives/foc/).
+
 ## Limitations
 
 - Only top-level channel posts are included. Thread replies are counted, not read.
 - Grouping, ideas, audiences and ratings are one reading of the posts and will have
   mistakes. Corrections to `projects.json` are welcome.
 - Screenshots show sites as they looked in November 2026, not when they were shared.
-- 162 projects have no image (text-only posts, dead sites, or pages that wouldn't render).
+- 85 projects have no image (text-only posts, dead sites, or pages that wouldn't render).
 - The pipeline scripts are functional but terse. They are a record of how the data was
   made more than a polished tool.

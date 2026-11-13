@@ -3,15 +3,14 @@ import * as d3 from 'd3';
 import { store, col, themeLabel } from '../data.js';
 import { state } from '../state.js';
 import { projMatch, textRank, textQueries, snippet } from '../filters.js';
-import { esc, asset } from '../util.js';
+import { esc, projectVisual } from '../util.js';
 import { selectProject } from '../panel.js';
 import { loveButton } from '../loves.js';
 
 function cardHtml(p) {
   const sn = snippet(p);
-  const thumb = p.image
-    ? `<img loading="lazy" src="${asset(p.image)}" alt="">`
-    : `<div class="noimg" style="--c:${col(p.theme)}">${esc(p.name)}</div>`;
+  // Title tile underneath, visual on top: if the visual fails to load, the tile shows through.
+  const thumb = `<div class="noimg" style="--c:${col(p.theme)}">${esc(p.name)}</div>` + projectVisual(p, { lazy: true });
   return `<div class="thumb">${thumb}
       ${loveButton(p.id, 'on-card')}
       ${p.comments ? `<span class="badge" title="${p.comments} comments in Slack threads">${p.comments}</span>` : ''}

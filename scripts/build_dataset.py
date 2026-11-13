@@ -135,6 +135,28 @@ for pr in projects:
     if pr['id'] in MANUAL:
         pr.update(MANUAL[pr['id']]); pr['wayback_timestamp']=None
         if pr['image_type']=='screenshot' and 'image_source' not in MANUAL[pr['id']]: pr['image_source']=pr['url']
+
+# ---- Slack uploads and link previews (from the search.futureofcoding.org history, see
+# scripts/slack_files.py). Media is referenced by URL on history.futureofcoding.org, never copied.
+SLACK=json.load(open('slack_files.json')) if os.path.exists('slack_files.json') else {}
+# dead URLs (checked by scripts/check_remote_media.py with HEAD requests) are dropped
+ALIVE=json.load(open('remote_media_status.json')) if os.path.exists('remote_media_status.json') else {}
+alive=lambda u: ALIVE.get(u, True)
+for pr in projects:
+    for x in pr['posts']:
+        m=SLACK.get(x['uuid'],{})
+        x['files']=[f for f in m.get('files',[]) if f['kind'] in ('image','video') and alive(f['url'])]
+        x['previews']=[v for v in m.get('previews',[]) if alive(v['image'])]
+    imgs=[(x,f) for x in pr['posts'] for f in x['files'] if f['kind']=='image']
+    vids=[(x,f) for x in pr['posts'] for f in x['files'] if f['kind']=='video']
+    prevs=[(x,v) for x in pr['posts'] for v in x['previews']]
+    if not pr['video'] and vids:
+        pr['video']=vids[0][1]['url']
+    if not pr['image']:   # only fill projects that have no visual yet
+        if imgs:   pr.update(image=imgs[0][1]['url'], image_type='slack-image', image_source=imgs[0][0]['archive'])
+        elif prevs: pr.update(image=prevs[0][1]['image'], image_type='link-preview', image_source=prevs[0][1]['link'] or prevs[0][0]['archive'])
+        elif vids: pr.update(image=vids[0][1]['url'], image_type='slack-video', image_source=vids[0][0]['archive'])
+
 # people
 pp=collections.defaultdict(lambda: dict(projects=[],ideas=collections.Counter(),audience=collections.Counter()))
 for pr in projects:

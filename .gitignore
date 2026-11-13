@@ -11,3 +11,6 @@ __pycache__/
 
 # raw full-size screenshots (the site uses the 800px JPEGs in public/images/shots)
 data/work/shots_raw/
+
+# cached per-day Slack history from search.futureofcoding.org (re-fetched by scripts/slack_files.py)
+data/work/slack_history/

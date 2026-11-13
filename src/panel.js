@@ -3,7 +3,7 @@ import * as d3 from 'd3';
 import { store, col, themeLabel, related } from './data.js';
 import { state } from './state.js';
 import { addToken, textQueries } from './filters.js';
-import { esc, reEsc, extLink, asset } from './util.js';
+import { esc, reEsc, extLink, asset, projectVisual } from './util.js';
 import { applyFilter, ctx } from './render.js';
 import { loveButton } from './loves.js';
 
@@ -14,6 +14,9 @@ const IMAGE_CAPTIONS = {
   'readme-render': 'Rendered README',
   'readme-image': 'Image from the README',
   'youtube-thumbnail': 'Video linked from the README',
+  'slack-image': 'Image uploaded to Slack',
+  'slack-video': 'Video uploaded to Slack',
+  'link-preview': 'Link preview from the Slack post',
 };
 
 const ideaTag = i =>
@@ -66,12 +69,24 @@ function wireExpanders() {
   });
 }
 
+/** Files uploaded with the post and link previews, referenced on history.futureofcoding.org. */
+function slackMedia(x) {
+  const files = (x.files || []).map(f => f.kind === 'video'
+    ? `<video src="${esc(f.url)}#t=0.5" controls muted playsinline preload="metadata" title="${esc(f.title)}"></video>`
+    : `<a href="${esc(f.url)}" target="_blank" rel="noopener" title="${esc(f.title)}"><img src="${esc(f.url)}" alt="${esc(f.title)}" loading="lazy"></a>`);
+  const previews = (x.previews || []).slice(0, 2).map(v =>
+    `<a class="lpreview" href="${esc(v.link || v.image)}" target="_blank" rel="noopener"><img src="${esc(v.image)}" alt="" loading="lazy" referrerpolicy="no-referrer"><span>${esc(v.title)}</span></a>`);
+  if (!files.length && !previews.length) return '';
+  return `<div class="smedia">${files.join('')}${previews.join('')}</div>`;
+}
+
 function slackPost(x, i) {
   const commentsUrl = x.archive.replace('index.html#', '') + '.html';
   return `<div class="slack">
     <div class="shead">${avatar(store.personBy.get(x.author))}<b>${esc(x.author)}</b>
       <a href="${x.archive}" target="_blank" rel="noopener" title="Open in the Slack archive">${x.date}</a></div>
     <div class="sbody${i === 0 ? '' : ' clamp'}">${markText(x.html)}</div>
+    ${slackMedia(x)}
     <div class="sfoot"><button class="more" type="button">Show full text</button>${
       x.comments ? `<a href="${commentsUrl}" target="_blank" rel="noopener">${x.comments} comment${x.comments > 1 ? 's' : ''} ↗</a>` : ''}</div>
   </div>`;
@@ -94,7 +109,7 @@ export function selectProject(p) {
   const ts = p.wayback_timestamp;
   P().html(`<div class="phead"><h2>${esc(p.name)}</h2>${loveButton(p.id)}</div>
     <div class="tags"><span class="tag static"><span class="dot" style="background:${col(p.theme)}"></span>${esc(themeLabel(p.theme))}</span></div>
-    ${p.image ? `<img class="shot" src="${asset(p.image)}" alt="${esc(p.image_type)} of ${esc(p.name)}">` : ''}
+    ${projectVisual(p, { cls: 'shot', controls: true })}
     ${ts ? `<div class="caption">Archived view · ${extLink(p.image_source, `Wayback Machine, ${ts.slice(0, 4)}-${ts.slice(4, 6)}-${ts.slice(6, 8)}`)}</div>` : ''}
     ${IMAGE_CAPTIONS[p.image_type] ? `<div class="caption">${IMAGE_CAPTIONS[p.image_type]}</div>` : ''}
     <p>${esc(p.description)}</p>
