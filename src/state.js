@@ -6,9 +6,11 @@ export const state = {
   typing: '',           // text currently typed in the search box (live filter)
   media: '',            // '' | image | shot | video | github | live
   sel: null,            // selected project id or person name
+  selKind: null,        // 'project' | 'person'
   ax: 'first_date',     // scatter x field
   ay: 'comments',       // scatter y field
   cardsVisited: false,  // first visit to the card view defaults the media filter to screenshots
+  sort: { key: 'relevance', dir: -1 }, // Cards/Table order; 'relevance' = title matches first while searching; dir -1 = ▼ (highest/newest first)
 };
 
 const listeners = new Set();

@@ -6,6 +6,7 @@ import { addToken, textQueries } from './filters.js';
 import { esc, reEsc, extLink, asset, projectVisual } from './util.js';
 import { applyFilter, ctx } from './render.js';
 import { loveButton } from './loves.js';
+import { syncUrl } from './url.js';
 
 const P = () => d3.select('#panel');
 
@@ -121,6 +122,8 @@ function projectLinks(p) {
 
 export function selectProject(p) {
   state.sel = p.id;
+  state.selKind = 'project';
+  syncUrl();
   applyFilter();
   const ts = p.wayback_timestamp;
   P().html(`<div class="phead"><h2>${esc(p.name)}</h2>${loveButton(p.id)}</div>
@@ -153,6 +156,8 @@ export function selectPerson(n) {
   const pe = store.personBy.get(n);
   if (!pe) return;
   state.sel = n;
+  state.selKind = 'person';
+  syncUrl();
   applyFilter();
   P().html(`<div class="person static">${avatar(pe, 44)}<h2>${esc(pe.name)}</h2></div>
     <p><span class="proj-link" id="filterPerson">Show only ${esc(pe.name)}’s projects</span></p>

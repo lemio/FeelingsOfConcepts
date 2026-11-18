@@ -4,6 +4,7 @@ import { store, related } from './data.js';
 import { state } from './state.js';
 import { projMatch, personMatch, drawFilters } from './filters.js';
 import { hideTip } from './tooltip.js';
+import { syncUrl } from './url.js';
 import { renderIdeas } from './views/ideas.js';
 import { renderPeople } from './views/people.js';
 import { renderScatter } from './views/scatter.js';
@@ -38,7 +39,7 @@ export function initRender() {
   ctx.svg = d3.select('#svg');
   // Clicking empty space clears the selection.
   ctx.svg.on('click', e => {
-    if (e.target === ctx.svg.node() && state.sel) { state.sel = null; ctx.scatterLinks(null); applyFilter(); }
+    if (e.target === ctx.svg.node() && state.sel) { state.sel = null; state.selKind = null; ctx.scatterLinks(null); applyFilter(); syncUrl(); }
   });
 }
 
@@ -67,6 +68,7 @@ export function setView(v) {
   }
   d3.selectAll('.seg button').attr('aria-pressed', function () { return this.dataset.view === state.view; });
   render();
+  syncUrl();
 }
 
 /** Apply filters to the current view (re-render HTML views, dim SVG nodes). */

@@ -94,6 +94,23 @@ to see only what you loved. It combines with any other filter.
 Clicking a project shows the original Slack posts (formatted, expandable), links to the
 project, video, GitHub repo and the Wayback Machine, plus similar projects and people.
 
+## Links (URL parameters)
+
+The address bar always reflects what you see, so any state can be shared or bookmarked:
+
+```text
+?view=ideas|people|scatter|cards|table
+&idea=LIVE&theme=visual&aud=art&person=Kartik%20Agaram&text=sound&loved=1   filters (repeatable)
+&media=image|shot|video|github|live
+&sort=relevance|comments|first_date|last_date|posts|name|people|themes|loved&dir=asc
+&x=first_date&y=comments                                                     scatter axes
+&project=<project id>   or   &person-open=<name>                             open in the side panel
+```
+
+Idea and theme ids are in `projects.json` under `meta.ideas` / `meta.themes`
+(e.g. `idea=VIS`, `idea=LIVE`, `theme=enduser`). Older links (`?q=idea:LIVE`,
+`#view/<project>`) still work and are rewritten to this format.
+
 ## Data model (`projects.json`)
 
 ```text

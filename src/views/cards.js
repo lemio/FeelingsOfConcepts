@@ -2,10 +2,11 @@
 import * as d3 from 'd3';
 import { store, col, themeLabel } from '../data.js';
 import { state } from '../state.js';
-import { projMatch, textRank, textQueries, snippet } from '../filters.js';
+import { projMatch, textQueries, snippet } from '../filters.js';
 import { esc, projectVisual } from '../util.js';
 import { selectProject } from '../panel.js';
 import { loveButton } from '../loves.js';
+import { SORTS, compareProjects, setSort } from '../sorting.js';
 
 function cardHtml(p) {
   const sn = snippet(p);
@@ -25,11 +26,21 @@ function cardHtml(p) {
 }
 
 export function renderCards() {
-  const rows = store.D.projects.filter(p => projMatch(p))
-    .sort((a, b) => textRank(b) - textRank(a) || b.comments - a.comments || d3.descending(a.first_date, b.first_date));
+  const rows = store.D.projects.filter(p => projMatch(p)).sort(compareProjects);
   const L = d3.select('#list').html('');
-  L.append('div').attr('class', 'cards-head')
-    .text(`${rows.length} projects · ${textQueries().length ? 'title matches first, then matches in post text' : 'sorted by comments'}`);
+  const head = L.append('div').attr('class', 'cards-head');
+  head.append('span').text(`${rows.length} projects · sort by `);
+  // "Relevance" = title matches first while searching, otherwise most comments
+  const sel = head.append('select').attr('class', 'sortsel').attr('aria-label', 'Sort cards');
+  sel.selectAll('option').data(Object.entries(SORTS).filter(([k]) => k !== 'themes' && k !== 'people')).join('option')
+    .attr('value', d => d[0]).text(d => (d[0] === 'relevance' && !textQueries().length ? 'Most comments' : d[1][0]));
+  sel.property('value', state.sort.key in SORTS ? state.sort.key : 'relevance')
+    .on('change', function () { setSort(this.value); renderCards(); });
+  if (state.sort.key !== 'relevance') {
+    head.append('button').attr('class', 'sortdir').attr('type', 'button')
+      .attr('title', 'Reverse order').text(state.sort.dir < 0 ? '▼' : '▲')
+      .on('click', () => { setSort(state.sort.key); renderCards(); });
+  }
   L.append('div').attr('class', 'cards').selectAll('.card').data(rows).join('article')
     .attr('class', p => 'card' + (state.sel === p.id ? ' sel' : ''))
     .attr('tabindex', 0)
